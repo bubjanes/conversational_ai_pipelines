@@ -10,22 +10,22 @@
 
 ### professors: **[Laura Alonso Alemany](https://cs.famaf.unc.edu.ar/~laura/)** and  **[Cristian Cardellino](https://crscardellino.github.io/)**
 
-OUTLINE:
-1 - Introduction
-2 - Word representations
-    2.1 Maria Luisa
-    2.2 Machine Translation
-3 - Task-Oriented Chatbots
-    3.1 Natural Language Understanding and Dialogue Management
-    3.2 The Conversational AI Pipeline
-    3.3 Pretrained word embeddings
-    3.4 Transformer for dialogue
-    3.5 Dialogue management: tracker, slots and dispatcher
-4 - Challenges
-	4.1 Virtual assistants in production
-	4.2 Auto-configuration
-	4.3 NER for persons’ names
-5 - Conclusion 
+OUTLINE:<br/>
+1 - Introduction<br/>
+2 - Word representations<br/>
+    2.1 Maria Luisa<br/>
+    2.2 Machine Translation<br/>
+3 - Task-Oriented Chatbots<br/>
+    3.1 Natural Language Understanding and Dialogue Management<br/>
+    3.2 The Conversational AI Pipeline<br/>
+    3.3 Pretrained word embeddings<br/>
+    3.4 Transformer for dialogue<br/>
+    3.5 Dialogue management: tracker, slots and dispatcher<br/>
+4 - Challenges<br/>
+	4.1 Virtual assistants in production<br/>
+	4.2 Auto-configuration<br/>
+	4.3 NER for persons’ names<br/>
+5 - Conclusion <br/>
 
 ## Introduction
 
@@ -47,9 +47,7 @@ This naive experiment established the objective of my research: to create a full
 
 Next, I experimented with a dialogue machine using the TensorFlow Seq2Seq (sequence-to-sequence) bidirectional Long Short-Term Memory (bi-LSTM) recurrent neural network machine translation model architecture. Machine translation generally uses dual-language texts, e.g. the European parliamentary translations, as training data. However, we did not use this bi-LSTM for translation. Basing my dialogue machine on [DeepQA](https://github.com/Conchylicultor/DeepQA), a project developed by Etienne Pot at Google Brain, I trained my “translation” machine with incoming and outgoing messages from our centro de estetica dataset.
 
-![biLSTM diagram](images/biLSTM.png "biLSTM diagram")
-
-This project yielded interesting results, but ultimately the model performance was too unstable to put into production. That being said, my experience with bi-LSTM recurrent networks served me in the next stage of the project as it proved the power of recurrent neural networks in modelling sequential data. In this experiment, I also explored the [self-attention](https://arxiv.org/abs/1706.03762) feature of Tensorflow’s Seq2Seq architecture; this is the central strategy of transformer architectures, such as BERT (see section 3.3). Ultimately, transformer-based word representations would be used in our dialogue system.
+This project yielded interesting results, but ultimately the model performance was too unstable to put into production. That being said, my experience with bi-LSTM recurrent networks served me in the next stage of the project as it proved the power of recurrent neural networks in modelling sequential data. In this experiment, I also explored the [self-attention](https://arxiv.org/pdf/1706.03762.pdf) feature of Tensorflow’s Seq2Seq architecture; this is the central strategy of transformer architectures, such as [BERT](https://arxiv.org/pdf/1810.04805.pdf) (see section 3.3). Ultimately, transformer-based word representations would be used in our dialogue system.
 
 ## Section 3 - Task-Oriented Chatbots 
 
@@ -65,21 +63,22 @@ Each of these tools taken individually are extremely powerful NLP enablers. With
 
 The Rasa python library allows the developer to customize his or her pipeline and even develop his or her own custom components (see section 4.3). The package also provides comprehensive model evaluation tools that bring hundreds of data points together into confusion matrices and histograms (see [results](https://github.com/bubjanes/conversational_ai_pipelines/tree/master/results)); it provides training data validation that identifies out-of-place training data or intents (the categories classified by the NLU) that could be too dominant or too often overlooked by the model (see section 4.2).
 
-In 2020, Rasa released a special multitask transformer architecture called the Dual Entity-Intent Transformer or DIET that has increased our model’s overall accuracy in both entity extraction and intent classification by more than 30 percent (compare results/SklearnIntentClassifier with results/diet_without_BERT in Fig. 3.1). The model architecture also allows for pretrained word embeddings, which is particularly useful in project when little training data is available.
+In 2020, Rasa released a special multitask transformer architecture called the Dual Entity-Intent Transformer or DIET that has increased our model’s overall accuracy in both entity extraction and intent classification by more than 30 percent (compare results/**SklearnIntentClassifier** with results/**diet_without_BERT** in Fig. 3.1). The model architecture also allows for pretrained word embeddings, which is particularly useful in project when little training data is available.
 
 ### Pretrained word embeddings 3.3
 
 In the featurization steps of the NLU pipeline, Rasa allows for pretrained word embeddings as well as training for custom features using n-grams or character-grams or a combination of these. With Rasa’s easy-to-use configuration, all of the available pretrained word embedding packages, BERT, GloVe or ConveRT, can be used in a sort of plug and play manner. As these word representations have been pretrained on large data sets, such as Wikipedia, they work exceptionally well for general English, but not so well with informal language or regional dialects. 
 
 ![intent classification results](images/viz01.png "intent classification results")
-![intent classification results raw data](images/raw_data.png "intent classification results raw data")
-Fig. 3.1
+![intent classification results raw data](images/raw_data.png "intent classification results raw data")<br/>
+**Fig. 3.1**<br/>
 
-While Rasa makes available packages for pretrained word embedding in Spanish, in my research, using the BERT pretrained word embeddings did not provide the best results (see results/diet_BERT_only) because of regional jargon and colloquialisms found in the informal chats in Córdoba, Argentina, from where our data was taken. In fact, the highest performing model we obtained used no pretrained embeddings, but rather custom embeddings trained on our own data with four DIET transformer layers (see results/diet_no_BERT). Another option, which performed reasonably well, was to train our own custom features and then combine these custom embeddings with the BERT pretrained embeddings in a feed forward layer (see results/diet_BERT_combined). This option might be best for Spanish language projects with little training data. 
+While Rasa makes available packages for pretrained word embedding in Spanish, in my research, using the BERT pretrained word embeddings did not provide the best results (see results/**diet_BERT_only**) because of regional jargon and colloquialisms found in the informal chats in Córdoba, Argentina, from where our data was taken. In fact, the highest performing model we obtained used no pretrained embeddings, but rather custom embeddings trained on our own data with four DIET transformer layers (see results/**diet_no_BERT**). Another option, which performed reasonably well, was to train our own custom features and then combine these custom embeddings with the BERT pretrained embeddings in a feed forward layer (see results/**diet_BERT_combined**). This option might be best for Spanish language projects with little training data. 
 
 ### Transformer for dialogue 3.4
 
 ![DIET architecture diagram](images/DIET_architecture.png "DIET architecture diagram")
+Image Source: [Day 101 of #NLP365: In-Depth Study Of RASA’s DIET Architecture](https://towardsdatascience.com/day-101-of-nlp365-in-depth-study-of-rasas-diet-architecture-3cdc10601599)
 
 The transformer is a machine learning model architecture similar to a recurrent neural network, but it relies primarily on the attention mechanism mentioned above (see section 2.2). Transformers have come to replace the bi-LSTM architecture as the state-of-the-art machine learning model architecture for NLP. Not only does Rasa provide the pretrained word embedding that are trained, by HuggingFace, with the BERT transformer, but the DIET architecture can be configured to use one or more transformer layers in it’s own the intent classification and entity extraction. This is the distinct feature of the DIET architecture: a transformer architecture optimized to tackle the dual problem of intent classification and entity extraction.
 
