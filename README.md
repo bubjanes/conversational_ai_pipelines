@@ -121,7 +121,7 @@ pip install streamlit
 streamlit run viewresults.py
 ```
 
-To learn more about Rasa pipelines, I recommend this great [YouTube tutorial](https://youtu.be/oj5oPGDlep4) by Vincent Warmerdam, of Rasa, and his accompanying [gist](https://gist.github.com/koaning/81fc9433182ccfb9dece4bb4dbde1f7a) from where I took the starter code for the streamlit ```viewresults.py```.
+###### To learn more about Rasa pipelines, I recommend this great [YouTube tutorial](https://youtu.be/oj5oPGDlep4) by Vincent Warmerdam, of Rasa, and his accompanying [gist](https://gist.github.com/koaning/81fc9433182ccfb9dece4bb4dbde1f7a) from where I took the starter code for the streamlit ```viewresults.py```.
 
 ---------------------
 
