@@ -1,6 +1,6 @@
 # The Conversational AI Pipeline
 
-![FaMAF logo](images/famaf.jpg=250x)
+![FaMAF logo](images/famaf.jpg)
 
 ### **By Brandon Janes**
 
@@ -11,21 +11,21 @@
 ### professors: **[Laura Alonso Alemany](https://cs.famaf.unc.edu.ar/~laura/)** and  **[Cristian Cardellino](https://crscardellino.github.io/)**
 
 OUTLINE:<br/>
-1 - Introduction<br/>
-2 - Word representations<br/>
+1 - **Introduction**<br/>
+2 - **Word representations**<br/>
     2.1 Maria Luisa<br/>
     2.2 Machine Translation<br/>
-3 - Task-Oriented Chatbots<br/>
+3 - **Task-Oriented Chatbots**<br/>
     3.1 Natural Language Understanding and Dialogue Management<br/>
     3.2 The Conversational AI Pipeline<br/>
     3.3 Pretrained word embeddings<br/>
     3.4 Transformer for dialogue<br/>
     3.5 Dialogue management: tracker, slots and dispatcher<br/>
-4 - Challenges<br/>
+4 - **Challenges**<br/>
 	4.1 Virtual assistants in production<br/>
 	4.2 Auto-configuration<br/>
 	4.3 NER for persons’ names<br/>
-5 - Conclusion <br/>
+5 - **Conclusion** <br/>
 
 ## Introduction
 
@@ -114,11 +114,11 @@ At Kunan, we plan to create a Latin American persons’ name entity extraction c
 With exciting advancements in NLP, such as transformers and pretrained word embeddings, the field of conversational artificial intelligence has leaped forward inrecent years, from bots that say, “Sorry, I don’t understand,” to truly becoming feasible solutions to daily tasks that once required tedious human work. Philosophically, the goal of this technology is not to replace humans with robots, but rather to assign the repetitive and “robotic” daily tasks, such as data entry or scheduling appointments, to virtual assistants, and reserve the brainspace of humans for the types of work that require skills that only humans have, such as creativity and critical thinking. I hope myturn is a simple but prescient example of how conversational AI could soon become a part of our daily lives.
 
 ---------------------
-## How to view the results in this repo
+###### To view the results in this repo:
 
 ```
 pip install streamlit
 streamlit run viewresults.py
 ```
 
-Also, here is a great [YouTube tutorial](https://youtu.be/oj5oPGDlep4) by Vincent Warmerdam, of Rasa, and his accompanying [gist](https://gist.github.com/koaning/81fc9433182ccfb9dece4bb4dbde1f7a) from where I took the starter code for the streamlit ```viewresults.py```.
+To learn more about Rasa pipelines, I recommend this great [YouTube tutorial](https://youtu.be/oj5oPGDlep4) by Vincent Warmerdam, of Rasa, and his accompanying [gist](https://gist.github.com/koaning/81fc9433182ccfb9dece4bb4dbde1f7a) from where I took the starter code for the streamlit ```viewresults.py```.
