@@ -1,4 +1,7 @@
+
+---------------------
 # Text Mining
+
 ## NLU pipelines for dialogue systems
 
 How to install [rasa](https://rasa.com/docs/rasa/user-guide/installation/).
