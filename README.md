@@ -4,28 +4,28 @@
 
 ### **By Brandon Janes**
 
-### **Final project for the course Minería de texto (Text Mining) 2019**
+### **Final project for the course *Minería de texto* (Text Mining) 2019**
 
-### **La Facultad de Matemática, Astronomía, Física y Computación de la Universidad Nacional de Córdoba** (The College of Mathematics, Astronomy, Physics and Computation, The National University of Córdoba) 
+### *La Facultad de Matemática, Astronomía, Física y Computación de la Universidad Nacional de Córdoba* (The College of Mathematics, Astronomy, Physics and Computation, The National University of Córdoba) 
 
 ### professors: **[Laura Alonso Alemany](https://cs.famaf.unc.edu.ar/~laura/)** and  **[Cristian Cardellino](https://crscardellino.github.io/)**
 
 OUTLINE:<br/>
-1 - **Introduction**<br/>
-2 - **Word representations**<br/>
+**Section 1 - Introduction**<br/>
+**Section 2 - Word representations**<br/>
     2.1 Maria Luisa<br/>
     2.2 Machine Translation<br/>
-3 - **Task-Oriented Chatbots**<br/>
+**Section 3 - Task-Oriented Chatbots**<br/>
     3.1 Natural Language Understanding and Dialogue Management<br/>
     3.2 The Conversational AI Pipeline<br/>
     3.3 Pretrained word embeddings<br/>
     3.4 Transformer for dialogue<br/>
     3.5 Dialogue management: tracker, slots and dispatcher<br/>
-4 - **Challenges**<br/>
+**Section 4 - Challenges**<br/>
 	4.1 Virtual assistants in production<br/>
 	4.2 Auto-configuration<br/>
 	4.3 NER for persons’ names<br/>
-5 - **Conclusion** <br/>
+**Section 5 - Conclusion** <br/>
 
 ## Introduction
 
