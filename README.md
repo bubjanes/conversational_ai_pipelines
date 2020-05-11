@@ -1,6 +1,6 @@
 # The Conversational AI Pipeline
 
-![FaMAF logo](images/famaf.jpg "famaf logo")
+![FaMAF logo](images/famaf.jpg =100x20)
 
 ### **By Brandon Janes**
 
