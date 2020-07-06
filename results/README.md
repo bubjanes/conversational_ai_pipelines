@@ -20,6 +20,16 @@ rasa test nlu --config configs/diet_without_BERT.yml --cross-validation --runs 1
 rasa test nlu --config configs/diet_BERT_only.yml --cross-validation --runs 1 --folds 2 --out results/diet_BERT_only
 rasa test nlu --config configs/SklearnIntentClassifier.yml --cross-validation --runs 1 --folds 2 --out results/SklearnIntentClassifier
 
+# TODAY
+rasa test nlu --config configs/diet_bytepair.yml --cross-validation --runs 1 --folds 2 --out results/diet_bytepair
+
+rasa test nlu --config configs/diet_BERT_combined.yml --cross-validation --runs 1 --folds 2 --out results/diet_BERT_combined
+rasa test nlu --config configs/diet_BERT_es_combined.yml --cross-validation --runs 1 --folds 2 --out results/diet_BERT_es_combined
+
+rasa test nlu --config configs/diet_BERT_es_bytepair.yml --cross-validation --runs 1 --folds 2 --out results/diet_BERT_es_bytepair
+
+
+
 ```
 
 To see a dashboard of your results just execute the following code.

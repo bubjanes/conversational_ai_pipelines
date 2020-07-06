@@ -1,0 +1,4674 @@
+[
+  {
+    "text": "buenaaaas",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_mujeres_violencia",
+      "confidence": 0.7028505802154541
+    }
+  },
+  {
+    "text": "buenaaaas!",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_mujeres_violencia",
+      "confidence": 0.7028505802154541
+    }
+  },
+  {
+    "text": "buenaaaaas",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_mujeres_violencia",
+      "confidence": 0.7069587707519531
+    }
+  },
+  {
+    "text": "buenaaaaaas",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_mujeres_violencia",
+      "confidence": 0.4563544988632202
+    }
+  },
+  {
+    "text": "buen día",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.7556788325309753
+    }
+  },
+  {
+    "text": "Tengo dudas",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.2551977336406708
+    }
+  },
+  {
+    "text": "a quien llamar cuando tenes sintomas",
+    "intent": "ask_sintomas",
+    "intent_prediction": {
+      "name": "ask_bot_name",
+      "confidence": 0.5311433672904968
+    }
+  },
+  {
+    "text": "A dónde tengo que llamar si tengo síntomas?",
+    "intent": "ask_sintomas",
+    "intent_prediction": {
+      "name": "ask_telefonos",
+      "confidence": 0.9243785738945007
+    }
+  },
+  {
+    "text": "Fiebre 39 grados",
+    "intent": "ask_sintomas",
+    "intent_prediction": {
+      "name": "ask_ife",
+      "confidence": 0.346376895904541
+    }
+  },
+  {
+    "text": "bien, donde llamo si tengo sintomas?",
+    "intent": "ask_sintomas",
+    "intent_prediction": {
+      "name": "ask_telefonos",
+      "confidence": 0.9724953770637512
+    }
+  },
+  {
+    "text": "cuándo soy contagioso",
+    "intent": "ask_sintomas",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.9991526007652283
+    }
+  },
+  {
+    "text": "creo que estoy enfermando",
+    "intent": "ask_sintomas",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.4524553120136261
+    }
+  },
+  {
+    "text": "es igual que la gripe",
+    "intent": "ask_sintomas",
+    "intent_prediction": {
+      "name": "ask_coronavirus",
+      "confidence": 0.42881840467453003
+    }
+  },
+  {
+    "text": "tos seca",
+    "intent": "ask_sintomas",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3402467668056488
+    }
+  },
+  {
+    "text": "que es la tos seca",
+    "intent": "ask_sintomas",
+    "intent_prediction": {
+      "name": "ask_fincuarentena",
+      "confidence": 0.6888651251792908
+    }
+  },
+  {
+    "text": "cual es el periodo en que una persona contagia a otro en el covid19?",
+    "intent": "ask_incubacion",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.517332911491394
+    }
+  },
+  {
+    "text": "cuando empiezo a toser por el covid",
+    "intent": "ask_incubacion",
+    "intent_prediction": {
+      "name": "ask_restaurantes",
+      "confidence": 0.14578992128372192
+    }
+  },
+  {
+    "text": "los sintomas en que momento inician",
+    "intent": "ask_incubacion",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.4580173194408417
+    }
+  },
+  {
+    "text": "en que momento empiezo con la enfermedad",
+    "intent": "ask_incubacion",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.37905609607696533
+    }
+  },
+  {
+    "text": "cuando me dan los sintomas",
+    "intent": "ask_incubacion",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.9556605815887451
+    }
+  },
+  {
+    "text": "como es el tiempo de la enfermedad",
+    "intent": "ask_incubacion",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.4500218331813812
+    }
+  },
+  {
+    "text": "Si tengo coronavirus, cuanto tiempo dura la enfermedad",
+    "intent": "ask_incubacion",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.9459218978881836
+    }
+  },
+  {
+    "text": "me gustaria saber como estabas creado",
+    "intent": "ask_made",
+    "intent_prediction": {
+      "name": "ask_dentista",
+      "confidence": 0.34322771430015564
+    }
+  },
+  {
+    "text": "de donde eres?",
+    "intent": "ask_made",
+    "intent_prediction": {
+      "name": "ask_bot_name",
+      "confidence": 0.8175367712974548
+    }
+  },
+  {
+    "text": "de donde sos?",
+    "intent": "ask_made",
+    "intent_prediction": {
+      "name": "ask_telefonos",
+      "confidence": 0.6315045356750488
+    }
+  },
+  {
+    "text": "donde naciste?",
+    "intent": "ask_made",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.4683786630630493
+    }
+  },
+  {
+    "text": "de donde venis?",
+    "intent": "ask_made",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.7150076031684875
+    }
+  },
+  {
+    "text": "naciste en cordoba?",
+    "intent": "ask_made",
+    "intent_prediction": {
+      "name": "ask_howold",
+      "confidence": 0.8443339467048645
+    }
+  },
+  {
+    "text": "De dónde sos?",
+    "intent": "ask_made",
+    "intent_prediction": {
+      "name": "ask_test",
+      "confidence": 0.46933141350746155
+    }
+  },
+  {
+    "text": "como naciste?",
+    "intent": "ask_made",
+    "intent_prediction": {
+      "name": "ask_howold",
+      "confidence": 0.9155862927436829
+    }
+  },
+  {
+    "text": "quien es el responsable de este proyecto",
+    "intent": "ask_made",
+    "intent_prediction": {
+      "name": "ask_dentista",
+      "confidence": 0.452017605304718
+    }
+  },
+  {
+    "text": "quien desarrollo esta aplicacion",
+    "intent": "ask_made",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.6961245536804199
+    }
+  },
+  {
+    "text": "cuál es el teléfono de asistencia a mujeres",
+    "intent": "ask_mujeres_violencia",
+    "intent_prediction": {
+      "name": "ask_sueldos",
+      "confidence": 0.4600121080875397
+    }
+  },
+  {
+    "text": "no me deja salir",
+    "intent": "ask_mujeres_violencia",
+    "intent_prediction": {
+      "name": "ask_credito",
+      "confidence": 0.7533560395240784
+    }
+  },
+  {
+    "text": "me tiene encerrada",
+    "intent": "ask_mujeres_violencia",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.648517370223999
+    }
+  },
+  {
+    "text": "me está insultando",
+    "intent": "ask_mujeres_violencia",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.897554874420166
+    }
+  },
+  {
+    "text": "que pasa si me pegan",
+    "intent": "ask_mujeres_violencia",
+    "intent_prediction": {
+      "name": "ask_empresa",
+      "confidence": 0.3456084132194519
+    }
+  },
+  {
+    "text": "Cuales son los números de emergencia?",
+    "intent": "ask_telefonos",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.5668255686759949
+    }
+  },
+  {
+    "text": "tengo que llamar al 0800",
+    "intent": "ask_telefonos",
+    "intent_prediction": {
+      "name": "ask_embarazada",
+      "confidence": 0.3636147975921631
+    }
+  },
+  {
+    "text": "Estos son los nros por provincia",
+    "intent": "ask_telefonos",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.4659881293773651
+    }
+  },
+  {
+    "text": "hay numeros actualizados",
+    "intent": "ask_telefonos",
+    "intent_prediction": {
+      "name": "ask_datos",
+      "confidence": 0.9998838901519775
+    }
+  },
+  {
+    "text": "Teléfono del coe capital",
+    "intent": "ask_telefonos",
+    "intent_prediction": {
+      "name": "ask_alimento",
+      "confidence": 0.6101234555244446
+    }
+  },
+  {
+    "text": "Cuál es el numero para llamar si estuve en contacto con el supermercado granel?",
+    "intent": "ask_telefonos",
+    "intent_prediction": {
+      "name": "ask_correo",
+      "confidence": 0.4165492057800293
+    }
+  },
+  {
+    "text": "quiénes no hace falta que cumplan la cuarentena?",
+    "intent": "ask_exceptuados",
+    "intent_prediction": {
+      "name": "ask_test",
+      "confidence": 0.3432714343070984
+    }
+  },
+  {
+    "text": "quiénes no hace falta que cumplan el aislamiento?",
+    "intent": "ask_exceptuados",
+    "intent_prediction": {
+      "name": "ask_test",
+      "confidence": 0.8343963027000427
+    }
+  },
+  {
+    "text": "quienes tienen permiso para circular",
+    "intent": "ask_exceptuados",
+    "intent_prediction": {
+      "name": "ask_permisocircular",
+      "confidence": 0.9984272122383118
+    }
+  },
+  {
+    "text": "los talleres estan abiertos",
+    "intent": "ask_exceptuados",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.5246729850769043
+    }
+  },
+  {
+    "text": "Tengo un comercio no escencial, debo ir a controlar que esté todo bien, cómo hago?",
+    "intent": "ask_exceptuados",
+    "intent_prediction": {
+      "name": "ask_escuelas",
+      "confidence": 0.5159586668014526
+    }
+  },
+  {
+    "text": "empleada doméstica?",
+    "intent": "ask_exceptuados",
+    "intent_prediction": {
+      "name": "ask_sueldos",
+      "confidence": 0.4635743498802185
+    }
+  },
+  {
+    "text": "se puede buscar medicacion durante la cuarentena?",
+    "intent": "ask_farmacia",
+    "intent_prediction": {
+      "name": "ask_fincuarentena",
+      "confidence": 0.9847865104675293
+    }
+  },
+  {
+    "text": "hay vuelos a otros paises",
+    "intent": "ask_transporte",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.9576976895332336
+    }
+  },
+  {
+    "text": "cómo hago con la hipoteca de mi casa?",
+    "intent": "ask_alquiler",
+    "intent_prediction": {
+      "name": "ask_asintomatico",
+      "confidence": 0.6257501840591431
+    }
+  },
+  {
+    "text": "van a haber desalojos por falta de pago?",
+    "intent": "ask_alquiler",
+    "intent_prediction": {
+      "name": "ask_ferreteria",
+      "confidence": 0.5966732501983643
+    }
+  },
+  {
+    "text": "por falta de pago van a desalojar?",
+    "intent": "ask_alquiler",
+    "intent_prediction": {
+      "name": "ask_ferreteria",
+      "confidence": 0.8609762787818909
+    }
+  },
+  {
+    "text": "Las pensiones están afectadas por el congelamiento?",
+    "intent": "ask_alquiler",
+    "intent_prediction": {
+      "name": "ask_riesgo",
+      "confidence": 0.7638660073280334
+    }
+  },
+  {
+    "text": "Que pasa si no pago?",
+    "intent": "ask_alquiler",
+    "intent_prediction": {
+      "name": "ask_pagar_servicios",
+      "confidence": 0.9315440654754639
+    }
+  },
+  {
+    "text": "Tengo que pagar el credito?",
+    "intent": "ask_credito",
+    "intent_prediction": {
+      "name": "ask_languagesbot",
+      "confidence": 0.4822967052459717
+    }
+  },
+  {
+    "text": "cómo son las nuevas medidas respecto a los creditos?",
+    "intent": "ask_credito",
+    "intent_prediction": {
+      "name": "ask_embarazada",
+      "confidence": 0.45043066143989563
+    }
+  },
+  {
+    "text": "Certificado Único Habilitante para Circulación – Emergencia COVID-19",
+    "intent": "ask_permisocircular",
+    "intent_prediction": {
+      "name": "ask_alimento",
+      "confidence": 0.933851957321167
+    }
+  },
+  {
+    "text": "Que papel es necesario para salir a la calle",
+    "intent": "ask_permisocircular",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.9944917559623718
+    }
+  },
+  {
+    "text": "como hago para circular",
+    "intent": "ask_permisocircular",
+    "intent_prediction": {
+      "name": "ask_rapipago",
+      "confidence": 0.6092648506164551
+    }
+  },
+  {
+    "text": "hola, cuáles son los permisos de circulación",
+    "intent": "ask_permisocircular",
+    "intent_prediction": {
+      "name": "ask_exceptuados",
+      "confidence": 0.6848688721656799
+    }
+  },
+  {
+    "text": "Que documentacion debi llevar?",
+    "intent": "ask_permisocircular",
+    "intent_prediction": {
+      "name": "ask_riesgo",
+      "confidence": 0.8592664003372192
+    }
+  },
+  {
+    "text": "cómo pago mis cuotas hipotecarias?",
+    "intent": "ask_banco",
+    "intent_prediction": {
+      "name": "ask_credito",
+      "confidence": 0.9151292443275452
+    }
+  },
+  {
+    "text": "hay servicios bancarios?",
+    "intent": "ask_banco",
+    "intent_prediction": {
+      "name": "ask_pagar_servicios",
+      "confidence": 0.915590226650238
+    }
+  },
+  {
+    "text": "cuáles son las medidas del sistema financiero?",
+    "intent": "ask_banco",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.5863099694252014
+    }
+  },
+  {
+    "text": "puede mi perra salir a la calle",
+    "intent": "ask_mascota",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.5445652008056641
+    }
+  },
+  {
+    "text": "te agradezco",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "ask_mujeres_violencia",
+      "confidence": 0.446170836687088
+    }
+  },
+  {
+    "text": "ja gracais",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.4640411138534546
+    }
+  },
+  {
+    "text": "Donde puedo pagar los impuestos?",
+    "intent": "ask_rapipago",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.760144829750061
+    }
+  },
+  {
+    "text": "como pago los servicios",
+    "intent": "ask_rapipago",
+    "intent_prediction": {
+      "name": "ask_pagar_servicios",
+      "confidence": 0.9818888902664185
+    }
+  },
+  {
+    "text": "tengo que mandar una carta",
+    "intent": "ask_correo",
+    "intent_prediction": {
+      "name": "ask_dentista",
+      "confidence": 0.6116641163825989
+    }
+  },
+  {
+    "text": "es un toque de queda?",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.5678983330726624
+    }
+  },
+  {
+    "text": "que es el aislamiento obligatorio?",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_coronavirus",
+      "confidence": 0.5739981532096863
+    }
+  },
+  {
+    "text": "aislamiento",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.6166743636131287
+    }
+  },
+  {
+    "text": "puedo volver a mi hogar?",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_transporte",
+      "confidence": 0.9722808599472046
+    }
+  },
+  {
+    "text": "por que tengo que quedarme en mi casa?",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_fincuarentena",
+      "confidence": 0.9803993105888367
+    }
+  },
+  {
+    "text": "que puedo y que no puedo hacer durante la cuarentena?",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.7769107222557068
+    }
+  },
+  {
+    "text": "puedo ir a dar una vuelta?",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_exceptuados",
+      "confidence": 0.24307741224765778
+    }
+  },
+  {
+    "text": "Puedo comer asado con amigos",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_restaurantes",
+      "confidence": 0.5719834566116333
+    }
+  },
+  {
+    "text": "cómo es el tema del aislamiento?",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.9500610828399658
+    }
+  },
+  {
+    "text": "puedo ir a comprar",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_mercado",
+      "confidence": 0.999941349029541
+    }
+  },
+  {
+    "text": "hay toques de queda",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.5483042001724243
+    }
+  },
+  {
+    "text": "Se puede ir al shopping?",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_escuelas",
+      "confidence": 0.711832582950592
+    }
+  },
+  {
+    "text": "que pasa si tengo un domicilio distinto?",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.5389899611473083
+    }
+  },
+  {
+    "text": "como hago para circular por cordoba",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_datos",
+      "confidence": 0.3688229024410248
+    }
+  },
+  {
+    "text": "a qué teléfono puedo realizar denuncias?",
+    "intent": "ask_denuncia",
+    "intent_prediction": {
+      "name": "ask_telefonos",
+      "confidence": 0.6929948925971985
+    }
+  },
+  {
+    "text": "si alguien no cumple la cuarentena, qué hago?",
+    "intent": "ask_denuncia",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.647754430770874
+    }
+  },
+  {
+    "text": "¿Que pasa si conosco a alguien que no hace cuarentena?",
+    "intent": "ask_denuncia",
+    "intent_prediction": {
+      "name": "ask_mascota",
+      "confidence": 0.7248612642288208
+    }
+  },
+  {
+    "text": "que pasa si salgo y me quitan el auto",
+    "intent": "ask_denuncia",
+    "intent_prediction": {
+      "name": "ask_permisocircular",
+      "confidence": 0.9667984247207642
+    }
+  },
+  {
+    "text": "a donde llamo si quiero denunciar?",
+    "intent": "ask_denuncia",
+    "intent_prediction": {
+      "name": "ask_telefonos",
+      "confidence": 0.9987751245498657
+    }
+  },
+  {
+    "text": "necesito ir a la dietetica de Marlene",
+    "intent": "ask_mercado",
+    "intent_prediction": {
+      "name": "ask_farmacia",
+      "confidence": 0.39050623774528503
+    }
+  },
+  {
+    "text": "mariano max",
+    "intent": "ask_mercado",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.3886098563671112
+    }
+  },
+  {
+    "text": "están abiertos los kioskos?",
+    "intent": "ask_mercado",
+    "intent_prediction": {
+      "name": "ask_denuncia",
+      "confidence": 0.3111473023891449
+    }
+  },
+  {
+    "text": "cuantas cuadras puedo salir de mi casa para comprar?",
+    "intent": "ask_mercado",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.8475548028945923
+    }
+  },
+  {
+    "text": "Puedo ir a la verdulería?",
+    "intent": "ask_mercado",
+    "intent_prediction": {
+      "name": "ask_exceptuados",
+      "confidence": 0.9150874614715576
+    }
+  },
+  {
+    "text": "Debo sacar un permiso si salgo a comprar al super en medio de la cuarentena",
+    "intent": "ask_mercado",
+    "intent_prediction": {
+      "name": "ask_uba",
+      "confidence": 0.3295457661151886
+    }
+  },
+  {
+    "text": "hola tengo que salir",
+    "intent": "ask_mercado",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.5552183985710144
+    }
+  },
+  {
+    "text": "tengo un familiar discapacitado",
+    "intent": "ask_familiares",
+    "intent_prediction": {
+      "name": "ask_discapacidad",
+      "confidence": 0.9997308850288391
+    }
+  },
+  {
+    "text": "tengo a cargo un familiar con discapacidad",
+    "intent": "ask_familiares",
+    "intent_prediction": {
+      "name": "ask_discapacidad",
+      "confidence": 0.9701699614524841
+    }
+  },
+  {
+    "text": "Ancianos?",
+    "intent": "ask_familiares",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.9498584270477295
+    }
+  },
+  {
+    "text": "puedo ir a visitar a mi madre?",
+    "intent": "ask_familiares",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.9636496305465698
+    }
+  },
+  {
+    "text": "Puedo llevarle alimentos a un Adulto Mayor que no tenga mi apellido? Es mi Tío político...",
+    "intent": "ask_familiares",
+    "intent_prediction": {
+      "name": "ask_exceptuados",
+      "confidence": 0.3497941195964813
+    }
+  },
+  {
+    "text": "Tengo familiar de riesgo",
+    "intent": "ask_familiares",
+    "intent_prediction": {
+      "name": "ask_riesgo",
+      "confidence": 0.9959137439727783
+    }
+  },
+  {
+    "text": "Cuando vamos a poder salir",
+    "intent": "ask_fincuarentena",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.9896163940429688
+    }
+  },
+  {
+    "text": "cuando podre salir",
+    "intent": "ask_fincuarentena",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.9987741112709045
+    }
+  },
+  {
+    "text": "Quiero salir, cuando puedo?",
+    "intent": "ask_fincuarentena",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.9999719262123108
+    }
+  },
+  {
+    "text": "hasta cuando no se puede salir?",
+    "intent": "ask_fincuarentena",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.9997509717941284
+    }
+  },
+  {
+    "text": "Fecha cuarentena",
+    "intent": "ask_fincuarentena",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.518669843673706
+    }
+  },
+  {
+    "text": "está bien si pido comida?",
+    "intent": "ask_restaurantes",
+    "intent_prediction": {
+      "name": "ask_mercado",
+      "confidence": 0.8207345604896545
+    }
+  },
+  {
+    "text": "puedo salir a comer?",
+    "intent": "ask_restaurantes",
+    "intent_prediction": {
+      "name": "ask_mercado",
+      "confidence": 0.6998469829559326
+    }
+  },
+  {
+    "text": "puedo pedir que traigan cosas a mi casa?",
+    "intent": "ask_restaurantes",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.5026865005493164
+    }
+  },
+  {
+    "text": "la gente de las entregas a domicilio está trabajando?",
+    "intent": "ask_restaurantes",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.34808406233787537
+    }
+  },
+  {
+    "text": "quiénes tienen que tener más precauciones",
+    "intent": "ask_riesgo",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.9998127222061157
+    }
+  },
+  {
+    "text": "por qué la gente grande tiene que tener más cuidado",
+    "intent": "ask_riesgo",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.8062856197357178
+    }
+  },
+  {
+    "text": "tiene que tener más cuidado la gente mayor?",
+    "intent": "ask_riesgo",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.5216127038002014
+    }
+  },
+  {
+    "text": "tienen que tener más cuidado los ancianos?",
+    "intent": "ask_riesgo",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.6467669606208801
+    }
+  },
+  {
+    "text": "por qué hay casos graves y casos leves de covid?",
+    "intent": "ask_riesgo",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.7137346863746643
+    }
+  },
+  {
+    "text": "quiero hablar con el responsable",
+    "intent": "human_agent",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.25037848949432373
+    }
+  },
+  {
+    "text": "quiero hablar con el desarrollador de este software",
+    "intent": "human_agent",
+    "intent_prediction": {
+      "name": "ask_asintomatico",
+      "confidence": 0.4584107995033264
+    }
+  },
+  {
+    "text": "quiero conocer el responsable de este technologia",
+    "intent": "human_agent",
+    "intent_prediction": {
+      "name": "ask_asintomatico",
+      "confidence": 0.4745567739009857
+    }
+  },
+  {
+    "text": "no quiero hablar con bots",
+    "intent": "human_agent",
+    "intent_prediction": {
+      "name": "ask_mascota",
+      "confidence": 0.9038960933685303
+    }
+  },
+  {
+    "text": "te mando un beso",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_bot_challenge",
+      "confidence": 0.538776695728302
+    }
+  },
+  {
+    "text": "gracias adios bot",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.36754703521728516
+    }
+  },
+  {
+    "text": "beso",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_joke_request",
+      "confidence": 0.21061086654663086
+    }
+  },
+  {
+    "text": "besos",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.40032458305358887
+    }
+  },
+  {
+    "text": "abrazo!",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.3160910904407501
+    }
+  },
+  {
+    "text": "abrazos!",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.5211399793624878
+    }
+  },
+  {
+    "text": "Nada más",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.9248703122138977
+    }
+  },
+  {
+    "text": "Cómo hago para salir de esta aplicación",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_sueldos",
+      "confidence": 0.24643903970718384
+    }
+  },
+  {
+    "text": "Quiero salir de esta aplicación por favor",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_exceptuados",
+      "confidence": 0.8823787569999695
+    }
+  },
+  {
+    "text": "repondeme!!",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.24806638062000275
+    }
+  },
+  {
+    "text": "estoy muy disatisfecha",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.6471745371818542
+    }
+  },
+  {
+    "text": "estoy muy disatisfecho",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.7853749394416809
+    }
+  },
+  {
+    "text": "sos estupida",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "ask_bot_name",
+      "confidence": 0.811992883682251
+    }
+  },
+  {
+    "text": "😠",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5116016864776611
+    }
+  },
+  {
+    "text": "sos una verga",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "ask_exceptuados",
+      "confidence": 0.3712523579597473
+    }
+  },
+  {
+    "text": "Culiao, te hacés menos cargo de mis dudas que mi ex",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "ask_familiares",
+      "confidence": 0.9136099815368652
+    }
+  },
+  {
+    "text": "no me gusta que hables",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.9292696118354797
+    }
+  },
+  {
+    "text": "decime algo de vos",
+    "intent": "ask_bot_name",
+    "intent_prediction": {
+      "name": "ask_howold",
+      "confidence": 0.9438078999519348
+    }
+  },
+  {
+    "text": "who are you?",
+    "intent": "ask_bot_name",
+    "intent_prediction": {
+      "name": "ask_made",
+      "confidence": 0.6695939302444458
+    }
+  },
+  {
+    "text": "que sos?",
+    "intent": "ask_bot_name",
+    "intent_prediction": {
+      "name": "ask_enojo",
+      "confidence": 0.4092601537704468
+    }
+  },
+  {
+    "text": "sí",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "ask_howold",
+      "confidence": 0.29813140630722046
+    }
+  },
+  {
+    "text": "Sí",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "ask_howold",
+      "confidence": 0.252676784992218
+    }
+  },
+  {
+    "text": "De una",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.8318458199501038
+    }
+  },
+  {
+    "text": "nah",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9832682609558105
+    }
+  },
+  {
+    "text": "no tengo",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "ask_discapacidad",
+      "confidence": 0.44746261835098267
+    }
+  },
+  {
+    "text": "Hay cambios climiaticos?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_limpiar",
+      "confidence": 0.5689458250999451
+    }
+  },
+  {
+    "text": "sabes el prognostico de hoy?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_ife",
+      "confidence": 0.2854829430580139
+    }
+  },
+  {
+    "text": "lindo dia hoy?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6090744137763977
+    }
+  },
+  {
+    "text": "hay mucho viento hoy?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.6742788553237915
+    }
+  },
+  {
+    "text": "hoy va a ser nublado?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.6612725257873535
+    }
+  },
+  {
+    "text": "hahaha",
+    "intent": "laugh",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7478611469268799
+    }
+  },
+  {
+    "text": "que hora es?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_varado",
+      "confidence": 0.496429979801178
+    }
+  },
+  {
+    "text": "Balanceado",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_restaurantes",
+      "confidence": 0.19816336035728455
+    }
+  },
+  {
+    "text": "pizza bot",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_bot_challenge",
+      "confidence": 0.7727394104003906
+    }
+  },
+  {
+    "text": "quiero un trabajo",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_exceptuados",
+      "confidence": 0.9491404294967651
+    }
+  },
+  {
+    "text": "quiero hacer el amor contigo",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.40470197796821594
+    }
+  },
+  {
+    "text": "puedo pagar mi cuenta",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_rapipago",
+      "confidence": 0.9962152242660522
+    }
+  },
+  {
+    "text": "4 + 2 = ?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_ife",
+      "confidence": 0.5720635056495667
+    }
+  },
+  {
+    "text": "estas lista?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_mascota",
+      "confidence": 0.5145485997200012
+    }
+  },
+  {
+    "text": "estas listo?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_mascota",
+      "confidence": 0.4951636493206024
+    }
+  },
+  {
+    "text": "llamame",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_telefonos",
+      "confidence": 0.9641252160072327
+    }
+  },
+  {
+    "text": "podes hacer asado",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.9247941970825195
+    }
+  },
+  {
+    "text": "llamame padre",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_telefonos",
+      "confidence": 0.7980690598487854
+    }
+  },
+  {
+    "text": "podemos seguir chateando",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_dentista",
+      "confidence": 0.6397212147712708
+    }
+  },
+  {
+    "text": "te amo mucho",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.8792057633399963
+    }
+  },
+  {
+    "text": "knowing knowing",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_made",
+      "confidence": 0.9917053580284119
+    }
+  },
+  {
+    "text": "Que numero va a salir en la quiniela",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.5115277171134949
+    }
+  },
+  {
+    "text": "tenes redes sociales?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_rumor",
+      "confidence": 0.9738138914108276
+    }
+  },
+  {
+    "text": "que hora es",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_varado",
+      "confidence": 0.496429979801178
+    }
+  },
+  {
+    "text": "Soy hombre",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_bot_name",
+      "confidence": 0.7875776886940002
+    }
+  },
+  {
+    "text": "mas de tres dias",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_riesgo",
+      "confidence": 0.5631831884384155
+    }
+  },
+  {
+    "text": "Beca progresar",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.48488250374794006
+    }
+  },
+  {
+    "text": "genero",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.3109228014945984
+    }
+  },
+  {
+    "text": "menu",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.48874595761299133
+    }
+  },
+  {
+    "text": "Reunión",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_made",
+      "confidence": 0.2756524980068207
+    }
+  },
+  {
+    "text": "La edad es una construcción social, sí.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_incubacion",
+      "confidence": 0.5591246485710144
+    }
+  },
+  {
+    "text": "¿Aquí puedo avisar reuniones en mi barrio?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.614273190498352
+    }
+  },
+  {
+    "text": "que depinga",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.7226023077964783
+    }
+  },
+  {
+    "text": "tu vieja",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_howold",
+      "confidence": 0.7644548416137695
+    }
+  },
+  {
+    "text": "Desa",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.8194049596786499
+    }
+  },
+  {
+    "text": "Tro de mi comedor, con un tecnico gasista durante una hora aproximadamente y le servi una taza de cafe con leche...??? Mi familia me pidio que este aislada durante 7 dias...",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_made",
+      "confidence": 0.574246883392334
+    }
+  },
+  {
+    "text": "Capaz",
+    "intent": "unsure",
+    "intent_prediction": {
+      "name": "ask_datos",
+      "confidence": 0.5718092322349548
+    }
+  },
+  {
+    "text": "no se",
+    "intent": "unsure",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8471701741218567
+    }
+  },
+  {
+    "text": "quienes son",
+    "intent": "faq_kunan",
+    "intent_prediction": {
+      "name": "ask_sueldos",
+      "confidence": 0.2843218147754669
+    }
+  },
+  {
+    "text": "podes hablar aleman?",
+    "intent": "ask_languagesbot",
+    "intent_prediction": {
+      "name": "ask_mascota",
+      "confidence": 0.500964879989624
+    }
+  },
+  {
+    "text": "en que lenguaje estas programado",
+    "intent": "ask_languagesbot",
+    "intent_prediction": {
+      "name": "ask_mascota",
+      "confidence": 0.4047437310218811
+    }
+  },
+  {
+    "text": "Qué te pasa vieja?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.9049169421195984
+    }
+  },
+  {
+    "text": "how are you?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_made",
+      "confidence": 0.9992325901985168
+    }
+  },
+  {
+    "text": "estoy bien, vos?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_howold",
+      "confidence": 0.37197941541671753
+    }
+  },
+  {
+    "text": "todo bien?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_limpiar",
+      "confidence": 0.4044016897678375
+    }
+  },
+  {
+    "text": "estas feliz?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9687885642051697
+    }
+  },
+  {
+    "text": "come stai?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.4419768750667572
+    }
+  },
+  {
+    "text": "h r u ?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.18835370242595673
+    }
+  },
+  {
+    "text": "hello, how are you?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.49881502985954285
+    }
+  },
+  {
+    "text": "hey how are you?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_made",
+      "confidence": 0.9984939694404602
+    }
+  },
+  {
+    "text": "¿Qué pasa?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.4551033675670624
+    }
+  },
+  {
+    "text": "sos un humano?",
+    "intent": "ask_bot_challenge",
+    "intent_prediction": {
+      "name": "human_agent",
+      "confidence": 0.9267498254776001
+    }
+  },
+  {
+    "text": "estoy hablando con un humano?",
+    "intent": "ask_bot_challenge",
+    "intent_prediction": {
+      "name": "human_agent",
+      "confidence": 0.9635472893714905
+    }
+  },
+  {
+    "text": "Número de contagiados en Argentina",
+    "intent": "ask_datos",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.48486605286598206
+    }
+  },
+  {
+    "text": "cuantas personas tienen coronavirus",
+    "intent": "ask_datos",
+    "intent_prediction": {
+      "name": "ask_vacuna",
+      "confidence": 0.7752692699432373
+    }
+  },
+  {
+    "text": "Córdoba he dicho",
+    "intent": "ask_datos",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.3124150335788727
+    }
+  },
+  {
+    "text": "por qué no me puedo tocar la cara?",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8155787587165833
+    }
+  },
+  {
+    "text": "como hago para no infectarme",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.37074002623558044
+    }
+  },
+  {
+    "text": "¿Por qué es importante permanecer en nuestras casas?",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_restaurantes",
+      "confidence": 0.4198724329471588
+    }
+  },
+  {
+    "text": "como me infecto?",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_limpiar",
+      "confidence": 0.9137798547744751
+    }
+  },
+  {
+    "text": "coronavirus?",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_coronavirus",
+      "confidence": 0.9992262125015259
+    }
+  },
+  {
+    "text": "puedo tomar mate con otros?",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_asintomatico",
+      "confidence": 0.4197867214679718
+    }
+  },
+  {
+    "text": "puedo estar cerca de otros?",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.9999416470527649
+    }
+  },
+  {
+    "text": "Me puedo tocar la cara si estoy en mi casa y me lavé las manos?",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_restaurantes",
+      "confidence": 0.2961052358150482
+    }
+  },
+  {
+    "text": "Por qué no me puedo tocar la cara?",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8269118666648865
+    }
+  },
+  {
+    "text": "que apsa si toco objetos publicos",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_made",
+      "confidence": 0.5076267123222351
+    }
+  },
+  {
+    "text": "La saliva contaminada penetra en la piel",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_languagesbot",
+      "confidence": 0.47760069370269775
+    }
+  },
+  {
+    "text": "como pasa el virus de una persona a otra?",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_hospital",
+      "confidence": 0.4505878984928131
+    }
+  },
+  {
+    "text": "QUE ES EL CORONAVIRUS",
+    "intent": "ask_coronavirus",
+    "intent_prediction": {
+      "name": "ask_rumor",
+      "confidence": 0.6090248227119446
+    }
+  },
+  {
+    "text": "hola quiero saber del coronavirus",
+    "intent": "ask_coronavirus",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.9967638254165649
+    }
+  },
+  {
+    "text": "que es el covid19?",
+    "intent": "ask_coronavirus",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.5177463889122009
+    }
+  },
+  {
+    "text": "me explicas un poco mas del coronavirus",
+    "intent": "ask_coronavirus",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.3268967568874359
+    }
+  },
+  {
+    "text": "hola quiero informacion del coronavirus",
+    "intent": "ask_coronavirus",
+    "intent_prediction": {
+      "name": "restart",
+      "confidence": 0.21321597695350647
+    }
+  },
+  {
+    "text": "máscara",
+    "intent": "ask_barbijo",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.5176349878311157
+    }
+  },
+  {
+    "text": "cuando se reinicia el ciclo lectivo",
+    "intent": "ask_escuelas",
+    "intent_prediction": {
+      "name": "ask_farmacia",
+      "confidence": 0.4348989427089691
+    }
+  },
+  {
+    "text": "el secundario cuando inicia",
+    "intent": "ask_escuelas",
+    "intent_prediction": {
+      "name": "ask_incubacion",
+      "confidence": 0.9352068305015564
+    }
+  },
+  {
+    "text": "cuando reinicia el ciclo lectivo",
+    "intent": "ask_escuelas",
+    "intent_prediction": {
+      "name": "ask_farmacia",
+      "confidence": 0.7413305044174194
+    }
+  },
+  {
+    "text": "hasta cuándo están cortadas las clases?",
+    "intent": "ask_escuelas",
+    "intent_prediction": {
+      "name": "ask_restaurantes",
+      "confidence": 0.30973005294799805
+    }
+  },
+  {
+    "text": "PUEDO IR A LA ESCUELA",
+    "intent": "ask_escuelas",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.9739500880241394
+    }
+  },
+  {
+    "text": "Me pueden dar consejos de limpieza de mi hogar para prevenir el coronavirus?",
+    "intent": "ask_limpiar",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.9962842464447021
+    }
+  },
+  {
+    "text": "que productos uso en mi casa",
+    "intent": "ask_limpiar",
+    "intent_prediction": {
+      "name": "ask_empresa",
+      "confidence": 0.4204199016094208
+    }
+  },
+  {
+    "text": "debo usar lavandina en mi casa",
+    "intent": "ask_limpiar",
+    "intent_prediction": {
+      "name": "ask_bot_challenge",
+      "confidence": 0.36527976393699646
+    }
+  },
+  {
+    "text": "Cómo debe aislarse la vivienda ?",
+    "intent": "ask_limpiar",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.9029154181480408
+    }
+  },
+  {
+    "text": "cuidados en casa",
+    "intent": "ask_limpiar",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.9982520937919617
+    }
+  },
+  {
+    "text": "que hacemos con viveres para evitar el contagio",
+    "intent": "ask_limpiar",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.9998415112495422
+    }
+  },
+  {
+    "text": "¿Qué caducidad tiene la preparación de alcohol diluido para desinfección?",
+    "intent": "ask_limpiar",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.9741685390472412
+    }
+  },
+  {
+    "text": "Hay que desinfectar las compras para prevenir el coronavirus",
+    "intent": "ask_limpiar",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.7235809564590454
+    }
+  },
+  {
+    "text": "COMO DESINFECTO LAS COMPRAS",
+    "intent": "ask_limpiar",
+    "intent_prediction": {
+      "name": "ask_uba",
+      "confidence": 0.5217447280883789
+    }
+  },
+  {
+    "text": "que cuidados debo tener al ir a trabajar",
+    "intent": "ask_limpiar",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.9981745481491089
+    }
+  },
+  {
+    "text": "Cómo me lavo las manos ?",
+    "intent": "ask_limpiar",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.9548249840736389
+    }
+  },
+  {
+    "text": "debo lavarme las manos con jabon o alcohol?",
+    "intent": "ask_limpiar",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.9999938607215881
+    }
+  },
+  {
+    "text": "Nuevos test en Argentina",
+    "intent": "ask_test",
+    "intent_prediction": {
+      "name": "ask_datos",
+      "confidence": 0.9625498652458191
+    }
+  },
+  {
+    "text": "El testeo se realiza solo si hay fiebre?",
+    "intent": "ask_test",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.43359294533729553
+    }
+  },
+  {
+    "text": "Cómo debo actuar al volver de comprar alimentos",
+    "intent": "ask_alimento",
+    "intent_prediction": {
+      "name": "ask_mercado",
+      "confidence": 0.5558407306671143
+    }
+  },
+  {
+    "text": "la mercaderia cruda",
+    "intent": "ask_alimento",
+    "intent_prediction": {
+      "name": "ask_riesgo",
+      "confidence": 0.47991040349006653
+    }
+  },
+  {
+    "text": "hay que limpiar la comida?",
+    "intent": "ask_alimento",
+    "intent_prediction": {
+      "name": "ask_limpiar",
+      "confidence": 0.9998610615730286
+    }
+  },
+  {
+    "text": "puedo ir a pagar los servicios?",
+    "intent": "ask_pagar_servicios",
+    "intent_prediction": {
+      "name": "ask_rapipago",
+      "confidence": 0.9682356119155884
+    }
+  },
+  {
+    "text": "tengo que pagar mi cuenta de luz?",
+    "intent": "ask_pagar_servicios",
+    "intent_prediction": {
+      "name": "ask_rapipago",
+      "confidence": 0.6919017434120178
+    }
+  },
+  {
+    "text": "no voy a llegar a pagar mis servicios",
+    "intent": "ask_pagar_servicios",
+    "intent_prediction": {
+      "name": "ask_rapipago",
+      "confidence": 0.3775084912776947
+    }
+  },
+  {
+    "text": "no puedo pagar los servicios",
+    "intent": "ask_pagar_servicios",
+    "intent_prediction": {
+      "name": "ask_rapipago",
+      "confidence": 0.8193909525871277
+    }
+  },
+  {
+    "text": "Pagar servicio de electricidad",
+    "intent": "ask_pagar_servicios",
+    "intent_prediction": {
+      "name": "ask_rapipago",
+      "confidence": 0.473871648311615
+    }
+  },
+  {
+    "text": "Está abierto atención al cliente de epec?",
+    "intent": "ask_pagar_servicios",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.9434536695480347
+    }
+  },
+  {
+    "text": "Necesito una receta medica",
+    "intent": "ask_hospital",
+    "intent_prediction": {
+      "name": "ask_farmacia",
+      "confidence": 0.7260705232620239
+    }
+  },
+  {
+    "text": "Puedo ir a un doctor estando de cuarentena?",
+    "intent": "ask_hospital",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.9693204760551453
+    }
+  },
+  {
+    "text": "sanatorios en cordoba",
+    "intent": "ask_hospital",
+    "intent_prediction": {
+      "name": "ask_datos",
+      "confidence": 0.9996501207351685
+    }
+  },
+  {
+    "text": "quien hizo la vacuna",
+    "intent": "ask_vacuna",
+    "intent_prediction": {
+      "name": "ask_made",
+      "confidence": 0.576811671257019
+    }
+  },
+  {
+    "text": "donde compro la vacuna",
+    "intent": "ask_vacuna",
+    "intent_prediction": {
+      "name": "ask_mercado",
+      "confidence": 0.732460081577301
+    }
+  },
+  {
+    "text": "parto con fecha en abril",
+    "intent": "ask_embarazada",
+    "intent_prediction": {
+      "name": "ask_howold",
+      "confidence": 0.8091762065887451
+    }
+  },
+  {
+    "text": "cuando pagan los 10000",
+    "intent": "ask_ife",
+    "intent_prediction": {
+      "name": "ask_rumor",
+      "confidence": 0.7956129312515259
+    }
+  },
+  {
+    "text": "Tengo un amigo en el exterior ¿cómo hace para volver?",
+    "intent": "ask_varado",
+    "intent_prediction": {
+      "name": "ask_transporte",
+      "confidence": 0.8393542170524597
+    }
+  },
+  {
+    "text": "que hago si viaje al exterior",
+    "intent": "ask_varado",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.6573740243911743
+    }
+  },
+  {
+    "text": "quiero volver a Argentina",
+    "intent": "ask_varado",
+    "intent_prediction": {
+      "name": "ask_transporte",
+      "confidence": 0.9534034132957458
+    }
+  },
+  {
+    "text": "como hace para volver al pais?",
+    "intent": "ask_varado",
+    "intent_prediction": {
+      "name": "ask_weather",
+      "confidence": 0.3030407428741455
+    }
+  },
+  {
+    "text": "No puedo regresar a mi domicilio",
+    "intent": "ask_varado",
+    "intent_prediction": {
+      "name": "ask_asintomatico",
+      "confidence": 0.7319523096084595
+    }
+  },
+  {
+    "text": "Qué puedo hacer si estoy lejos de mi casa?",
+    "intent": "ask_varado",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.9528460502624512
+    }
+  },
+  {
+    "text": "extracción de muelas",
+    "intent": "ask_dentista",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.677825927734375
+    }
+  },
+  {
+    "text": "tratamiento de conducto",
+    "intent": "ask_dentista",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.49535292387008667
+    }
+  },
+  {
+    "text": "se me infectó un diente",
+    "intent": "ask_dentista",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.9835144281387329
+    }
+  },
+  {
+    "text": "Hola no doy mas de dolor de muelas",
+    "intent": "ask_dentista",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.7581030130386353
+    }
+  },
+  {
+    "text": "Necesito atención psicológica",
+    "intent": "ask_dentista",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.8993509411811829
+    }
+  },
+  {
+    "text": "Las personas que son asintomáticas, son contagiadores",
+    "intent": "ask_asintomatico",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.3509178161621094
+    }
+  },
+  {
+    "text": "es cierto que si tomo algo caliente se muere el virus?",
+    "intent": "ask_rumor",
+    "intent_prediction": {
+      "name": "ask_coronavirus",
+      "confidence": 0.8500556945800781
+    }
+  },
+  {
+    "text": "mitos del coronavirus",
+    "intent": "ask_rumor",
+    "intent_prediction": {
+      "name": "ask_coronavirus",
+      "confidence": 0.9542584419250488
+    }
+  },
+  {
+    "text": "rumores del virus",
+    "intent": "ask_rumor",
+    "intent_prediction": {
+      "name": "ask_coronavirus",
+      "confidence": 0.6415733695030212
+    }
+  },
+  {
+    "text": "puede haber coronavirus en climas cálidos?",
+    "intent": "ask_rumor",
+    "intent_prediction": {
+      "name": "ask_coronavirus",
+      "confidence": 0.37339985370635986
+    }
+  },
+  {
+    "text": "remedios caseros coronavirus",
+    "intent": "ask_rumor",
+    "intent_prediction": {
+      "name": "restart",
+      "confidence": 0.28094813227653503
+    }
+  },
+  {
+    "text": "es recomendable usar remedios caseros?",
+    "intent": "ask_rumor",
+    "intent_prediction": {
+      "name": "ask_banco",
+      "confidence": 0.9029112458229065
+    }
+  },
+  {
+    "text": "si como ajo me curo?",
+    "intent": "ask_rumor",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.606294572353363
+    }
+  },
+  {
+    "text": "si como ajo mato al coronavirus",
+    "intent": "ask_rumor",
+    "intent_prediction": {
+      "name": "ask_coronavirus",
+      "confidence": 0.38818883895874023
+    }
+  },
+  {
+    "text": "si tomo sol prevengo el coronavirus?",
+    "intent": "ask_rumor",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.7378139495849609
+    }
+  },
+  {
+    "text": "como les pago a mis empleados",
+    "intent": "ask_empresa",
+    "intent_prediction": {
+      "name": "ask_sueldos",
+      "confidence": 0.5951291918754578
+    }
+  },
+  {
+    "text": "hay creditos para pymes",
+    "intent": "ask_empresa",
+    "intent_prediction": {
+      "name": "ask_credito",
+      "confidence": 0.9924104809761047
+    }
+  },
+  {
+    "text": "como pago los sueldos",
+    "intent": "ask_empresa",
+    "intent_prediction": {
+      "name": "ask_sueldos",
+      "confidence": 0.9958477020263672
+    }
+  },
+  {
+    "text": "creditos para pagar sueldos",
+    "intent": "ask_empresa",
+    "intent_prediction": {
+      "name": "ask_sueldos",
+      "confidence": 0.9996039867401123
+    }
+  },
+  {
+    "text": "hay prorrogas de las moratorias",
+    "intent": "ask_empresa",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.665978729724884
+    }
+  },
+  {
+    "text": "como obtengo el credito de la pyme",
+    "intent": "ask_empresa",
+    "intent_prediction": {
+      "name": "ask_languagesbot",
+      "confidence": 0.6839520335197449
+    }
+  },
+  {
+    "text": "estoy al borde",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.4272599220275879
+    }
+  },
+  {
+    "text": "como lidiar con el estrés",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_limpiar",
+      "confidence": 0.9006711840629578
+    }
+  },
+  {
+    "text": "Qué actividades puedo hacer para entretener a mis hijos pequeños?",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_familiares",
+      "confidence": 0.8929670453071594
+    }
+  },
+  {
+    "text": "como divierto a mis hijos",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_familiares",
+      "confidence": 0.9876331686973572
+    }
+  },
+  {
+    "text": "me siento solo",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.9972085952758789
+    }
+  },
+  {
+    "text": "como puedo pasar el tiempo",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_weather",
+      "confidence": 0.9922569990158081
+    }
+  },
+  {
+    "text": "el aislamiento hace que no tenga mucha energía",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_test",
+      "confidence": 0.3547491133213043
+    }
+  },
+  {
+    "text": "estoy desmotivado",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "human_agent",
+      "confidence": 0.2318148910999298
+    }
+  },
+  {
+    "text": "frustracion",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.431478887796402
+    }
+  },
+  {
+    "text": "que embole",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_mascota",
+      "confidence": 0.39159271121025085
+    }
+  },
+  {
+    "text": "Creo que necesito terapia",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_varado",
+      "confidence": 0.7173205614089966
+    }
+  },
+  {
+    "text": "creo que necesito ayuda psicológica",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_mujeres_violencia",
+      "confidence": 0.6755780577659607
+    }
+  },
+  {
+    "text": "como hago para ir al psicologo",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "human_agent",
+      "confidence": 0.8327581882476807
+    }
+  },
+  {
+    "text": "se puede hacer una joda",
+    "intent": "ask_evento",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.9350172281265259
+    }
+  },
+  {
+    "text": "puedo ir a misa?",
+    "intent": "ask_evento",
+    "intent_prediction": {
+      "name": "ask_made",
+      "confidence": 0.38095206022262573
+    }
+  },
+  {
+    "text": "Teatros hay?",
+    "intent": "ask_evento",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.21598973870277405
+    }
+  },
+  {
+    "text": "Como hacer para ir a la farmacia a 25 cuadras de mi casa a vacunarnos yo, mi señora y mi hijo discapacitado.",
+    "intent": "ask_discapacidad",
+    "intent_prediction": {
+      "name": "ask_riesgo",
+      "confidence": 0.5639167428016663
+    }
+  },
+  {
+    "text": "buenos dias",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_enojo",
+      "confidence": 0.4476511776447296
+    }
+  },
+  {
+    "text": "Alo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6353827118873596
+    }
+  },
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7694523334503174
+    }
+  },
+  {
+    "text": "hola Kunan!",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "faq_kunan",
+      "confidence": 0.9970476031303406
+    }
+  },
+  {
+    "text": "hoala",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.8820854425430298
+    }
+  },
+  {
+    "text": "Cómo saber si tengo coronavirus?",
+    "intent": "ask_sintomas",
+    "intent_prediction": {
+      "name": "ask_coronavirus",
+      "confidence": 0.8806002140045166
+    }
+  },
+  {
+    "text": "cuando puedo ir al doctor?",
+    "intent": "ask_sintomas",
+    "intent_prediction": {
+      "name": "ask_hospital",
+      "confidence": 0.9978013634681702
+    }
+  },
+  {
+    "text": "tengo un enfermedad",
+    "intent": "ask_sintomas",
+    "intent_prediction": {
+      "name": "ask_incubacion",
+      "confidence": 0.45730480551719666
+    }
+  },
+  {
+    "text": "es asintomático",
+    "intent": "ask_sintomas",
+    "intent_prediction": {
+      "name": "ask_asintomatico",
+      "confidence": 0.9993471503257751
+    }
+  },
+  {
+    "text": "es una enfermedad grave",
+    "intent": "ask_sintomas",
+    "intent_prediction": {
+      "name": "ask_riesgo",
+      "confidence": 0.9383931756019592
+    }
+  },
+  {
+    "text": "Que temperatura es considerada peligrosa ?",
+    "intent": "ask_sintomas",
+    "intent_prediction": {
+      "name": "ask_riesgo",
+      "confidence": 0.5402464270591736
+    }
+  },
+  {
+    "text": "dolor de pecho",
+    "intent": "ask_sintomas",
+    "intent_prediction": {
+      "name": "ask_weather",
+      "confidence": 0.6075080037117004
+    }
+  },
+  {
+    "text": "Mi marido tiene un dolor en uno de los costados del cuello.",
+    "intent": "ask_sintomas",
+    "intent_prediction": {
+      "name": "ask_mujeres_violencia",
+      "confidence": 0.7278540730476379
+    }
+  },
+  {
+    "text": "la fiebre cuando inicia",
+    "intent": "ask_incubacion",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.8410905003547668
+    }
+  },
+  {
+    "text": "cuál es el ciclo del virus",
+    "intent": "ask_incubacion",
+    "intent_prediction": {
+      "name": "ask_coronavirus",
+      "confidence": 0.39028170704841614
+    }
+  },
+  {
+    "text": "incubación",
+    "intent": "ask_incubacion",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.41203463077545166
+    }
+  },
+  {
+    "text": "cual es el período de incubación?",
+    "intent": "ask_incubacion",
+    "intent_prediction": {
+      "name": "ask_mascota",
+      "confidence": 0.37785089015960693
+    }
+  },
+  {
+    "text": "cual es la duracion del coronavirus una vez que se contrae",
+    "intent": "ask_incubacion",
+    "intent_prediction": {
+      "name": "ask_bot_name",
+      "confidence": 0.4827060401439667
+    }
+  },
+  {
+    "text": "I'd like to know how you were created",
+    "intent": "ask_made",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.8470710515975952
+    }
+  },
+  {
+    "text": "podes explicar como te hicieron?",
+    "intent": "ask_made",
+    "intent_prediction": {
+      "name": "ask_coronavirus",
+      "confidence": 0.6869816780090332
+    }
+  },
+  {
+    "text": "Puedas decrime como te construyeron?",
+    "intent": "ask_made",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.4869486391544342
+    }
+  },
+  {
+    "text": "are you from cordoba?",
+    "intent": "ask_made",
+    "intent_prediction": {
+      "name": "ask_datos",
+      "confidence": 0.7729636430740356
+    }
+  },
+  {
+    "text": "y ahora donde estas maria luisa",
+    "intent": "ask_made",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.9641306400299072
+    }
+  },
+  {
+    "text": "violencia familiar",
+    "intent": "ask_mujeres_violencia",
+    "intent_prediction": {
+      "name": "ask_familiares",
+      "confidence": 0.5314409732818604
+    }
+  },
+  {
+    "text": "me grita",
+    "intent": "ask_mujeres_violencia",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.4460495114326477
+    }
+  },
+  {
+    "text": "me está atacando",
+    "intent": "ask_mujeres_violencia",
+    "intent_prediction": {
+      "name": "ask_hospital",
+      "confidence": 0.5056045651435852
+    }
+  },
+  {
+    "text": "me ataca",
+    "intent": "ask_mujeres_violencia",
+    "intent_prediction": {
+      "name": "unsure",
+      "confidence": 0.1547752469778061
+    }
+  },
+  {
+    "text": "necesito ayuda",
+    "intent": "ask_mujeres_violencia",
+    "intent_prediction": {
+      "name": "ask_sueldos",
+      "confidence": 0.4901026785373688
+    }
+  },
+  {
+    "text": "mi esposo me grita",
+    "intent": "ask_mujeres_violencia",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.932516872882843
+    }
+  },
+  {
+    "text": "hay una lista de tels útiles en cordoba",
+    "intent": "ask_telefonos",
+    "intent_prediction": {
+      "name": "ask_datos",
+      "confidence": 0.5186126232147217
+    }
+  },
+  {
+    "text": "en la rioja donde llamar",
+    "intent": "ask_telefonos",
+    "intent_prediction": {
+      "name": "ask_datos",
+      "confidence": 0.6843961477279663
+    }
+  },
+  {
+    "text": "Tengo sintomas a que numero llamo?",
+    "intent": "ask_telefonos",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.9804239273071289
+    }
+  },
+  {
+    "text": "Me puede pasar algún teléfono del canal",
+    "intent": "ask_telefonos",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.9856391549110413
+    }
+  },
+  {
+    "text": "Adonde puedo preguntar?",
+    "intent": "ask_telefonos",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8220170736312866
+    }
+  },
+  {
+    "text": "Cuales son las excepciones que pueden romper el aislamiento?",
+    "intent": "ask_exceptuados",
+    "intent_prediction": {
+      "name": "ask_permisocircular",
+      "confidence": 0.36430057883262634
+    }
+  },
+  {
+    "text": "Puedo ir a trabajar?",
+    "intent": "ask_exceptuados",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.917864203453064
+    }
+  },
+  {
+    "text": "Trabajo",
+    "intent": "ask_exceptuados",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9245022535324097
+    }
+  },
+  {
+    "text": "Trabajo en una lavandería ¿necesito alguna autorización para poder ir a trabajar?",
+    "intent": "ask_exceptuados",
+    "intent_prediction": {
+      "name": "ask_limpiar",
+      "confidence": 0.4121354818344116
+    }
+  },
+  {
+    "text": "puedo contratar servicio doméstico?",
+    "intent": "ask_exceptuados",
+    "intent_prediction": {
+      "name": "ask_pagar_servicios",
+      "confidence": 0.9920473098754883
+    }
+  },
+  {
+    "text": "Hola puedo ir una radio a trabajar gracias",
+    "intent": "ask_exceptuados",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.4640263020992279
+    }
+  },
+  {
+    "text": "necesito comprar medicamentos",
+    "intent": "ask_farmacia",
+    "intent_prediction": {
+      "name": "ask_credito",
+      "confidence": 0.7245326638221741
+    }
+  },
+  {
+    "text": "puedo ir a comprar medicamentos?",
+    "intent": "ask_farmacia",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.8556638956069946
+    }
+  },
+  {
+    "text": "puedo ir a comprar mis remedios",
+    "intent": "ask_farmacia",
+    "intent_prediction": {
+      "name": "ask_mercado",
+      "confidence": 0.47354593873023987
+    }
+  },
+  {
+    "text": "donde consigo remedios",
+    "intent": "ask_farmacia",
+    "intent_prediction": {
+      "name": "ask_mercado",
+      "confidence": 0.7462429404258728
+    }
+  },
+  {
+    "text": "puedo ir a comprar medicamentos",
+    "intent": "ask_farmacia",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.8556638956069946
+    }
+  },
+  {
+    "text": "puedo ir a mi segunda residencia a buscar medicamentos",
+    "intent": "ask_farmacia",
+    "intent_prediction": {
+      "name": "ask_bot_name",
+      "confidence": 0.6224327087402344
+    }
+  },
+  {
+    "text": "¿Puedo viajar a Buenos Aires desde Córdoba?",
+    "intent": "ask_transporte",
+    "intent_prediction": {
+      "name": "ask_datos",
+      "confidence": 0.38822150230407715
+    }
+  },
+  {
+    "text": "puedo volver a mi provincia",
+    "intent": "ask_transporte",
+    "intent_prediction": {
+      "name": "ask_varado",
+      "confidence": 0.695589005947113
+    }
+  },
+  {
+    "text": "las aerolineas estan abiertas",
+    "intent": "ask_transporte",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.5851696133613586
+    }
+  },
+  {
+    "text": "puedo viajar en avion",
+    "intent": "ask_transporte",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.985967755317688
+    }
+  },
+  {
+    "text": "Traslado",
+    "intent": "ask_transporte",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9959614872932434
+    }
+  },
+  {
+    "text": "cuáles son las medidas de las hipotecas?",
+    "intent": "ask_alquiler",
+    "intent_prediction": {
+      "name": "ask_credito",
+      "confidence": 0.9988028407096863
+    }
+  },
+  {
+    "text": "Si se vence mi contrato qué hago?",
+    "intent": "ask_alquiler",
+    "intent_prediction": {
+      "name": "ask_pagar_servicios",
+      "confidence": 0.8929093480110168
+    }
+  },
+  {
+    "text": "Que pasa si el dueño me dice que me vaya",
+    "intent": "ask_alquiler",
+    "intent_prediction": {
+      "name": "ask_test",
+      "confidence": 0.3117647171020508
+    }
+  },
+  {
+    "text": "La deuda por falta de pago tiene interés?",
+    "intent": "ask_alquiler",
+    "intent_prediction": {
+      "name": "ask_evento",
+      "confidence": 0.39647993445396423
+    }
+  },
+  {
+    "text": "Si no pago me van a cobrar interés?",
+    "intent": "ask_alquiler",
+    "intent_prediction": {
+      "name": "ask_ife",
+      "confidence": 0.9599389433860779
+    }
+  },
+  {
+    "text": "si no pago el crédito me embargan la propiedad?",
+    "intent": "ask_credito",
+    "intent_prediction": {
+      "name": "ask_telefonos",
+      "confidence": 0.3894082009792328
+    }
+  },
+  {
+    "text": "Cual es la declaración jurada que hay que llenar para salir",
+    "intent": "ask_permisocircular",
+    "intent_prediction": {
+      "name": "ask_escuelas",
+      "confidence": 0.8232548236846924
+    }
+  },
+  {
+    "text": "puedo salir en mi auto",
+    "intent": "ask_permisocircular",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.9994949698448181
+    }
+  },
+  {
+    "text": "cómo pago mi credito hipotecario?",
+    "intent": "ask_banco",
+    "intent_prediction": {
+      "name": "ask_credito",
+      "confidence": 0.9994945526123047
+    }
+  },
+  {
+    "text": "Economía",
+    "intent": "ask_banco",
+    "intent_prediction": {
+      "name": "human_agent",
+      "confidence": 0.3319322168827057
+    }
+  },
+  {
+    "text": "cuando empiezan a trabajar normalmente los bancos",
+    "intent": "ask_banco",
+    "intent_prediction": {
+      "name": "ask_familiares",
+      "confidence": 0.5701889395713806
+    }
+  },
+  {
+    "text": "Qué hacer con las mascotas en tiempos de coronavirus",
+    "intent": "ask_mascota",
+    "intent_prediction": {
+      "name": "ask_permisocircular",
+      "confidence": 0.2744939923286438
+    }
+  },
+  {
+    "text": "Can I take my dog for a walk?",
+    "intent": "ask_mascota",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.8979244828224182
+    }
+  },
+  {
+    "text": "gracias! adios!",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.999594509601593
+    }
+  },
+  {
+    "text": "jajaj De nada",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "laugh",
+      "confidence": 0.9777703881263733
+    }
+  },
+  {
+    "text": "como hago para pagar mi cuenta de luz",
+    "intent": "ask_rapipago",
+    "intent_prediction": {
+      "name": "ask_pagar_servicios",
+      "confidence": 0.9997377991676331
+    }
+  },
+  {
+    "text": "Qué hago si tengo que pagar las cuentas?",
+    "intent": "ask_rapipago",
+    "intent_prediction": {
+      "name": "ask_pagar_servicios",
+      "confidence": 0.7948186993598938
+    }
+  },
+  {
+    "text": "como hago para pagar los servicios",
+    "intent": "ask_rapipago",
+    "intent_prediction": {
+      "name": "ask_pagar_servicios",
+      "confidence": 0.9716436862945557
+    }
+  },
+  {
+    "text": "pasan los carteros hoy",
+    "intent": "ask_correo",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.25355687737464905
+    }
+  },
+  {
+    "text": "que pasa si salgo?",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.4214527904987335
+    }
+  },
+  {
+    "text": "si no tengo síntomas, puedo salir?",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.9993076324462891
+    }
+  },
+  {
+    "text": "hasta donde puedo ir?",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_mercado",
+      "confidence": 0.9540423154830933
+    }
+  },
+  {
+    "text": "puedo viajar a mi provincia?",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_varado",
+      "confidence": 0.8026896119117737
+    }
+  },
+  {
+    "text": "Cuarentena",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_fincuarentena",
+      "confidence": 0.996161937713623
+    }
+  },
+  {
+    "text": "extraño a mi novio, puedo ir a visitarlo?",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_familiares",
+      "confidence": 0.9617615342140198
+    }
+  },
+  {
+    "text": "Una vez que me curo puedo circular",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_exceptuados",
+      "confidence": 0.4219047725200653
+    }
+  },
+  {
+    "text": "Si vine de viaje, pero no estuve en zona de riesgo debo hacer la cuarenta",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_varado",
+      "confidence": 0.784326434135437
+    }
+  },
+  {
+    "text": "Puedo estar en la vereda fumando?",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_embarazada",
+      "confidence": 0.23566989600658417
+    }
+  },
+  {
+    "text": "PUEDO HACER UN CUMPLE",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_test",
+      "confidence": 0.3936484754085541
+    }
+  },
+  {
+    "text": "cuando puedo salir de mi casa",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_fincuarentena",
+      "confidence": 0.6289052963256836
+    }
+  },
+  {
+    "text": "Puedo subir al Techo?",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_hospital",
+      "confidence": 0.42448484897613525
+    }
+  },
+  {
+    "text": "puedo viajar a córdoba?",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_barbijo",
+      "confidence": 0.48409444093704224
+    }
+  },
+  {
+    "text": "y como hago para salir en cuarentena",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_fincuarentena",
+      "confidence": 0.7100156545639038
+    }
+  },
+  {
+    "text": "¿Puedo salir con mi hijo?",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_discapacidad",
+      "confidence": 0.789885938167572
+    }
+  },
+  {
+    "text": "Salida 500 metros",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9592073559761047
+    }
+  },
+  {
+    "text": "si quiero salir a la calle como hago",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_mascota",
+      "confidence": 0.8433919548988342
+    }
+  },
+  {
+    "text": "como sacar a los niños",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_mascota",
+      "confidence": 0.4106561839580536
+    }
+  },
+  {
+    "text": "como sacar a los niños al parque",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_mercado",
+      "confidence": 0.7925036549568176
+    }
+  },
+  {
+    "text": "viajes",
+    "intent": "ask_aislamiento",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.3238767385482788
+    }
+  },
+  {
+    "text": "¿que puedo afrontar penalmente si rompo la cuarentena?",
+    "intent": "ask_denuncia",
+    "intent_prediction": {
+      "name": "ask_fincuarentena",
+      "confidence": 0.9650133848190308
+    }
+  },
+  {
+    "text": "qué pasa si tengo que hacer compras?",
+    "intent": "ask_mercado",
+    "intent_prediction": {
+      "name": "ask_limpiar",
+      "confidence": 0.7713386416435242
+    }
+  },
+  {
+    "text": "qué pasa si tengo que comprar en un mayorista?",
+    "intent": "ask_mercado",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.8590402603149414
+    }
+  },
+  {
+    "text": "Puedo comprar alimentos?",
+    "intent": "ask_mercado",
+    "intent_prediction": {
+      "name": "ask_alimento",
+      "confidence": 0.859835684299469
+    }
+  },
+  {
+    "text": "Dónde puedo ir a comprar vino?",
+    "intent": "ask_mercado",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.7776011824607849
+    }
+  },
+  {
+    "text": "necesito comida",
+    "intent": "ask_mercado",
+    "intent_prediction": {
+      "name": "faq_kunan",
+      "confidence": 0.31848421692848206
+    }
+  },
+  {
+    "text": "puedo ir a comprar comida?",
+    "intent": "ask_mercado",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.4621218144893646
+    }
+  },
+  {
+    "text": "puedo comprar pan, es seguro",
+    "intent": "ask_mercado",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.7280070185661316
+    }
+  },
+  {
+    "text": "puedo salir a comprar",
+    "intent": "ask_mercado",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.9984055757522583
+    }
+  },
+  {
+    "text": "empleados de comercio",
+    "intent": "ask_mercado",
+    "intent_prediction": {
+      "name": "ask_empresa",
+      "confidence": 0.6099679470062256
+    }
+  },
+  {
+    "text": "mi mamá esta infectada",
+    "intent": "ask_familiares",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.8815726041793823
+    }
+  },
+  {
+    "text": "cuando termina todo esto",
+    "intent": "ask_fincuarentena",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.5784953236579895
+    }
+  },
+  {
+    "text": "Cuanto tiempo debo quedarme en casa?",
+    "intent": "ask_fincuarentena",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.8134098649024963
+    }
+  },
+  {
+    "text": "Cuanto dura el aislamiento",
+    "intent": "ask_fincuarentena",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.9792230129241943
+    }
+  },
+  {
+    "text": "están repartiendo comida?",
+    "intent": "ask_restaurantes",
+    "intent_prediction": {
+      "name": "ask_escuelas",
+      "confidence": 0.8509827256202698
+    }
+  },
+  {
+    "text": "se puede pedir la compra del super a casa?",
+    "intent": "ask_restaurantes",
+    "intent_prediction": {
+      "name": "ask_mercado",
+      "confidence": 0.5381988286972046
+    }
+  },
+  {
+    "text": "estan abierto los bares",
+    "intent": "ask_restaurantes",
+    "intent_prediction": {
+      "name": "ask_pagar_servicios",
+      "confidence": 0.2613527774810791
+    }
+  },
+  {
+    "text": "personas mas afectadas por el covid",
+    "intent": "ask_riesgo",
+    "intent_prediction": {
+      "name": "ask_vacuna",
+      "confidence": 0.867289125919342
+    }
+  },
+  {
+    "text": "quien esta mas vulnerable para covid-19",
+    "intent": "ask_riesgo",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.3945390284061432
+    }
+  },
+  {
+    "text": "si tengo cancer y me da me muero",
+    "intent": "ask_riesgo",
+    "intent_prediction": {
+      "name": "ask_incubacion",
+      "confidence": 0.39915719628334045
+    }
+  },
+  {
+    "text": "Tengo 72 años",
+    "intent": "ask_riesgo",
+    "intent_prediction": {
+      "name": "ask_transporte",
+      "confidence": 0.5472266674041748
+    }
+  },
+  {
+    "text": "quiero que me atiende una persona",
+    "intent": "human_agent",
+    "intent_prediction": {
+      "name": "ask_riesgo",
+      "confidence": 0.7458326816558838
+    }
+  },
+  {
+    "text": "necesito un psicologo",
+    "intent": "human_agent",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.9999801516532898
+    }
+  },
+  {
+    "text": "goodbye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.2932813763618469
+    }
+  },
+  {
+    "text": "ciao",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_enojo",
+      "confidence": 0.6233707070350647
+    }
+  },
+  {
+    "text": "saludos",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9641538858413696
+    }
+  },
+  {
+    "text": "Me voy",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5000821352005005
+    }
+  },
+  {
+    "text": "No quiero hacer preguntas",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_credito",
+      "confidence": 0.44607630372047424
+    }
+  },
+  {
+    "text": "Cómo hago para salir",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.7511855959892273
+    }
+  },
+  {
+    "text": "te odio",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.3949405252933502
+    }
+  },
+  {
+    "text": "sos una idiota",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "ask_languagesbot",
+      "confidence": 0.9768933057785034
+    }
+  },
+  {
+    "text": "brandon sucks",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7170253396034241
+    }
+  },
+  {
+    "text": "No sabes nada",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "ask_languagesbot",
+      "confidence": 0.46913740038871765
+    }
+  },
+  {
+    "text": "No me das ninguna informacion",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3558957576751709
+    }
+  },
+  {
+    "text": "Desaparecé",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "ask_empresa",
+      "confidence": 0.27053388953208923
+    }
+  },
+  {
+    "text": "Bastaa",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.5634604096412659
+    }
+  },
+  {
+    "text": "asistente covid",
+    "intent": "ask_bot_name",
+    "intent_prediction": {
+      "name": "ask_coronavirus",
+      "confidence": 0.24478894472122192
+    }
+  },
+  {
+    "text": "quién es usted?",
+    "intent": "ask_bot_name",
+    "intent_prediction": {
+      "name": "ask_made",
+      "confidence": 0.7358746528625488
+    }
+  },
+  {
+    "text": "yes",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.593017041683197
+    }
+  },
+  {
+    "text": "ah bueno",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7885017991065979
+    }
+  },
+  {
+    "text": "genial",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.9718152284622192
+    }
+  },
+  {
+    "text": "ni en pedo",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.2977069318294525
+    }
+  },
+  {
+    "text": "Tenés amigos de la misma edad que vos?",
+    "intent": "ask_howold",
+    "intent_prediction": {
+      "name": "ask_evento",
+      "confidence": 0.7175275087356567
+    }
+  },
+  {
+    "text": "cuando es tu cumpleaños",
+    "intent": "ask_howold",
+    "intent_prediction": {
+      "name": "ask_evento",
+      "confidence": 0.8376243114471436
+    }
+  },
+  {
+    "text": "decime tu edad",
+    "intent": "ask_howold",
+    "intent_prediction": {
+      "name": "ask_alimento",
+      "confidence": 0.5926311016082764
+    }
+  },
+  {
+    "text": "en que fecha naciste?",
+    "intent": "ask_howold",
+    "intent_prediction": {
+      "name": "ask_made",
+      "confidence": 0.7768267393112183
+    }
+  },
+  {
+    "text": "te puedo preguntar algo del tiempo?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.6084374189376831
+    }
+  },
+  {
+    "text": "hoy va a haber tormenta?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.6222420334815979
+    }
+  },
+  {
+    "text": "que es la temperatura de hoy?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_asintomatico",
+      "confidence": 0.7105720043182373
+    }
+  },
+  {
+    "text": "what is the weather like today?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_evento",
+      "confidence": 0.4479955732822418
+    }
+  },
+  {
+    "text": "que tal el tiempo por alla?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.4199579358100891
+    }
+  },
+  {
+    "text": "hace frio en Córdoba?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.43897777795791626
+    }
+  },
+  {
+    "text": "¿Cuál es el pronóstico para mañana?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_test",
+      "confidence": 0.6522588729858398
+    }
+  },
+  {
+    "text": "Hace frío?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.6452739834785461
+    }
+  },
+  {
+    "text": "ja ja ja",
+    "intent": "laugh",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.7055290937423706
+    }
+  },
+  {
+    "text": "Dios existe?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.629320502281189
+    }
+  },
+  {
+    "text": "estoy preguntando algo afuera de tu rango",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_varado",
+      "confidence": 0.24553678929805756
+    }
+  },
+  {
+    "text": "esto es un sitio en Ingles?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_hospital",
+      "confidence": 0.9471818804740906
+    }
+  },
+  {
+    "text": "esto es un sitio en español",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.5469843745231628
+    }
+  },
+  {
+    "text": "you're an spanish site",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_fincuarentena",
+      "confidence": 0.4623950719833374
+    }
+  },
+  {
+    "text": "YouTube puede hablar",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "human_agent",
+      "confidence": 0.36034706234931946
+    }
+  },
+  {
+    "text": "me podes volver la llamada",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_joke_request",
+      "confidence": 0.4939524829387665
+    }
+  },
+  {
+    "text": "conoces Kevi Pelton",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "human_agent",
+      "confidence": 0.8235097527503967
+    }
+  },
+  {
+    "text": "sos vegan",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_bot_name",
+      "confidence": 0.8717520236968994
+    }
+  },
+  {
+    "text": "estas al favor del aborto?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_transporte",
+      "confidence": 0.38246506452560425
+    }
+  },
+  {
+    "text": "hacer un vuelo",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.9958468675613403
+    }
+  },
+  {
+    "text": "te acabo de contar eso",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.41350221633911133
+    }
+  },
+  {
+    "text": "haceme feliz",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.8366868495941162
+    }
+  },
+  {
+    "text": "Algún día voy a poder tocar tan bueno como los pibes de este colegio en Barcelona... https://youtu.be/Uj5Q7w_",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.40443477034568787
+    }
+  },
+  {
+    "text": "Span",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_enojo",
+      "confidence": 0.27857887744903564
+    }
+  },
+  {
+    "text": "Piola vago",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.5658864378929138
+    }
+  },
+  {
+    "text": "domingo",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.2649368643760681
+    }
+  },
+  {
+    "text": "qué permiso corresponde para restituir llaves de un departamento alquilado y desocupado?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_riesgo",
+      "confidence": 0.3648183345794678
+    }
+  },
+  {
+    "text": "Tampoco todos los héroes cumplen sus objetivos.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.46730950474739075
+    }
+  },
+  {
+    "text": "Horario de atencion dr. Cosarinski",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_residuos",
+      "confidence": 0.727439820766449
+    }
+  },
+  {
+    "text": "web triste error",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.219839408993721
+    }
+  },
+  {
+    "text": "Comprar casa",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.9757646918296814
+    }
+  },
+  {
+    "text": "Dalfe",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7580457329750061
+    }
+  },
+  {
+    "text": "quizas",
+    "intent": "unsure",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.8175792098045349
+    }
+  },
+  {
+    "text": "hmmm",
+    "intent": "unsure",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6175569891929626
+    }
+  },
+  {
+    "text": "tabla raza",
+    "intent": "restart",
+    "intent_prediction": {
+      "name": "ask_embarazada",
+      "confidence": 0.49387189745903015
+    }
+  },
+  {
+    "text": "probar de nuevo",
+    "intent": "restart",
+    "intent_prediction": {
+      "name": "ask_coronavirus",
+      "confidence": 0.4914885461330414
+    }
+  },
+  {
+    "text": "estas familiarizado con otras lenguajes",
+    "intent": "ask_languagesbot",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.6335954070091248
+    }
+  },
+  {
+    "text": "estas familiarizado con otros idomas",
+    "intent": "ask_languagesbot",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.9030624032020569
+    }
+  },
+  {
+    "text": "entendes frances?",
+    "intent": "ask_languagesbot",
+    "intent_prediction": {
+      "name": "ask_enojo",
+      "confidence": 0.41207805275917053
+    }
+  },
+  {
+    "text": "estas bilingüe",
+    "intent": "ask_languagesbot",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.9881454110145569
+    }
+  },
+  {
+    "text": "estas multilengüe",
+    "intent": "ask_languagesbot",
+    "intent_prediction": {
+      "name": "ask_datos",
+      "confidence": 0.3466760516166687
+    }
+  },
+  {
+    "text": "sabes frances",
+    "intent": "ask_languagesbot",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.7923386096954346
+    }
+  },
+  {
+    "text": "sentis bien?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_dentista",
+      "confidence": 0.9720117449760437
+    }
+  },
+  {
+    "text": "MI que??",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9277915954589844
+    }
+  },
+  {
+    "text": "Whats going on?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_bot_name",
+      "confidence": 0.5295425653457642
+    }
+  },
+  {
+    "text": "Cómo te sentís",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_barbijo",
+      "confidence": 0.5301281213760376
+    }
+  },
+  {
+    "text": "¿Cómo está usted?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.8549246788024902
+    }
+  },
+  {
+    "text": "tiene numeros actualizados",
+    "intent": "ask_datos",
+    "intent_prediction": {
+      "name": "ask_telefonos",
+      "confidence": 0.9968661665916443
+    }
+  },
+  {
+    "text": "epidemiología actual del covid-19",
+    "intent": "ask_datos",
+    "intent_prediction": {
+      "name": "ask_coronavirus",
+      "confidence": 0.5357260704040527
+    }
+  },
+  {
+    "text": "en peru",
+    "intent": "ask_datos",
+    "intent_prediction": {
+      "name": "ask_made",
+      "confidence": 0.22304297983646393
+    }
+  },
+  {
+    "text": "Total de contagios de coronavirus en Córdoba",
+    "intent": "ask_datos",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.627832293510437
+    }
+  },
+  {
+    "text": "Córdoba capital",
+    "intent": "ask_datos",
+    "intent_prediction": {
+      "name": "ask_languagesbot",
+      "confidence": 0.2879973351955414
+    }
+  },
+  {
+    "text": "debo lavarme las manos con alcohol o jabon",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_limpiar",
+      "confidence": 0.9999688863754272
+    }
+  },
+  {
+    "text": "¿Existe alguna vacuna, medicamento o tratamiento para la COVID-19?",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_vacuna",
+      "confidence": 0.5029823184013367
+    }
+  },
+  {
+    "text": "¿Cada cuánto tiempo me tengo que lavar las manos?",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_limpiar",
+      "confidence": 0.995921790599823
+    }
+  },
+  {
+    "text": "como me lavo las manos?",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_limpiar",
+      "confidence": 0.9998283982276917
+    }
+  },
+  {
+    "text": "que cuidados tengo que tener si salgo",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_alimento",
+      "confidence": 0.4949871003627777
+    }
+  },
+  {
+    "text": "Qué precauciones debo tener si creo tener síntomas?",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.999628484249115
+    }
+  },
+  {
+    "text": "cuales son las medidas que debo tomar",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_credito",
+      "confidence": 0.6842673420906067
+    }
+  },
+  {
+    "text": "que cuidados tengo que tener",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_limpiar",
+      "confidence": 0.7276303768157959
+    }
+  },
+  {
+    "text": "evitar el covid",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_coronavirus",
+      "confidence": 0.5670948624610901
+    }
+  },
+  {
+    "text": "misma casa",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.9845408201217651
+    }
+  },
+  {
+    "text": "si estoy en cuarentena con mi familia como hago?",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_mujeres_violencia",
+      "confidence": 0.789025604724884
+    }
+  },
+  {
+    "text": "precauciones al salir de casa",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.675273060798645
+    }
+  },
+  {
+    "text": "precauciones",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6725486516952515
+    }
+  },
+  {
+    "text": "Que prevención debo tener al volver a casa ?",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_limpiar",
+      "confidence": 0.9642240405082703
+    }
+  },
+  {
+    "text": "Que prevención debo tener al volver a casa",
+    "intent": "ask_prevencion",
+    "intent_prediction": {
+      "name": "ask_limpiar",
+      "confidence": 0.9642240405082703
+    }
+  },
+  {
+    "text": "como se escribe coronavirus",
+    "intent": "ask_coronavirus",
+    "intent_prediction": {
+      "name": "ask_familiares",
+      "confidence": 0.2948278784751892
+    }
+  },
+  {
+    "text": "coronavirus",
+    "intent": "ask_coronavirus",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.9779623746871948
+    }
+  },
+  {
+    "text": "scoronaviru",
+    "intent": "ask_coronavirus",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.6649873852729797
+    }
+  },
+  {
+    "text": "Cual es su lugar de origen?",
+    "intent": "ask_coronavirus",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.8184140920639038
+    }
+  },
+  {
+    "text": "La mascarilla hay que usarla siempre o solo si tengo síntomas?",
+    "intent": "ask_barbijo",
+    "intent_prediction": {
+      "name": "ask_limpiar",
+      "confidence": 0.30130210518836975
+    }
+  },
+  {
+    "text": "quiénes tienen que usar barbijo?",
+    "intent": "ask_barbijo",
+    "intent_prediction": {
+      "name": "ask_exceptuados",
+      "confidence": 0.7260743975639343
+    }
+  },
+  {
+    "text": "como son los creditos para pagar los sueldos",
+    "intent": "ask_sueldos",
+    "intent_prediction": {
+      "name": "ask_empresa",
+      "confidence": 0.9894376993179321
+    }
+  },
+  {
+    "text": "Hay creditos para pagar sueldos",
+    "intent": "ask_sueldos",
+    "intent_prediction": {
+      "name": "ask_empresa",
+      "confidence": 0.9971125721931458
+    }
+  },
+  {
+    "text": "como hago para cobrar el sueldo",
+    "intent": "ask_sueldos",
+    "intent_prediction": {
+      "name": "ask_ife",
+      "confidence": 0.9759247899055481
+    }
+  },
+  {
+    "text": "asistencia de emergencia al trabajo y producción",
+    "intent": "ask_sueldos",
+    "intent_prediction": {
+      "name": "ask_pagar_servicios",
+      "confidence": 0.26721957325935364
+    }
+  },
+  {
+    "text": "sistema previsional",
+    "intent": "ask_sueldos",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.963881254196167
+    }
+  },
+  {
+    "text": "Cómo higienisarme cuando llegó a casa ?",
+    "intent": "ask_limpiar",
+    "intent_prediction": {
+      "name": "ask_mercado",
+      "confidence": 0.7597004771232605
+    }
+  },
+  {
+    "text": "Cómo higienizarme cuando llegó a casa ?",
+    "intent": "ask_limpiar",
+    "intent_prediction": {
+      "name": "ask_mercado",
+      "confidence": 0.8437891602516174
+    }
+  },
+  {
+    "text": "higiene de bolsas del supermercado",
+    "intent": "ask_limpiar",
+    "intent_prediction": {
+      "name": "ask_mercado",
+      "confidence": 0.9999674558639526
+    }
+  },
+  {
+    "text": "Como limpiar las cosas de supermercado?",
+    "intent": "ask_limpiar",
+    "intent_prediction": {
+      "name": "ask_mercado",
+      "confidence": 0.541691780090332
+    }
+  },
+  {
+    "text": "ayuda si desinfecto?",
+    "intent": "ask_limpiar",
+    "intent_prediction": {
+      "name": "ask_alimento",
+      "confidence": 0.42935121059417725
+    }
+  },
+  {
+    "text": "El alcohol sirve",
+    "intent": "ask_limpiar",
+    "intent_prediction": {
+      "name": "ask_permisocircular",
+      "confidence": 0.3535912036895752
+    }
+  },
+  {
+    "text": "Aseo de zapatillas",
+    "intent": "ask_limpiar",
+    "intent_prediction": {
+      "name": "ask_rapipago",
+      "confidence": 0.1904524266719818
+    }
+  },
+  {
+    "text": "que prueba me tengo que hacer",
+    "intent": "ask_test",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.9530728459358215
+    }
+  },
+  {
+    "text": "que analisis me tengo que hacer",
+    "intent": "ask_test",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.6303211450576782
+    }
+  },
+  {
+    "text": "analisis para saber si tengo coronavirus",
+    "intent": "ask_test",
+    "intent_prediction": {
+      "name": "ask_coronavirus",
+      "confidence": 0.44922128319740295
+    }
+  },
+  {
+    "text": "Que bebidas debo consumir",
+    "intent": "ask_alimento",
+    "intent_prediction": {
+      "name": "ask_limpiar",
+      "confidence": 0.9965171217918396
+    }
+  },
+  {
+    "text": "pago de servicios",
+    "intent": "ask_pagar_servicios",
+    "intent_prediction": {
+      "name": "ask_rapipago",
+      "confidence": 0.9895595908164978
+    }
+  },
+  {
+    "text": "boleta de servicios",
+    "intent": "ask_pagar_servicios",
+    "intent_prediction": {
+      "name": "ask_rapipago",
+      "confidence": 0.6264281272888184
+    }
+  },
+  {
+    "text": "A quienes no les van a cortar los servicios por falta de pago?",
+    "intent": "ask_ferreteria",
+    "intent_prediction": {
+      "name": "ask_pagar_servicios",
+      "confidence": 0.8922213315963745
+    }
+  },
+  {
+    "text": "me siento resfriada puedo ir al medico?",
+    "intent": "ask_hospital",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.8844971656799316
+    }
+  },
+  {
+    "text": "Quiero saber si tienen neurocirujano",
+    "intent": "ask_hospital",
+    "intent_prediction": {
+      "name": "ask_coronavirus",
+      "confidence": 0.6793920397758484
+    }
+  },
+  {
+    "text": "es mortal",
+    "intent": "ask_vacuna",
+    "intent_prediction": {
+      "name": "ask_asintomatico",
+      "confidence": 0.2926695644855499
+    }
+  },
+  {
+    "text": "tiene cura esta enfermedad",
+    "intent": "ask_vacuna",
+    "intent_prediction": {
+      "name": "ask_coronavirus",
+      "confidence": 0.40653231739997864
+    }
+  },
+  {
+    "text": "es mortal el coronavirus",
+    "intent": "ask_vacuna",
+    "intent_prediction": {
+      "name": "ask_coronavirus",
+      "confidence": 0.9967747330665588
+    }
+  },
+  {
+    "text": "hay pastillas para la enfermedad",
+    "intent": "ask_vacuna",
+    "intent_prediction": {
+      "name": "ask_empresa",
+      "confidence": 0.6251707673072815
+    }
+  },
+  {
+    "text": "Tratamiento hay?",
+    "intent": "ask_vacuna",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.5075458288192749
+    }
+  },
+  {
+    "text": "Vacunas COVID-19",
+    "intent": "ask_vacuna",
+    "intent_prediction": {
+      "name": "ask_coronavirus",
+      "confidence": 0.7831651568412781
+    }
+  },
+  {
+    "text": "el bb se contagia",
+    "intent": "ask_embarazada",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.844616711139679
+    }
+  },
+  {
+    "text": "bono empleados",
+    "intent": "ask_ife",
+    "intent_prediction": {
+      "name": "ask_empresa",
+      "confidence": 0.9994798898696899
+    }
+  },
+  {
+    "text": "préstamo para monotributistas",
+    "intent": "ask_ife",
+    "intent_prediction": {
+      "name": "ask_empresa",
+      "confidence": 0.6948546767234802
+    }
+  },
+  {
+    "text": "como se contagia el virus por vía sexual?",
+    "intent": "ask_sexo",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5090687870979309
+    }
+  },
+  {
+    "text": "se propaga en la intimidad",
+    "intent": "ask_sexo",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.8836288452148438
+    }
+  },
+  {
+    "text": "como vuelve la gente que esta en otro pais",
+    "intent": "ask_varado",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.5754817128181458
+    }
+  },
+  {
+    "text": "¿Qué debe hacer una persona que llega desde otro país?",
+    "intent": "ask_varado",
+    "intent_prediction": {
+      "name": "ask_howold",
+      "confidence": 0.6672142148017883
+    }
+  },
+  {
+    "text": "que debo hacer si llego desde otro pais?",
+    "intent": "ask_varado",
+    "intent_prediction": {
+      "name": "ask_howold",
+      "confidence": 0.7218003273010254
+    }
+  },
+  {
+    "text": "que puedo hacer si estoy varada?",
+    "intent": "ask_varado",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.8704870343208313
+    }
+  },
+  {
+    "text": "me duelen las caries",
+    "intent": "ask_dentista",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.44209179282188416
+    }
+  },
+  {
+    "text": "temperatura ambiente mayor a 26 grados, mata el virus?",
+    "intent": "ask_rumor",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.6941602826118469
+    }
+  },
+  {
+    "text": "redes 5g transmiten el virus",
+    "intent": "ask_rumor",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.9962130188941956
+    }
+  },
+  {
+    "text": "el 5g propaga el virus",
+    "intent": "ask_rumor",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.6720539927482605
+    }
+  },
+  {
+    "text": "las antenas 5g causan los síntomas del virus?",
+    "intent": "ask_rumor",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.9087138772010803
+    }
+  },
+  {
+    "text": "la culpa la tienen las antenas 5g?",
+    "intent": "ask_rumor",
+    "intent_prediction": {
+      "name": "ask_uba",
+      "confidence": 0.2432500571012497
+    }
+  },
+  {
+    "text": "sin contengo la respiracion no tengo el virus",
+    "intent": "ask_rumor",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.4411170482635498
+    }
+  },
+  {
+    "text": "medidas para la produccion",
+    "intent": "ask_empresa",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9629076719284058
+    }
+  },
+  {
+    "text": "les pueden cortar los servicios a las empresas",
+    "intent": "ask_empresa",
+    "intent_prediction": {
+      "name": "ask_pagar_servicios",
+      "confidence": 0.9291203618049622
+    }
+  },
+  {
+    "text": "les pueden cerrar las cuentas bancarias a las empresas",
+    "intent": "ask_empresa",
+    "intent_prediction": {
+      "name": "ask_credito",
+      "confidence": 0.8167924880981445
+    }
+  },
+  {
+    "text": "estoy triste",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.41782692074775696
+    }
+  },
+  {
+    "text": "el aislamiento me estresa",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.8870271444320679
+    }
+  },
+  {
+    "text": "extraño la vida normal, antes de la cuarentena",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_varado",
+      "confidence": 0.34565025568008423
+    }
+  },
+  {
+    "text": "estoy estresado",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_weather",
+      "confidence": 0.3967522084712982
+    }
+  },
+  {
+    "text": "extraño mucho salir de mi casa",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_limpiar",
+      "confidence": 0.8929380178451538
+    }
+  },
+  {
+    "text": "estoy harta de estar encerrada",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_mujeres_violencia",
+      "confidence": 0.8474327325820923
+    }
+  },
+  {
+    "text": "no termina más la cuarentena",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_fincuarentena",
+      "confidence": 0.9997808933258057
+    }
+  },
+  {
+    "text": "me siento abrumada",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.7079240679740906
+    }
+  },
+  {
+    "text": "como hago para que el aislamiento sea más ameno",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.7534478306770325
+    }
+  },
+  {
+    "text": "cómo me relajo",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_weather",
+      "confidence": 0.2909681797027588
+    }
+  },
+  {
+    "text": "el aislamiento me abruma muchísimo",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.9737984538078308
+    }
+  },
+  {
+    "text": "tenés ideas sobre qué puedo hacer en el tiempo libre",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_datos",
+      "confidence": 0.7953843474388123
+    }
+  },
+  {
+    "text": "estoy desganado",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.3650738298892975
+    }
+  },
+  {
+    "text": "siento que no se termina más",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_fincuarentena",
+      "confidence": 0.7794567346572876
+    }
+  },
+  {
+    "text": "depresion",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.8764235377311707
+    }
+  },
+  {
+    "text": "Que hago si estoy en crisis psicológica durante el encierro ?",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_dentista",
+      "confidence": 0.9036775231361389
+    }
+  },
+  {
+    "text": "estoy podrido de la cuarentena",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_fincuarentena",
+      "confidence": 0.9184343814849854
+    }
+  },
+  {
+    "text": "Me harte del covid",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_coronavirus",
+      "confidence": 0.8293489813804626
+    }
+  },
+  {
+    "text": "Que bajon",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_prevencion",
+      "confidence": 0.6549070477485657
+    }
+  },
+  {
+    "text": "me pone triste la cuarentena",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_fincuarentena",
+      "confidence": 0.7441818714141846
+    }
+  },
+  {
+    "text": "Que tristeza",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.512500524520874
+    }
+  },
+  {
+    "text": "tengo dolores en el alma",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_sintomas",
+      "confidence": 0.7030296325683594
+    }
+  },
+  {
+    "text": "a dónde llamo para asistencia psicológica?",
+    "intent": "ask_aburrido",
+    "intent_prediction": {
+      "name": "ask_mujeres_violencia",
+      "confidence": 0.3627314865589142
+    }
+  },
+  {
+    "text": "puedo ir al cumple de un familiar",
+    "intent": "ask_evento",
+    "intent_prediction": {
+      "name": "ask_familiares",
+      "confidence": 0.659402072429657
+    }
+  },
+  {
+    "text": "se pueden hacer festejos",
+    "intent": "ask_evento",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.9861041307449341
+    }
+  },
+  {
+    "text": "puedo festejar",
+    "intent": "ask_evento",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9594852328300476
+    }
+  },
+  {
+    "text": "que festejos se pueden hacer",
+    "intent": "ask_evento",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.9983764886856079
+    }
+  },
+  {
+    "text": "que fiestas se pueden hacer",
+    "intent": "ask_evento",
+    "intent_prediction": {
+      "name": "ask_aburrido",
+      "confidence": 0.8397964835166931
+    }
+  },
+  {
+    "text": "puedo ir a la iglesia?",
+    "intent": "ask_evento",
+    "intent_prediction": {
+      "name": "ask_aislamiento",
+      "confidence": 0.7025565505027771
+    }
+  }
+]

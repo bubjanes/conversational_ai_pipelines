@@ -1,0 +1,668 @@
+{
+  "ask_alquiler": {
+    "precision": 0.9210526315789473,
+    "recall": 0.813953488372093,
+    "f1-score": 0.8641975308641974,
+    "support": 43,
+    "confused_with": {
+      "ask_mascota": 2,
+      "ask_credito": 2
+    }
+  },
+  "ask_restaurantes": {
+    "precision": 0.8235294117647058,
+    "recall": 0.84,
+    "f1-score": 0.8316831683168315,
+    "support": 50,
+    "confused_with": {
+      "ask_mercado": 3,
+      "ask_aislamiento": 2
+    }
+  },
+  "laugh": {
+    "precision": 0.9166666666666666,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.9166666666666666,
+    "support": 12,
+    "confused_with": {
+      "deny": 1
+    }
+  },
+  "unsure": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "ask_aburrido": 1,
+      "out_of_scope": 1,
+      "ask_hospital": 1
+    }
+  },
+  "restart": {
+    "precision": 0.9,
+    "recall": 0.9473684210526315,
+    "f1-score": 0.9230769230769231,
+    "support": 19,
+    "confused_with": {
+      "ask_embarazada": 1
+    }
+  },
+  "ask_barbijo": {
+    "precision": 0.9215686274509803,
+    "recall": 0.9591836734693877,
+    "f1-score": 0.9400000000000001,
+    "support": 49,
+    "confused_with": {
+      "ask_aburrido": 1,
+      "ask_fincuarentena": 1
+    }
+  },
+  "ask_incubacion": {
+    "precision": 0.7647058823529411,
+    "recall": 0.7647058823529411,
+    "f1-score": 0.7647058823529412,
+    "support": 34,
+    "confused_with": {
+      "ask_sintomas": 4,
+      "ask_weather": 1
+    }
+  },
+  "ask_datos": {
+    "precision": 0.888,
+    "recall": 0.8538461538461538,
+    "f1-score": 0.8705882352941177,
+    "support": 130,
+    "confused_with": {
+      "ask_riesgo": 4,
+      "ask_aislamiento": 3
+    }
+  },
+  "ask_bot_name": {
+    "precision": 0.6764705882352942,
+    "recall": 0.696969696969697,
+    "f1-score": 0.6865671641791046,
+    "support": 33,
+    "confused_with": {
+      "ask_howdoing": 5,
+      "ask_made": 2
+    }
+  },
+  "ask_pagar_servicios": {
+    "precision": 0.717391304347826,
+    "recall": 0.9428571428571428,
+    "f1-score": 0.8148148148148148,
+    "support": 35,
+    "confused_with": {
+      "ask_rapipago": 1,
+      "ask_ferreteria": 1
+    }
+  },
+  "ask_evento": {
+    "precision": 0.631578947368421,
+    "recall": 0.5217391304347826,
+    "f1-score": 0.5714285714285715,
+    "support": 23,
+    "confused_with": {
+      "ask_aislamiento": 4,
+      "ask_aburrido": 3
+    }
+  },
+  "greet": {
+    "precision": 0.8372093023255814,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.8470588235294119,
+    "support": 42,
+    "confused_with": {
+      "ask_howdoing": 2,
+      "ask_sintomas": 1
+    }
+  },
+  "ask_permisocircular": {
+    "precision": 0.8378378378378378,
+    "recall": 0.8157894736842105,
+    "f1-score": 0.8266666666666665,
+    "support": 38,
+    "confused_with": {
+      "ask_exceptuados": 3,
+      "ask_aislamiento": 2
+    }
+  },
+  "thanks": {
+    "precision": 0.8409090909090909,
+    "recall": 0.8809523809523809,
+    "f1-score": 0.8604651162790699,
+    "support": 42,
+    "confused_with": {
+      "affirm": 1,
+      "ask_howdoing": 1
+    }
+  },
+  "ask_fincuarentena": {
+    "precision": 0.6842105263157895,
+    "recall": 0.7428571428571429,
+    "f1-score": 0.7123287671232877,
+    "support": 35,
+    "confused_with": {
+      "ask_aislamiento": 6,
+      "ask_aburrido": 2
+    }
+  },
+  "ask_languagesbot": {
+    "precision": 0.896551724137931,
+    "recall": 0.7878787878787878,
+    "f1-score": 0.8387096774193549,
+    "support": 33,
+    "confused_with": {
+      "ask_familiares": 2,
+      "ask_ferreteria": 2
+    }
+  },
+  "ask_farmacia": {
+    "precision": 0.967741935483871,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8955223880597015,
+    "support": 36,
+    "confused_with": {
+      "ask_mercado": 4,
+      "ask_aislamiento": 1
+    }
+  },
+  "ask_aburrido": {
+    "precision": 0.6067415730337079,
+    "recall": 0.6428571428571429,
+    "f1-score": 0.6242774566473989,
+    "support": 84,
+    "confused_with": {
+      "ask_aislamiento": 4,
+      "ask_joke_request": 2
+    }
+  },
+  "ask_varado": {
+    "precision": 0.8709677419354839,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.84375,
+    "support": 33,
+    "confused_with": {
+      "out_of_scope": 2,
+      "ask_mujeres_violencia": 1
+    }
+  },
+  "ask_limpiar": {
+    "precision": 0.8541666666666666,
+    "recall": 0.8367346938775511,
+    "f1-score": 0.845360824742268,
+    "support": 98,
+    "confused_with": {
+      "ask_prevencion": 8,
+      "ask_mercado": 2
+    }
+  },
+  "ask_correo": {
+    "precision": 0.9615384615384616,
+    "recall": 0.9259259259259259,
+    "f1-score": 0.9433962264150944,
+    "support": 27,
+    "confused_with": {
+      "ask_incubacion": 1,
+      "ask_aislamiento": 1
+    }
+  },
+  "ask_alimento": {
+    "precision": 0.828125,
+    "recall": 0.9137931034482759,
+    "f1-score": 0.8688524590163935,
+    "support": 58,
+    "confused_with": {
+      "ask_limpiar": 3,
+      "ask_prevencion": 1
+    }
+  },
+  "goodbye": {
+    "precision": 0.7307692307692307,
+    "recall": 0.5277777777777778,
+    "f1-score": 0.6129032258064515,
+    "support": 36,
+    "confused_with": {
+      "thanks": 4,
+      "ask_aislamiento": 3
+    }
+  },
+  "ask_denuncia": {
+    "precision": 0.9393939393939394,
+    "recall": 0.9393939393939394,
+    "f1-score": 0.9393939393939394,
+    "support": 33,
+    "confused_with": {
+      "ask_mujeres_violencia": 1,
+      "ask_permisocircular": 1
+    }
+  },
+  "ask_riesgo": {
+    "precision": 0.8163265306122449,
+    "recall": 0.8695652173913043,
+    "f1-score": 0.8421052631578948,
+    "support": 46,
+    "confused_with": {
+      "ask_sexo": 1,
+      "ask_howold": 1
+    }
+  },
+  "ask_howold": {
+    "precision": 0.8125,
+    "recall": 0.6842105263157895,
+    "f1-score": 0.742857142857143,
+    "support": 19,
+    "confused_with": {
+      "ask_made": 2,
+      "ask_datos": 2
+    }
+  },
+  "ask_ife": {
+    "precision": 0.8125,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.8666666666666666,
+    "support": 28,
+    "confused_with": {
+      "ask_prevencion": 1,
+      "ask_restaurantes": 1
+    }
+  },
+  "out_of_scope": {
+    "precision": 0.5306122448979592,
+    "recall": 0.29545454545454547,
+    "f1-score": 0.3795620437956204,
+    "support": 88,
+    "confused_with": {
+      "ask_howdoing": 6,
+      "ask_aburrido": 5
+    }
+  },
+  "human_agent": {
+    "precision": 0.6875,
+    "recall": 0.6875,
+    "f1-score": 0.6875,
+    "support": 16,
+    "confused_with": {
+      "ask_riesgo": 2,
+      "ask_bot_name": 1
+    }
+  },
+  "ask_enojo": {
+    "precision": 0.7222222222222222,
+    "recall": 0.48148148148148145,
+    "f1-score": 0.5777777777777777,
+    "support": 27,
+    "confused_with": {
+      "ask_restaurantes": 2,
+      "ask_aburrido": 2
+    }
+  },
+  "ask_exceptuados": {
+    "precision": 0.8076923076923077,
+    "recall": 0.7924528301886793,
+    "f1-score": 0.7999999999999999,
+    "support": 53,
+    "confused_with": {
+      "ask_permisocircular": 3,
+      "ask_denuncia": 2
+    }
+  },
+  "ask_telefonos": {
+    "precision": 0.8571428571428571,
+    "recall": 0.6976744186046512,
+    "f1-score": 0.7692307692307693,
+    "support": 43,
+    "confused_with": {
+      "ask_datos": 4,
+      "ask_sintomas": 2
+    }
+  },
+  "ask_joke_request": {
+    "precision": 0.9534883720930233,
+    "recall": 1.0,
+    "f1-score": 0.9761904761904763,
+    "support": 41,
+    "confused_with": {}
+  },
+  "ask_howdoing": {
+    "precision": 0.5370370370370371,
+    "recall": 0.7435897435897436,
+    "f1-score": 0.6236559139784946,
+    "support": 39,
+    "confused_with": {
+      "out_of_scope": 4,
+      "ask_made": 2
+    }
+  },
+  "ask_mujeres_violencia": {
+    "precision": 0.8888888888888888,
+    "recall": 0.9473684210526315,
+    "f1-score": 0.9171974522292994,
+    "support": 76,
+    "confused_with": {
+      "ask_rumor": 1,
+      "ask_howdoing": 1
+    }
+  },
+  "ask_weather": {
+    "precision": 0.8620689655172413,
+    "recall": 0.7575757575757576,
+    "f1-score": 0.8064516129032258,
+    "support": 33,
+    "confused_with": {
+      "ask_sintomas": 2,
+      "ask_asintomatico": 1
+    }
+  },
+  "ask_coronavirus": {
+    "precision": 0.6153846153846154,
+    "recall": 0.631578947368421,
+    "f1-score": 0.6233766233766234,
+    "support": 38,
+    "confused_with": {
+      "ask_sintomas": 6,
+      "ask_prevencion": 2
+    }
+  },
+  "ask_vacuna": {
+    "precision": 0.6923076923076923,
+    "recall": 0.6923076923076923,
+    "f1-score": 0.6923076923076923,
+    "support": 26,
+    "confused_with": {
+      "ask_made": 2,
+      "ask_dentista": 1
+    }
+  },
+  "ask_sexo": {
+    "precision": 0.8666666666666667,
+    "recall": 0.8125,
+    "f1-score": 0.8387096774193549,
+    "support": 16,
+    "confused_with": {
+      "ask_alimento": 1,
+      "ask_mujeres_violencia": 1
+    }
+  },
+  "ask_transporte": {
+    "precision": 0.9111111111111111,
+    "recall": 0.8367346938775511,
+    "f1-score": 0.8723404255319148,
+    "support": 49,
+    "confused_with": {
+      "ask_aislamiento": 7,
+      "ask_varado": 1
+    }
+  },
+  "ask_sintomas": {
+    "precision": 0.6979166666666666,
+    "recall": 0.788235294117647,
+    "f1-score": 0.7403314917127071,
+    "support": 85,
+    "confused_with": {
+      "ask_coronavirus": 6,
+      "ask_hospital": 3
+    }
+  },
+  "ask_test": {
+    "precision": 0.9130434782608695,
+    "recall": 0.9130434782608695,
+    "f1-score": 0.9130434782608695,
+    "support": 46,
+    "confused_with": {
+      "ask_sintomas": 2,
+      "ask_aburrido": 1
+    }
+  },
+  "ask_dentista": {
+    "precision": 0.7857142857142857,
+    "recall": 0.8461538461538461,
+    "f1-score": 0.8148148148148148,
+    "support": 39,
+    "confused_with": {
+      "ask_coronavirus": 1,
+      "ask_aburrido": 1
+    }
+  },
+  "ask_empresa": {
+    "precision": 0.8,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.6666666666666666,
+    "support": 21,
+    "confused_with": {
+      "ask_credito": 2,
+      "ask_sueldos": 2
+    }
+  },
+  "ask_made": {
+    "precision": 0.725,
+    "recall": 0.7435897435897436,
+    "f1-score": 0.7341772151898733,
+    "support": 39,
+    "confused_with": {
+      "ask_aislamiento": 2,
+      "ask_howdoing": 1
+    }
+  },
+  "ask_uba": {
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1-score": 0.888888888888889,
+    "support": 20,
+    "confused_with": {}
+  },
+  "ask_residuos": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 22,
+    "confused_with": {}
+  },
+  "ask_familiares": {
+    "precision": 0.76,
+    "recall": 0.76,
+    "f1-score": 0.76,
+    "support": 50,
+    "confused_with": {
+      "ask_discapacidad": 2,
+      "ask_riesgo": 2
+    }
+  },
+  "ask_aislamiento": {
+    "precision": 0.5915492957746479,
+    "recall": 0.7567567567567568,
+    "f1-score": 0.6640316205533597,
+    "support": 111,
+    "confused_with": {
+      "ask_fincuarentena": 4,
+      "ask_exceptuados": 3
+    }
+  },
+  "ask_ferreteria": {
+    "precision": 0.7857142857142857,
+    "recall": 0.9565217391304348,
+    "f1-score": 0.8627450980392156,
+    "support": 23,
+    "confused_with": {
+      "ask_pagar_servicios": 1
+    }
+  },
+  "ask_escuelas": {
+    "precision": 0.9,
+    "recall": 0.6,
+    "f1-score": 0.7200000000000001,
+    "support": 30,
+    "confused_with": {
+      "ask_uba": 5,
+      "ask_dentista": 3
+    }
+  },
+  "ask_hospital": {
+    "precision": 0.76,
+    "recall": 0.7307692307692307,
+    "f1-score": 0.7450980392156863,
+    "support": 26,
+    "confused_with": {
+      "ask_bot_name": 1,
+      "ask_sintomas": 1
+    }
+  },
+  "ask_asintomatico": {
+    "precision": 0.92,
+    "recall": 1.0,
+    "f1-score": 0.9583333333333334,
+    "support": 23,
+    "confused_with": {}
+  },
+  "ask_rumor": {
+    "precision": 0.8666666666666667,
+    "recall": 0.7428571428571429,
+    "f1-score": 0.8,
+    "support": 35,
+    "confused_with": {
+      "ask_vacuna": 2,
+      "ask_mujeres_violencia": 1
+    }
+  },
+  "ask_embarazada": {
+    "precision": 0.8148148148148148,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.8627450980392156,
+    "support": 24,
+    "confused_with": {
+      "ask_prevencion": 1,
+      "ask_transporte": 1
+    }
+  },
+  "ask_discapacidad": {
+    "precision": 0.9298245614035088,
+    "recall": 0.9464285714285714,
+    "f1-score": 0.9380530973451328,
+    "support": 56,
+    "confused_with": {
+      "ask_aburrido": 2,
+      "ask_farmacia": 1
+    }
+  },
+  "affirm": {
+    "precision": 0.7647058823529411,
+    "recall": 0.6842105263157895,
+    "f1-score": 0.7222222222222222,
+    "support": 19,
+    "confused_with": {
+      "out_of_scope": 3,
+      "ask_made": 1
+    }
+  },
+  "ask_rapipago": {
+    "precision": 0.8275862068965517,
+    "recall": 0.75,
+    "f1-score": 0.7868852459016394,
+    "support": 32,
+    "confused_with": {
+      "ask_pagar_servicios": 4,
+      "ask_banco": 2
+    }
+  },
+  "ask_mercado": {
+    "precision": 0.7721518987341772,
+    "recall": 0.8133333333333334,
+    "f1-score": 0.7922077922077922,
+    "support": 75,
+    "confused_with": {
+      "ask_aislamiento": 6,
+      "ask_alimento": 3
+    }
+  },
+  "ask_sueldos": {
+    "precision": 0.8518518518518519,
+    "recall": 0.7931034482758621,
+    "f1-score": 0.8214285714285715,
+    "support": 29,
+    "confused_with": {
+      "ask_empresa": 1,
+      "ask_prevencion": 1
+    }
+  },
+  "ask_mascota": {
+    "precision": 0.9210526315789473,
+    "recall": 0.9722222222222222,
+    "f1-score": 0.9459459459459458,
+    "support": 36,
+    "confused_with": {
+      "out_of_scope": 1
+    }
+  },
+  "deny": {
+    "precision": 0.7142857142857143,
+    "recall": 0.7692307692307693,
+    "f1-score": 0.7407407407407408,
+    "support": 13,
+    "confused_with": {
+      "ask_prevencion": 1,
+      "affirm": 1
+    }
+  },
+  "ask_credito": {
+    "precision": 0.7857142857142857,
+    "recall": 0.88,
+    "f1-score": 0.830188679245283,
+    "support": 25,
+    "confused_with": {
+      "ask_empresa": 1,
+      "ask_mercado": 1
+    }
+  },
+  "faq_kunan": {
+    "precision": 0.9047619047619048,
+    "recall": 0.95,
+    "f1-score": 0.9268292682926829,
+    "support": 20,
+    "confused_with": {
+      "ask_exceptuados": 1
+    }
+  },
+  "ask_prevencion": {
+    "precision": 0.7580645161290323,
+    "recall": 0.8173913043478261,
+    "f1-score": 0.7866108786610879,
+    "support": 115,
+    "confused_with": {
+      "ask_limpiar": 6,
+      "ask_aislamiento": 4
+    }
+  },
+  "ask_banco": {
+    "precision": 0.9264705882352942,
+    "recall": 0.8873239436619719,
+    "f1-score": 0.906474820143885,
+    "support": 71,
+    "confused_with": {
+      "ask_ife": 2,
+      "ask_aburrido": 2
+    }
+  },
+  "ask_bot_challenge": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8,
+    "f1-score": 0.8421052631578948,
+    "support": 10,
+    "confused_with": {
+      "human_agent": 2
+    }
+  },
+  "accuracy": 0.797463768115942,
+  "macro avg": {
+    "precision": 0.7993485824795907,
+    "recall": 0.7914588197859637,
+    "f1-score": 0.7914763035152786,
+    "support": 2760
+  },
+  "weighted avg": {
+    "precision": 0.7984374863967116,
+    "recall": 0.797463768115942,
+    "f1-score": 0.7939353526896086,
+    "support": 2760
+  }
+}

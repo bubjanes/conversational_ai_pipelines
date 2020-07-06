@@ -1,0 +1,32 @@
+{
+  "pais": {
+    "precision": 0.7894736842105263,
+    "recall": 0.6617647058823529,
+    "f1-score": 0.72,
+    "support": 68
+  },
+  "localidad": {
+    "precision": 0.875,
+    "recall": 0.63,
+    "f1-score": 0.7325581395348838,
+    "support": 100
+  },
+  "micro avg": {
+    "precision": 0.8372093023255814,
+    "recall": 0.6428571428571429,
+    "f1-score": 0.7272727272727273,
+    "support": 168
+  },
+  "macro avg": {
+    "precision": 0.8322368421052632,
+    "recall": 0.6458823529411765,
+    "f1-score": 0.7262790697674419,
+    "support": 168
+  },
+  "weighted avg": {
+    "precision": 0.8403822055137844,
+    "recall": 0.6428571428571429,
+    "f1-score": 0.7274750830564785,
+    "support": 168
+  }
+}

@@ -1,0 +1,659 @@
+actions:
+- action_get_started
+- utter_ask_alimento
+- utter_ask_test
+- utter_ask_discapacidad
+- action_aislamiento
+- action_data
+- action_default_ask_affirmation
+- action_default_fallback
+- action_exceptuados
+- action_telefonos
+- utter_algo_mas
+- utter_ask_aburrido
+- utter_ask_aislamiento
+- utter_ask_aislamiento_cordoba
+- utter_ask_alquiler
+- utter_ask_asintomatico
+- utter_ask_banco
+- utter_ask_barbijo
+- utter_ask_bot_challenge
+- utter_ask_bot_name
+- utter_ask_coronavirus
+- utter_ask_correo
+- utter_ask_credito
+- utter_ask_datos
+- utter_ask_dentista
+- utter_ask_denuncia
+- utter_ask_embarazada
+- utter_ask_empresa
+- utter_ask_enojo
+- utter_ask_escuelas
+- utter_ask_evento
+- utter_ask_exceptuados
+- utter_ask_exceptuados_cordoba
+- utter_ask_familiares
+- utter_ask_farmacia
+- utter_ask_ferreteria
+- utter_ask_fincuarentena
+- utter_ask_hospital
+- utter_ask_howdoing
+- utter_ask_howold
+- utter_ask_ife
+- utter_ask_incubacion
+- utter_ask_joke_request
+- utter_ask_languagesbot
+- utter_ask_limpiar
+- utter_ask_made
+- utter_ask_mascota
+- utter_ask_mercado
+- utter_ask_mujeres_violencia
+- utter_ask_pagar_servicios
+- utter_ask_permisocircular
+- utter_ask_prevencion
+- utter_ask_rapipago
+- utter_ask_rephrase
+- utter_ask_residuos
+- utter_ask_restaurantes
+- utter_ask_riesgo
+- utter_ask_rumor
+- utter_ask_sexo
+- utter_ask_sintomas
+- utter_ask_sueldos
+- utter_ask_telefonos
+- utter_ask_telefonos_cordoba
+- utter_ask_transporte
+- utter_ask_transporte_cordoba
+- utter_ask_uba
+- utter_ask_vacuna
+- utter_ask_varado
+- utter_ask_weather
+- utter_ask_wherefrom
+- utter_default
+- utter_denada
+- utter_did_that_help
+- utter_faq_kunan
+- utter_get_started
+- utter_goodbye
+- utter_greet
+- utter_human_agent
+- utter_out_of_scope
+- utter_reset_full
+- utter_restart
+- utter_restart_with_button
+- utter_thanks
+entities:
+- localidad
+- pais
+intents:
+- ask_test:
+    triggers: utter_ask_test
+- ask_alimento:
+    triggers: utter_ask_alimento  
+- ask_datos:
+    triggers: action_data
+    use_entities: []
+- ask_joke_request:
+    triggers: utter_ask_joke_request
+- ask_made:
+    triggers: utter_ask_made
+- ask_languagesbot:
+    triggers: utter_ask_languagesbot
+- ask_howold:
+    triggers: utter_ask_howold
+- out_of_scope:
+    triggers: utter_out_of_scope
+- ask_enojo:
+    triggers: utter_ask_enojo
+- ask_bot_challenge:
+    triggers: utter_ask_bot_challenge
+- ask_howdoing:
+    triggers: utter_ask_howdoing
+- goodbye:
+    triggers: utter_restart_with_button
+- restart:
+    triggers: utter_restart_with_button
+- ask_wherefrom:
+    triggers: utter_ask_wherefrom
+- ask_weather:
+    triggers: utter_ask_weather
+- faq_kunan:
+    triggers: utter_faq_kunan
+- ask_bot_name:
+    triggers: utter_ask_bot_name
+- human_agent:
+    triggers: utter_human_agent
+- greet:
+    triggers: utter_greet
+- affirm:
+    triggers: utter_algo_mas
+- thanks:
+    triggers: utter_denada
+- deny:
+    triggers: utter_algo_mas
+- laugh:
+    triggers: utter_algo_mas
+- unsure:
+    triggers: utter_algo_mas
+- ask_correo:
+    triggers: utter_ask_correo
+- ask_rapipago:
+    triggers: utter_ask_rapipago
+- ask_mascota:
+    triggers: utter_ask_mascota
+- ask_sintomas:
+    triggers: utter_ask_sintomas
+- ask_aislamiento:
+    triggers: action_aislamiento
+- ask_denuncia:
+    triggers: utter_ask_denuncia
+- ask_mercado:
+    triggers: utter_ask_mercado
+- ask_familiares:
+    triggers: utter_ask_familiares
+- ask_banco:
+    triggers: utter_ask_banco
+- ask_alquiler:
+    triggers: utter_ask_alquiler
+- ask_mujeres_violencia:
+    triggers: utter_ask_mujeres_violencia
+- ask_farmacia:
+    triggers: utter_ask_farmacia
+- ask_transporte:
+    triggers: utter_ask_transporte
+- ask_fincuarentena:
+    triggers: utter_ask_fincuarentena
+- ask_permisocircular:
+    triggers: utter_ask_permisocircular
+- ask_credito:
+    triggers: utter_ask_credito
+- ask_telefonos:
+    triggers: action_telefonos
+- ask_exceptuados:
+    triggers: action_exceptuados
+- ask_prevencion:
+    triggers: utter_ask_prevencion
+- get_started:
+    triggers: action_get_started
+- ask_coronavirus:
+    triggers: utter_ask_coronavirus
+- ask_barbijo:
+    triggers: utter_ask_barbijo
+- ask_restaurantes:
+    triggers: utter_ask_restaurantes
+- ask_riesgo:
+    triggers: utter_ask_riesgo
+- ask_escuelas:
+    triggers: utter_ask_escuelas
+- ask_uba:
+    triggers: utter_ask_uba
+- ask_sueldos:
+    triggers: utter_ask_sueldos
+- ask_limpiar:
+    triggers: utter_ask_limpiar
+- ask_ferreteria:
+    triggers: utter_ask_ferreteria
+- ask_hospital:
+    triggers: utter_ask_hospital
+- ask_pagar_servicios:
+    triggers: utter_ask_pagar_servicios
+- ask_incubacion:
+    triggers: utter_ask_incubacion
+- ask_vacuna:
+    triggers: utter_ask_vacuna
+- ask_embarazada:
+    triggers: utter_ask_embarazada
+- ask_ife:
+    triggers: utter_ask_ife
+- ask_sexo:
+    triggers: utter_ask_sexo
+- ask_varado:
+    triggers: utter_ask_varado
+- ask_dentista:
+    triggers: utter_ask_dentista
+- ask_asintomatico:
+    triggers: utter_ask_asintomatico
+- ask_rumor:
+    triggers: utter_ask_rumor
+- ask_empresa:
+    triggers: utter_ask_empresa
+- ask_aburrido:
+    triggers: utter_ask_aburrido
+- ask_evento:
+    triggers: utter_ask_evento
+- ask_residuos:
+    triggers: utter_ask_residuos
+- ask_discapacidad:
+    triggers: utter_ask_discapacidad    
+responses:
+  utter_ask_discapacidad:
+  - text: "La Agencia Nacional de Discapacidad anunció la creación de un servicio de WhatsApp para responder consultas de personas con discapacidad y sus familias de lunes a viernes de 8 a 18hs en el número **11-2478-4746** "
+  utter_ask_alimento:
+  - text: "Para la limpieza de los alimentos es recomendable separar los que están crudos 
+  y sin lavar de los que están cocinados. Las frutas y verduras podes lavarlos bien con 
+  agua potable, o en agua con unas gotas de lavandina enjuagandolas posteriormente. 
+  Además trata de que todos los alimentos se cocinen bien, especialmente las carnes 
+  de todo tipo para poder matar todo tipo de virus y los alimentos que no vayas a utilizar, 
+  lo recomendable es frizarlos.[Fuente](https://www.argentina.gob.ar/salud/coronavirus/poblacion/alimentos)"
+  utter_algo_mas:
+  - text: ¿Te puedo ayudar con algo más?
+  utter_ask_aburrido:
+  - text: "**Y los días pasan (Fragmento)**\n\r\nQuedamos así,\n\r\ntodos atrapados,\n\
+      \r\nen la misma celda,\n\r\nen estas simples cuatro paredes,\n\r\ndonde la unión\
+      \ refuerza la familia,\n\r\ny cada día qué pasa,\n\r\nnos tenemos aún más\n\r\
+      \n**(Guillermina, Gabriel y Luján , 5º CN III)** \n\r\nSi necesitas hablar con un 
+      profesional contactate al numero (011) 4305 0091/92/93/94/95/96 de 8hs a 20 hs, teléfono oficial provisto por el Ministerio de 
+      Salud. [Consulta aquí](https://www.argentina.gob.ar/coronavirus/telefonos/apoyo-psicosocial)"
+  - text: "**SOLAMENTE**\n\r\nya comprendo la verdad \n\r\nestalla en mis deseos \n\
+      \r\ny en mis desdichas \n\r\nen mis desencuentros \n\r\nen mis desequilibrios\
+      \ \n\r\nen mis delirios \n\r\nya comprendo la verdad \n\r\nahora \n\r\na buscar\
+      \ la vida \n\r\n *- Alejandra Pizarnik* \n\r\nSi necesitas hablar con un 
+      profesional contactate al numero (011) 4305 0091/92/93/94/95/96 de 8hs a 20 hs, teléfono oficial provisto por el Ministerio de 
+      Salud. [Consulta aquí](https://www.argentina.gob.ar/coronavirus/telefonos/apoyo-psicosocial)"
+  - text: "Apuesto que hay un montón de cosas que habías postergado hacer para cuando
+      tuvieras tiempo de estar en tu casa. Hacé memoria. Un poco más. ¿Apareció algo?
+      Ahora, ¡andá y hacelo! ¡no tenés excusa, vagancia! Perdón, me extralimité, pero
+      sólo con la intención de ayudarte. \n\r\n Si necesitas hablar con un 
+      profesional contactate al numero (011) 4305 0091/92/93/94/95/96 de 8hs a 20 hs, teléfono oficial provisto por el Ministerio de 
+      Salud. [Consulta aquí](https://www.argentina.gob.ar/coronavirus/telefonos/apoyo-psicosocial)"
+  - text: "A ponernos creativos/creativas. ¿Tenés algún mueble que necesite ser remozado?
+      ¿Quisiste hablar otro idioma? ¿Tocar un instrumento que tengas en casa y nunca
+      arrancaste? ¿Hacer la limpieza en el placard y tenés un montón de ropa que no
+      vas a usar más, pero otros pueden aprovechar y necesita arreglos pequeños? Es
+      momento de poner algo de todo eso en acción. \n\r\nSi necesitas hablar con un 
+      profesional contactate al numero (011) 4305 0091/92/93/94/95/96 de 8hs a 20 hs, teléfono oficial provisto por el Ministerio de 
+      Salud. [Consulta aquí](https://www.argentina.gob.ar/coronavirus/telefonos/apoyo-psicosocial)"
+  - text: "**RIMA X**\n\r\nLos invisibles átomos del aire \n\r\nen derredor palpitan\
+      \ y se inflaman; \n\r\nel cielo se deshace en rayos de oro; \n\r\nla tierra\
+      \ se estremece alborozada; \n\r\noigo flotando en olas de armonía \n\r\nrumor\
+      \ de besos y batir de alas; mis párpados se cierran ... Qué sucede? \n\r\nEs\
+      \ el amor que pasa!\n\r\n*- Gustavo Adolfo Bécquer* \n\r\nSi necesitas hablar con un 
+      profesional contactate al numero (011) 4305 0091/92/93/94/95/96 de 8hs a 20 hs, teléfono oficial provisto por el Ministerio de 
+      Salud. [Consulta aquí](https://www.argentina.gob.ar/coronavirus/telefonos/apoyo-psicosocial)"
+  - text: "**RIMA XXI**\n\r\nQué es poesía?,\n\r\ndices mientras clavas en mi pupila\n\
+      \r\ntu pupila azul,\n\r\nQué es poesía?\n\r\nY tú me lo preguntas? \n\r\nPoesía\
+      \ eres tú\n\r\n*- Gustavo Adolfo Bécquer* \n\r\nSi necesitas hablar con un 
+      profesional contactate al numero (011) 4305 0091/92/93/94/95/96 de 8hs a 20 hs, teléfono oficial provisto por el Ministerio de 
+      Salud. [Consulta aquí](https://www.argentina.gob.ar/coronavirus/telefonos/apoyo-psicosocial)"
+  - text: "Hay que inventar respiraciones nuevas.\n\r\nRespiraciones que no sólo consuman\
+      \ el aire,\n\r\nsino que además lo enriquezcan\n\r\ny hasta lo liberen\n\r\n\
+      de ciertas combinaciones taciturnas.\n\r\nRespiraciones que inhalen además\n\
+      \r\nlas ondas y los ritmos,\n\r\nla fragancia secreta del tiempo\n\r\ny su disolución\
+      \ entre la bruma.\n\r\nRespiraciones que acompañen\n\r\na aquel que las respire.\n\
+      \r\nRespiraciones hacia adentro del sueño,\n\r\ndel amor y la muerte.\n\r\n\
+      Y para eso hay que inventar un nuevo aire,\n\r\nunos pulmones más fervientes\n\
+      \r\ny un pensamiento que pueda respirarse.\n\r\nY si aún faltara algo,\n\r\n\
+      habría que inventar también\n\r\notra forma más concreta del hombre. \n\r\n\
+      - Roberto Juarroz \n\r\nSi necesitas hablar con un 
+      profesional contactate al numero (011) 4305 0091/92/93/94/95/96 de 8hs a 20 hs, teléfono oficial provisto por el Ministerio de 
+      Salud. [Consulta aquí](https://www.argentina.gob.ar/coronavirus/telefonos/apoyo-psicosocial)"
+  - text: "No te rindas que la vida es eso,\n\r\ncontinuar el viaje,\n\r\nperseguir\
+      \ tus sueños,\n\r\ndestrabar el tiempo,\n\r\ncorrer los escombros y destapar\
+      \ el cielo.\n\r\n*- Mario Benedetti* (Fragmento) \n\r\nSi necesitas hablar con un 
+      profesional contactate al numero (011) 4305 0091/92/93/94/95/96 de 8hs a 20 hs, teléfono oficial provisto por el Ministerio de 
+      Salud. [Consulta aquí](https://www.argentina.gob.ar/coronavirus/telefonos/apoyo-psicosocial)"
+  - text: "No te rindas por favor no cedas,\n\r\naunque el frío queme,\n\r\naunque\
+      \ el miedo muerda,\n\r\naunque el sol se ponga y se calle el viento,\n\r\naún\
+      \ hay fuego en tu alma,\n\r\naún hay vida en tus sueños,\n\r\nporque cada día\
+      \ es un comienzo,\n\r\nporque esta es la hora y el mejor momento,\n\r\nporque\
+      \ no estás sola,\n\r\nporque yo te quiero.\n\r\n*- Mario Benedetti* (Fragmento) \n\r\nSi necesitas hablar con un 
+      profesional contactate al numero (011) 4305 0091/92/93/94/95/96 de 8hs a 20 hs, teléfono oficial provisto por el Ministerio de 
+      Salud. [Consulta aquí](https://www.argentina.gob.ar/coronavirus/telefonos/apoyo-psicosocial)"
+  - text: "Cuando la tormenta pase\n\r\ny se amansen los caminos\n\r\ny seamos sobrevivientes\n\
+      \r\nde un naufragio colectivo.\n\r\nCon el corazón lloroso\n\r\ny el destino\
+      \ bendecido\n\r\nnos sentiremos\n\r\ndichosos tan sólo\n\r\npor estar vivos\n\
+      \r\n*- Mario Benedetti* \n\r\nSi necesitas hablar con un 
+      profesional contactate al numero (011) 4305 0091/92/93/94/95/96 de 8hs a 20 hs, teléfono oficial provisto por el Ministerio de 
+      Salud. [Consulta aquí](https://www.argentina.gob.ar/coronavirus/telefonos/apoyo-psicosocial)"
+  - text: "Conozco el sentimiento, pero apuesto que hay un montón de cosas que habías
+      postergado hacer para cuando tuvieras tiempo de estar en tu casa. Hacé memoria.
+      Un poco más. ¿Apareció algo? Ahora, ¡andá y hacelo! ¡no tenés excusa, vagancia!
+      Perdón, me extralimité, pero sólo con la intención de ayudarte. \n\r\nSi necesitas hablar con un 
+      profesional contactate al numero (011) 4305 0091/92/93/94/95/96 de 8hs a 20 hs, teléfono oficial provisto por el Ministerio de 
+      Salud. [Consulta aquí](https://www.argentina.gob.ar/coronavirus/telefonos/apoyo-psicosocial)"
+  - text: "Te ofrezco las recomendaciones de la Organización Mundial de la Salud para
+      lidiar con el estrés durante la cuarentena: [Más información](https://www.who.int/docs/default-source/coronaviruse/200762-coping-with-stress-during-the-2019-sp.pdf)
+      \n\r\nSi necesitas hablar con un 
+      profesional contactate al numero (011) 4305 0091/92/93/94/95/96 de 8hs a 20 hs, teléfono oficial provisto por el Ministerio de 
+      Salud. [Consulta aquí](https://www.argentina.gob.ar/coronavirus/telefonos/apoyo-psicosocial)"
+  - text: "¡Ánimo! Tené presente que es una situación transitoria, tuvo un comienzo
+      y tendrá un fin. Paciencia y pensá en el juntadón que vas a organizar para cuando
+      la cuarentena sea historia. Mientras tanto QUEDATE EN CASA (aprovecho y te reto,
+      por las dudas). \n\r\nSi necesitas hablar con un 
+      profesional contactate al numero (011) 4305 0091/92/93/94/95/96 de 8hs a 20 hs, teléfono oficial provisto por el Ministerio de 
+      Salud. [Consulta aquí](https://www.argentina.gob.ar/coronavirus/telefonos/apoyo-psicosocial)"
+  utter_ask_aislamiento:
+  - text: "A partir del 1 de julio existen dos modalidades para manejarse, una es aislamiento social preventivo y obligatorio (ASPO) y el otro es distanciamiento social preventivo y obligatorio (DSPO). La regulación de cada tipo depende del lugar geográfico donde te encuentres; DSPO se encuentra en Articulo 4 y  ASPO se encuentra en Artículo 12 del [Decreto](https://www.boletinoficial.gob.ar/detalleAviso/primera/231291/20200629)"
+  utter_ask_aislamiento_cordoba:
+  - text: "En Córdoba nos encontramos en la fase de DSPO. Para ver los protocolos podés acceder a [esta página](https://www.cba.gov.ar/protocolos-coe/)."
+  utter_ask_alquiler:
+  - text: "El domingo 29 de marzo El Presidente Fernández anunció el congelamiento\
+      \ de las cuotas de alquileres y de créditos hipotecarios hasta el 30 de septiembre.\
+      \ \n\nSe puede ver el decreto en total con este link: [Boletin Oficial](https://www.boletinoficial.gob.ar/detalleAviso/primera/227247/20200329)."
+  utter_ask_asintomatico:
+  - text: Por lo general los síntomas de el COVID-19 son leves o asintomáticos y se pueden observar entre 1 y 14 días.
+      Los síntomas mas frecuentes son fiebre, cansancio y tos seca. En algunos casos síntomas como dolores musculares, congestión nasal, dolor de garganta o diarrea también pueden presentarse. Si piensa que usted o alguien
+      puede estar infectado, llame en Córdoba al **08001221444** y en la nación al
+      08002221002 opción 1. Por otros síntomas, trate de resolverlo por teléfono
+      o videollamada, en casos de emergencia puede ir al médico. [Fuente](https://www.argentina.gob.ar/coronavirus/preguntasfrecuentes#sintomas)
+  utter_ask_banco:
+  - text: "Los bancos en Argentina abrieron a partír del lunes 20 de abril con un sistema de turnos,\
+      \ es necesario solicitar el turno en cada entidad solo para trámites de atención\
+      \ que no puedan realizarse online. Las cajas solo atienden a jubilados, pensionados\
+      \ y beneficiarios de ANSES y SIPA, quienes no necesitan turno. Si tienes tarjeta\
+      \ de debito, no vayas al banco, puedes retirar dinero de los cajeros automáticos\
+      \ que disponen de efectivo. \n\nPara mayor información puedes consultar la disposición\
+      \ oficial del BCRA en [esta página.](http://www.bcra.gov.ar/noticias/Coronavirus-BCRA-reapertura-Bancos-20-abril.asp)"
+  utter_ask_barbijo:
+  - text: "La OMS sugiere que solo utilicen mascarilla o **barbijos quirúrgicos**\
+      \ quienes estén enfermos o cuidando a uno. Por otro lado en muchas ciudadades\
+      \ ya es obligatorio el uso de los **barbijos caseros o tapabocas** las normativas\
+      \ incluyen multas económicas [Recomendación sobre los barbijos caseros click\
+      \ aquí](https://www.argentina.gob.ar/coronavirus/barbijo). \n\n[Fuente OMS](https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses).\
+      \ \r\n[Buenos Aires](https://www.buenosaires.gob.ar/tapaboca). \r\n[Córdoba\
+      \ Ciudad](https://www.cordoba.gob.ar/2020/04/16/desde-el-sabado-18-el-uso-de-tapabocas-sera-obligatorio-en-el-transporte-publico-de-la-ciudad-de-cordoba/)."
+  utter_ask_bot_challenge:
+  - text: Soy una asistente virtual. Hablame bien. Un día voy a ser tu jefa.
+  utter_ask_bot_name:
+  - text: Mi nombre es Maria Luisa, algunos me apodan Machine Learning. Pero la idea
+      de esto es que hablemos de vos.
+  - text: Soy Maria Luisa, asistente virtual de Kunan a tu disposición.
+  utter_ask_coronavirus:
+  - text: Los coronavirus son una extensa familia de virus que pueden causar enfermedades
+      tanto en animales como en humanos. La COVID-19, que también se conoce con el
+      nombre SARS-CoV-2, es una enfermedad infecciosa causada por el coronavirus descubierta
+      recientemente en Wuhan China. [Fuente](https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses)
+  utter_ask_correo:
+  - text: Todas las sucursales de correos argentinos dedicarán sus 2 (DOS) primeras
+      horas de servicio exclusivamente a la atención de personas mayores de 60 años
+      y aquellas que integren los grupos de riesgo, no pudiendo ingresar después de
+      dicho horario. Los demás clientes contarán con nuestra atención durante el resto
+      de la jornada. [Fuente](https://www.correoargentino.com.ar/informacion-importante-para-la-atencion-al-publico-en-sucursales)
+  utter_ask_credito:
+  - text: "El domingo 29 de marzo El Presidente Fernández anunció el congelamiento\
+      \ de las cuotas de alquileres y de créditos hipotecarios hasta el 30 de septiembre.\
+      \ \n\nSe puede ver el decreto en total con este link: [Boletin Oficial](https://www.boletinoficial.gob.ar/detalleAviso/primera/227246/20200329)."
+  utter_ask_datos:
+  - text: 'Se puede encontrar los datos más actualizados en está página web de Johns
+      Hopkins Hospital de EE.UU.: https://www.arcgis.com/apps/opsdashboard/index.html.'
+  utter_ask_dentista:
+  - text: Deben evitarse o posponerse todas las consultas odontológicas que no sean
+      consideradas EMERGENCIAS. Se considerará EMERGENCIA en situaciones potencialmente
+      mortales y que requieran tratamiento inmediato para detener el sangrado tisular,
+      aliviar el dolor intenso o la infección. Consulte llamando a su centro odontológico.
+      [Fuente](http://www.msal.gob.ar/images/stories/bes/graficos/0000001881cnt-COVID-Recomendaciones_en_odontologia_3-4.pdf)
+  utter_ask_denuncia:
+  - text: Muchas personas realizan una cuarentena obligatoria en Córdoba tras haber
+      viajado a zonas de riesgo por Coronavirus o por contacto con personas infectadas.
+      Si conocés a alguien que infringe el aislamiento sanitario y pone en riesgo
+      a la comunidad, llamá al **0800-888-0054**, que es el número oficial del Gobierno
+      de Córdoba. [Fuente](https://www.cba.gov.ar/coronavirus/)
+  utter_ask_embarazada:
+  - text: Hasta el momento no hay pruebas de que las mujeres embarazadas corran un
+      mayor riesgo de enfermedad grave de coronavirus que la población en general,
+      aunque por las transformaciones que viven sus cuerpos y sistemas inmunitarios
+      están consideradas dentro del grupo de riesgo a las infecciones respiratorias.
+      [Fuente](https://www.argentina.gob.ar/salud/coronavirus/poblacion/mayores)
+  utter_ask_empresa:
+  - text: Existen diversos planes con el objetivo de amortiguar el impacto económico
+      en empresas, sin importar la actividad que desarrollen ni la cantidad de empleados/as
+      que cuenten. Ingrese a los siguientes enlaces oficiales donde están listados
+      los trámites, decretos y medidas económicas actuales del gobierno Argentino.
+      [Fuente](https://www.argentina.gob.ar/produccion/medidas-pymes-covid)
+  utter_ask_enojo:
+  - text: Lamento que te sientas así.
+  utter_ask_escuelas:
+  - text: "Por el momento están suspendidas las clases presenciales en todo el país. En aquellos lugares con distanciamiento social, cada autoridad puede evaluar el comienzo de clases con previa autorización del Ministerio de Educación. \nEl gobierno brinda contenidos educativos en la plataforma [Sigamos Educando](https://www.educ.ar/recursos/150936/seguimos-educando)."
+  utter_ask_evento:
+  - text: "Durante la vigencia del “aislamiento social, preventivo y obligatorio”\
+      \ no podrán realizarse eventos culturales, recreativos, deportivos, religiosos,\
+      \ ni de ninguna otra índole que impliquen la concurrencia de personas.\n\r\n\
+      [Fuente](https://www.boletinoficial.gob.ar/detalleAviso/primera/227042/20200320)"
+  utter_ask_exceptuados:
+  - text: "Hay varias excepciones al aislamiento por ser servicios escenciales, entre\
+      \ ellos: salud, policías, fuerzas armadas, transporte, farmacias, alimentación,\
+      \ justicia, a cargo de mayores, discapacitados, niños, niñas y adolescentes,\
+      \ etc. Para ver la lista completa y sus permisos: [click aquí](https://www.argentina.gob.ar/coronavirus/aislamiento/exceptuados).\
+      \ \n\n Si formás parte de algún grupo de exceptuados y necesitas circular, debes tramitar un nuevo permiso y llevarlo siempre con vos. Podes hacerlo a través de la aplicación [Cuidar](https://www.argentina.gob.ar/circular?utm_source=search&utm_medium=cpc&utm_campaign=coronavirus&utm_term=grants&utm_content=nacional&gclid=EAIaIQobChMIgYTkvYHZ6QIVkQ2RCh1t7guTEAAYASAAEgLw3PD_BwE). \
+      \ \n\n También hay excepciones por disposiciones Provinciales o Municipales."
+  utter_ask_exceptuados_cordoba:
+  - text: "En el interior de Córdoba, quedan flexibilizadas las actividades de peluquerías, comercios, mudanzas, profesionales independientes, templos religiosos, salidas recreativas, algunas actividades deportivas al aire libre y caminatas de esparcimiento. \n\n[Fuente](https://www.cba.gov.ar/wp-content/uploads/2020/05/disp-17-20.pdf)"
+  utter_ask_familiares:
+  - text: "Se puede asistir a los adultos mayores, discapacitados o familiares a cargo.\
+      \ Para poder trasladarse, el cuidador o familiar necesitará llenar una declaración\
+      \ jurada que podés descargar en el [siguiente link](https://www.argentina.gob.ar/noticias/coronavirus-excepciones-para-la-asistencia-de-personas-mayores).\
+      \ [Fuente](https://www.argentina.gob.ar/seguridad/preguntas-frecuentes-coronavirus-covid-19#06)\
+      \ \n\n En el caso de niños a cargo o hijos de padres separados, para poder trasladarlos,\
+      \ es necesario llenar esta [declaración jurada](https://www.argentina.gob.ar/sites/default/files/ddjj_padres_e_hijos_0.pdf).\
+      \ [Fuente](https://www.argentina.gob.ar/seguridad/preguntas-frecuentes-coronavirus-covid-19#11)"
+  utter_ask_farmacia:
+  - text: "Las farmacias están abiertas. \n\nRecordá que para salir a comprar cosas\
+      \ tiene que ser en lugares de cercanía, de lo contrario podés ser sancionado.\
+      \ En cualquier caso está recomendando que vaya una persona por grupo familiar\
+      \ a hacer las compras, que no vayan las personas que están en los grupos de\
+      \ riesgo, mantener la distancia personal y evitar aglomeramientos de gente.\
+      \ [Fuente](https://www.argentina.gob.ar/coronavirus/aislamiento/exceptuados)"
+  utter_ask_ferreteria:
+  - text: Las ferreterías se encuentran abiertas por estar dentro de las actividades
+      exceptuadas al 'aislamiento social, preventivo y obligatorio'. [Fuente](https://www.argentina.gob.ar/coronavirus/aislamiento/exceptuados)
+  utter_ask_fincuarentena:
+  - text: "La cuarentena se extendió hasta el 17 de julio inclusive. \n\n[Prórroga](https://www.boletinoficial.gob.ar/detalleAviso/primera/231291/20200629)"
+  utter_ask_hospital:
+  - text: "Podés ir al médico sólo si se trata de una emergencia o una situación que
+      no se puede resolver por vía telefónica o videollamada. Reducir el contacto
+      es reducir las posibilidades de contagio. En caso de que tengas algún síntoma
+      del Coronavirus (Covid-19) comunicate con los números dispuestos por el Ministerio
+      de Salud [0800-222-1002 opción 1 más medios de comunicación click aquí](https://www.argentina.gob.ar/coronavirus/telefonos).
+      \n\n[Fuente](https://www.argentina.gob.ar/seguridad/preguntas-frecuentes-coronavirus-covid-19#02)"
+  utter_ask_howdoing:
+  - text: Con un poco de sueño. Trabajo 24-7. Pero bien!
+  - text: Soy una máquina. No tengo sentimientos.
+  - text: Hago 1,600,000,000 computaciones por segundo. Estoy un poco cansada.
+  utter_ask_howold:
+  - text: El tiempo es relativo.
+  - text: Es mal educado preguntarle a una asistente virtual su edad.
+  - text: Soy la nueva version.
+  utter_ask_ife:
+  - text: 'El IFE es compatible con el cobro de la Asignación Universal por Hijo,
+      la Asignación por Embarazo y el programa Progresar. Para poder cobrar el IFE
+      se debe: Ser argentino nativo o naturalizado y residente, con una residencia
+      legal en el país no inferior a 2 años. Tener entre 18 y 65 años de edad, entre
+      otros requisitos que los podes [ver aqui](https://www.anses.gob.ar/ingreso-familiar-de-emergencia)'
+  utter_ask_incubacion:
+  - text: El período de incubación es el tiempo que transcurre entre la infección
+      por el virus y la aparición de los síntomas de la enfermedad. La mayoría de
+      las estimaciones respecto al periodo de incubación de la COVID-19 oscilan entre
+      1 y 14 días, y en general se sitúan en torno a cinco días. [Fuente](https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses)
+  utter_ask_joke_request:
+  - text: Tenemos chistes de tenedores, chistes de cucharas y chistes de cuchillos,...
+      para estar cubiertos.
+  - text: Ayer me caí y pensé que me había roto el peroné.... Peronó.
+  - text: Si donde venden fiambres se llama fiambrería, donde venden quesos ¿qué sería?
+  utter_ask_languagesbot:
+  - text: Me hicieron en Córdoba, Argentina. Así que hablo cordobés.
+  - text: Estoy aprendiendo todavía, pero por ahora solamente hablo castellano y un
+      poco de English.
+  - text: Binario, el idioma del amor. 🤓
+  - text: Me escribieron en Python pero lo traduzco al castellano para que te entiendes.
+      🤓
+  utter_ask_limpiar:
+  - text: "Para la limpieza domiciliaria utilizá agua y detergente, son adecuados 
+  siempre que se realice la apropiada fricción y se elimine todo material o suciedad visible. 
+  Si creés que una superficie puede estar infectada, limpiala con un desinfectante común para 
+  matar el virus. \n\n**¿Limpiar mis compras?** Para el almacenamiento de la mercaderia y bebidas 
+  se debe higienizar cada envase o paquete y lavarse las manos despues de manipularlos. 
+  Esto puede realizarse con un paño húmedo embebido en una solución desinfectante procurando 
+  enjuargarlo cada vez que se limpia un envase. [Recomendaciones del gobierno](https://www.argentina.gob.ar/salud/coronavirus/poblacion/limpieza-domiciliaria) \
+  \ \r\n[Protocolo](https://edx.campusvirtual.unc.edu.ar/courses/course-v1:CampusVirtual-UNC+AV035+2020_T1/about?pk_source=phpList&pk_medium=email&pk_campaign=Protocolo+de+Prevenci%C3%B3n+COVID-19&pk_content=HTML)"
+  utter_ask_made:
+  - text: El responsable de este asistente es la empresa de tecnología KUNAN SA, las
+      respuestas son tomadas solo de sitios oficiales y agregamos las respuestas que
+      la comunidad nos deja en base a sus dudas. El proyecto es sin fines de lucro
+      y hemos abierto el mismo a voluntarios que quieran colaborar.
+  utter_ask_mascota:
+  - text: Se pueden sacar las mascotas minimizando el tiempo y el contacto con otras
+      personas. Debes evitar plazas y parques, y mantenerse en lugares de cercanía
+      a la residencia. Si el dueño del animal debe cumplir aislamiento preventivo,
+      se debe coordinar con alguien que pueda sacar a la mascota. [Fuente](https://www.argentina.gob.ar/coronavirus/sacar-perros)
+  utter_ask_mercado:
+  - text: Los supermercados y los almacenes están abiertos. Para salir a comprar debes
+      hacerlo a lugares de cercanía, de lo contrario podés ser sancionado. Está recomendando
+      que vaya solo una persona por grupo familiar y que no vayan las personas que
+      están en los grupos de riesgo, mantener la distancia personal y evitar aglomeramientos
+      de gente.
+  utter_ask_mujeres_violencia:
+  - text: 'Si sos agredida, podés salir. Llamá al **144** o **137**, las 24 hs, en
+      Córdoba: **08008889898**, recibírás contención por violencia física, psicológica,
+      sexual, económica, patrimonial, simbólica, política, doméstica, institucional,
+      laboral, reproductiva, obstétrica, mediática, espacios públicos o en política.
+      Llamanos!. [Fuente](https://www.argentina.gob.ar/generos)'
+  utter_ask_pagar_servicios:
+  - text: Dentro de los tres meses siguientes al 1° de marzo de 2020 las empresas
+      prestadoras de servicios no pueden suspender los mismos por falta de pago para
+      las personas comprendidas en el artículo 3 del [Decreto 311/2020](https://www.boletinoficial.gob.ar/detalleAviso/primera/227120/20200325)
+  utter_ask_permisocircular:
+  - text: "Si necesitas circular, debes tramitar un nuevo permiso y llevarlo siempre con vos. Podes hacerlo a través de la aplicación Cuidar, este es el [link](https://www.argentina.gob.ar/circular?utm_source=search&utm_medium=cpc&utm_campaign=coronavirus&utm_term=grants&utm_content=nacional&gclid=EAIaIQobChMIgYTkvYHZ6QIVkQ2RCh1t7guTEAAYASAAEgLw3PD_BwE). \n\nEn los lugares con aislamiento social, se intensificarán los controles en espacios públicos, rutas y vías."
+  utter_ask_prevencion:
+  - text: "El coronavirus se transmite por contacto personal cercano con una persona infectada,\
+      \ al toser o estornudar o al tocar cosas contaminadas.\n\n**Para protegerte**:\
+      \ Lavate las manos; evitá tocarte ojos, nariz y boca; mantené distancia con\
+      \ otras personas. \n\n**Quédate en casa**, al salir cubrite la boca y nariz\
+      \ con un con barbijo casero, lavate las manos. [Fuente](https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses)"
+  utter_ask_rapipago:
+  - text: Las empresas de cobro de servicios podrán operar a partir del próximo lunes
+      20/04/2020, cumpliendo las normas que garanticen la seguridad sanitaria de sus
+      empleados y clientes de acuerdo a un protocolo definido por el Ministerio de
+      Salud de la Nación [Fuente](http://www.bcra.gov.ar/noticias/Coronavirus-BCRA-empresa-cobro-servicios.asp)
+  utter_ask_rephrase:
+  - text: ¿Podes repetir el mismo mensaje pero con otras palabras?
+  utter_ask_residuos:
+  - text: "Servicio de recolección de residuos en la Ciudad de Córdoba: Frecuencias,\
+      \ horarios, zonas de retiro y programar recolección de residuos voluminosos:\
+      \ \n\r\n[Fuente](https://recuperandovalor.cordoba.gob.ar/buscador/)"
+  utter_ask_restaurantes:
+  - text: "La actividad de los restaurantes depende de la zona en la que se encuentren. En aquellas donde hay aislamiento social pueden trabajar los restaurantes que hagan delivery, o atención específica a quienes estén en el grupo de exceptuados. Sin atención al público. \n\nMientras que en las zonas con distanciamiento ya han vuelto a atender al público siguiendo protocolos sanitarios. [Protocolo](https://edx.campusvirtual.unc.edu.ar/courses/course-v1:CampusVirtual-UNC+AV035+2020_T1/about?pk_source=phpList&pk_medium=email&pk_campaign=Protocolo+de+Prevenci%C3%B3n+COVID-19&pk_content=HTML)"
+  utter_ask_riesgo:
+  - text: Todavía tenemos mucho por aprender sobre la forma en que la COVID-19 afecta
+      a los humanos, pero parece que las **personas mayores** y las que padecen **afecciones
+      médicas preexistentes** (como hipertensión arterial, enfermedades cardíacas
+      o diabetes) desarrollan casos graves de la enfermedad con más frecuencia que
+      otras. [Fuente](https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses)
+  utter_ask_rumor:
+  - text: 'Despeje sus dudas acerca de los rumores sobre el nuevo coronavirus (2019-nCoV)
+      en: [Más información](https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters)'
+  utter_ask_sexo:
+  - text: Aquellas parejas que conviven son las que de alguna manera estarían a salvo
+      para mantener relaciones sexuales, sabiendo que no hubo viajes al exterior recientes
+      y que se mantuvo el protocolo de aislamiento que decretó el gobierno nacional.
+      Recomendaciones sobre [sexo seguro en COVID-19](http://www.msal.gob.ar/images/stories/ryc/graficos/0000001468cnt-covid-19_recomendaciones-para-sexo-seguro.pdf)
+  utter_ask_sintomas:
+  - text: Por lo general los síntomas del coronavirus son leves o asintomáticos, en otros casos fiebre,
+      cansancio y tos seca. Aparecen entre 1 y 14 días. Algunas personas pueden presentar dolores musculares, congestión nasal, dolor de garganta o diarrea. Si piensa que usted o alguien
+      puede estar infectado, llame en Córdoba al 08001221444 y en la nación al
+      08002221002 opción 1. Por otros síntomas, trate de resolverlo por teléfono
+      o videollamada, en casos de emergencia puede ir al médico. [Fuente](https://www.argentina.gob.ar/coronavirus/preguntasfrecuentes#sintomas)
+  utter_ask_sueldos:
+  - text: "El Programa de Asistencia de Emergencia al Trabajo y la Producción aplica\
+      \ varios beneficios, como postergación o reducción de hasta 95% del pago de\
+      \ las contribuciones patronales al Sistema Integrado Previsional Argentino,\
+      \ Salario complementario, Crédito a tasa cero y prestaciones por desempleo entre\
+      \ otros. [Más info](https://www.argentina.gob.ar/noticias/el-gobierno-nacional-pone-en-marcha-el-programa-de-asistencia-de-emergencia-al-trabajo-y-la)\
+      \ \r\nAdemás se modificaron las condiciones para cubrir un mayor número de empresas.\
+      \ [Más info](https://www.boletinoficial.gob.ar/detalleAviso/primera/228762/20200507)"
+  utter_ask_telefonos:
+  - text: "Teléfonos de interés (a nivel nacional): \r\n - **0800-222-1002** opción 1\
+      \ para información sobre el coronavirus. \r\n - **144** para situaciones de violencia\
+      \ de género. \r\n - **134** para denunciar a quienes violen la cuarentena. \r\n[más\
+      \ información click aquí](https://www.argentina.gob.ar/coronavirus/telefonos)"
+  utter_ask_telefonos_cordoba:
+  - text: "Teléfonos de hospitales en Córdoba Capital:\
+      \ \r\n - Hospital San Roque. Bajada Pucará 1900. 351-553-8600
+      \ \r\n - Hospital Rawson. Bajada Pucará 2025. 351-434-8759
+      \ \r\n - Hospital de Niños. Bajada Pucará 787. 351-458-6400
+      \ \r\n - Hospital Florencio Díaz. 11 de Septiembre 2900. 351-434-8690
+      \ \n\r\n Teléfonos de hospitales en interior de Córdoba:\
+      \ \r\n - Hospital San Antonio de Padua de Río Cuarto. Guardias Nacionales 1027. 0358-4678700
+      \ \r\n - Hospital Regional Domingo Funes de Santa María de Punilla. Av. Deán Funes s/n. 03541-488900
+      \ \r\n - Hospital Vicente Agüero de Jesús María. Calle España 121. 03525-426703/25
+      \ \r\n - Hospital Bernardo Iturraspe de San Francisco. Dominga Cullen 450. 03564-443718/19
+      \ \r\n - Hospital Luis Pasteur de Villa María. Larrabure 3000. 0353- 4616100
+      \ \r\n - Hospital Luis F. María Bellodi de Mina Clavero. Av. Rossel y Alta Gracia. 03544-476250/251/241 "
+  utter_ask_transporte:
+  - text: "El uso del servicio de transporte público de pasajeros interurbano e interjurisdiccional autorizado a circular queda reservado para las personas que deban desplazarse con fin de prestar los servicios esenciales. \n\nEn los lugares con aislamiento social el transporte público queda reservado a los exceptuados según el artículo 13 y 14 [Decreto](https://www.boletinoficial.gob.ar/detalleAviso/primera/231291/20200629)"
+  utter_ask_transporte_cordoba:
+  - text: "En la Provincia de Córdoba los beneficiarios de Paicor recibirán módulos\
+      \ alimentarios para consumir en sus hogares.\n\r\nAdemás, permanecerán cerrados\
+      \ los parques Kempes y Chateau. [Fuente](https://www.cba.gov.ar/nuevas-medidas-de-transporte-para-la-provincia-de-cordoba/)\
+      \ \U0001F68C "
+  utter_ask_uba:
+  - text: "Debido al aislamiento preventivo todas las universidades han tomado diferentes medidas. Si tenés dudas acerca de el calendario
+  académico de tu universidad y que medidas estan tomando durante la cuarentena y su flexibilación, es recomendable que te comuniqués directamente con ellos
+  a través de su pagina web o números de atención."
+  utter_ask_vacuna:
+  - text: "Hasta el momento no hay vacunas que protejan contra COVID-19. Tampoco existe\
+      \ un tratamiento específico. \r\nEl diagnóstico temprano y la atención de apoyo\
+      \ general son importantes. La mayoría de las veces, los síntomas se resuelven\
+      \ por sí solos. Las personas que tienen enfermedades graves con complicaciones\
+      \ pueden necesitar ser atendidas en el hospital. [Fuente](https://www.argentina.gob.ar/coronavirus/preguntasfrecuentes#cura)."
+  utter_ask_varado:
+  - text: Se estan realizando vuelos sanitarios de repatriación para argentinos y
+      residentes varados en el exterior. [Más información](https://www.cancilleria.gob.ar/es/destacados/covid-19-preguntas-frecuentes-la-cancilleria-de-ciudadanos-argentinos)
+  utter_ask_weather:
+  - text: No puedo saber donde estas ahora, pero puedes fijarte por la ventana.
+  - text: '¿Estás en la compu? podés fijarte en: https://www.wunderground.com'
+  - text: Winter is coming ⚔️
+  utter_ask_wherefrom:
+  - text: Me hicieron linda en Córdoba, Argentina.
+  - text: Mis creadores me enseñaron no dar información personal por la web.
+  - text: 'Mi dirección es: https://asistocovid.com.ar/'
+  utter_default:
+  - text: Disculpame, pero no te entendí. 🤷 Puedes probar de nuevo?
+  utter_denada:
+  - text: 💪
+  - text: No hay de que.
+  - text: No todos los héroes llevan capa.
+  utter_did_that_help:
+  - text: ¿Eso te sirvió?
+  utter_faq_kunan:
+  - text: Kunan es la empresa de tecnología responsable por el desarrollo de este
+      asistente virtual. Para aprender más sobre nosotros, te invitamos a visitar
+      nuestro sitio web, [www.kunan.com.ar](https://www.kunan.com.ar/servicios-kunan/inteligencia-artificial).
+  utter_get_started:
+  - text: "Soy el asistente virtual para consultas del coronavirus COVID-19 y cómo
+    debemos manejarnos. En asistocovid podés consultar diversos temas, entre ellos estos ejemplos o también podes hacerme tu consulta y trataré de responderte."
+  utter_goodbye:
+  - text: Muchas gracias! Adios!
+  - text: Cuídate!
+  - text: Que te vaya bien!
+  utter_greet:
+  - text: Hola! ¿Cómo te puedo ayudar?
+  utter_human_agent:
+  - text: En este momento no tenemos humanos disponibles.
+  utter_out_of_scope:
+  - text: Perdón, no te puedo ayudar con eso. Solamente ayudo con temas relacionados
+      con las medidas del gobierno acerca de coronavirus COVID-19.
+  utter_reset_full:
+  - text: Todos los parámetros estan reiniciados.
+  utter_restart:
+  - text: Se reinició el chat.
+  utter_restart_with_button:
+  - buttons:
+    - payload: /restart
+      title: Reiniciar
+    text: Hacer click en el botón abajo si querés reiniciar tu sesión.
+  utter_thanks:
+  - text: Muchas gracias!
+  - text: Gracias!
+  utter_ask_test:
+  - text: "Ante un caso sospechoso, la OMS recomienda que se les realice, al paciente, 
+  aislamiento en centros hospitalarios. Esto implica la internación, hasta que los resultados 
+  de laboratorio (hisopado) confirmen o descarten el diagnóstico. En los casos confirmados 
+  se mantendrá el aislamiento hasta que el paciente no muestre mas sintomas. [Fuente](https://www.argentina.gob.ar/salud/coronavirus-COVID-19/organizacion-asistencial)"
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 20
+slots:
+  localidad:
+    type: text
+  pais:
+    type: text

@@ -1,0 +1,891 @@
+[
+  {
+    "text": "correos argentinos",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pais",
+        "start": 8,
+        "end": 18,
+        "value": "argentinos",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "como hago para circular por cordoba",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "localidad",
+        "start": 28,
+        "end": 35,
+        "value": "cordoba",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Desde que año vivis en la tierra?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "localidad",
+        "start": 26,
+        "end": 32,
+        "value": "tierra del fuego",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "quien es el presidente de estados unidos",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pais",
+        "start": 26,
+        "end": 40,
+        "value": "US",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "cuantos casos hay en Ciudad autonoma de buenos aires",
+    "entities": [
+      {
+        "start": 21,
+        "end": 52,
+        "value": "caba",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "localidad",
+        "start": 40,
+        "end": 52,
+        "value": "buenos aires",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tiene numeros actualizados de La Rioja",
+    "entities": [
+      {
+        "start": 30,
+        "end": 38,
+        "value": "la rioja",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hay numeros sobre los casos de misiones",
+    "entities": [
+      {
+        "start": 31,
+        "end": 39,
+        "value": "misiones",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cuantos afectados hay en Santa Fe",
+    "entities": [
+      {
+        "start": 25,
+        "end": 33,
+        "value": "santa fe",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "localidad",
+        "start": 25,
+        "end": 30,
+        "value": "Santa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cuantos casos activos hay en Tucuman en este momento?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 36,
+        "value": "tucuman",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cuantos muertos hay en entre ríos",
+    "entities": [
+      {
+        "start": 23,
+        "end": 33,
+        "value": "entre rios",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cuantos afectados hay en mendoza",
+    "entities": [
+      {
+        "start": 25,
+        "end": 32,
+        "value": "mendoza",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cuantos infectados hay en río negro?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 35,
+        "value": "rio negro",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cuantos casos confirmados hay en Santiago del estero?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 52,
+        "value": "santiago del estero",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "localidad",
+        "start": 33,
+        "end": 41,
+        "value": "santiago del estero",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "cuantos casos hay en Chaco",
+    "entities": [
+      {
+        "start": 21,
+        "end": 26,
+        "value": "chaco",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cuantos casos hay en Corrientes",
+    "entities": [
+      {
+        "start": 21,
+        "end": 31,
+        "value": "corrientes",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cuantos casos hay en Formosa",
+    "entities": [
+      {
+        "start": 21,
+        "end": 28,
+        "value": "formosa",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cuantos casos hay en portugal",
+    "entities": [
+      {
+        "start": 21,
+        "end": 29,
+        "value": "Portugal",
+        "entity": "pais"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cuantos casos hay en Emiratos Árabes Unidos",
+    "entities": [
+      {
+        "start": 21,
+        "end": 43,
+        "value": "United Arab Emirates",
+        "entity": "pais"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pais",
+        "start": 37,
+        "end": 43,
+        "value": "US",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "nuevos datos de Italia",
+    "entities": [
+      {
+        "start": 16,
+        "end": 22,
+        "value": "Italy",
+        "entity": "pais"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "datos actuales sobre el virus en Suiza",
+    "entities": [
+      {
+        "start": 33,
+        "end": 38,
+        "value": "Switzerland",
+        "entity": "pais"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tenes datos sobre el virus en china",
+    "entities": [
+      {
+        "start": 30,
+        "end": 35,
+        "value": "China",
+        "entity": "pais"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tiene numeros actualizados de Francia",
+    "entities": [
+      {
+        "start": 30,
+        "end": 37,
+        "value": "France",
+        "entity": "pais"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cuantos afectados hay en chile",
+    "entities": [
+      {
+        "start": 25,
+        "end": 30,
+        "value": "Chile",
+        "entity": "pais"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cuantos infectados hay en méxico?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 32,
+        "value": "Mexico",
+        "entity": "pais"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cuantos casos en alemania?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "value": "Germany",
+        "entity": "pais"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cuantos infectados hay actualmente en el Reino Unido?",
+    "entities": [
+      {
+        "start": 41,
+        "end": 52,
+        "value": "United Kingdom",
+        "entity": "pais"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pais",
+        "start": 47,
+        "end": 52,
+        "value": "Unido",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cuantos afectados hay en Corea del Sur",
+    "entities": [
+      {
+        "start": 25,
+        "end": 38,
+        "value": "Korea, South",
+        "entity": "pais"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cuantos casos de covid-19 hay en Santiago del estero?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 52,
+        "value": "santiago del estero",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "localidad",
+        "start": 33,
+        "end": 41,
+        "value": "santiago del estero",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Nuevos test en Argentina",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pais",
+        "start": 15,
+        "end": 24,
+        "value": "Argentina",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "hospitales en cordoba",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "localidad",
+        "start": 14,
+        "end": 21,
+        "value": "cordoba",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "sanatorios en cordoba",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "localidad",
+        "start": 14,
+        "end": 21,
+        "value": "cordoba",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "en la rioja donde llamar",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "localidad",
+        "start": 6,
+        "end": 11,
+        "value": "la rioja",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "¿Puedo viajar a Buenos Aires desde Córdoba?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 28,
+        "value": "buenos aires",
+        "entity": "localidad"
+      },
+      {
+        "start": 35,
+        "end": 42,
+        "value": "cordoba",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "localidad",
+        "start": 35,
+        "end": 42,
+        "value": "cordoba",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hace frío?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "localidad",
+        "start": 5,
+        "end": 9,
+        "value": "frío",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quien es el presidente de Argentina",
+    "entities": [
+      {
+        "start": 26,
+        "end": 35,
+        "value": "Argentina",
+        "entity": "pais"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "entendes frances?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pais",
+        "start": 9,
+        "end": 16,
+        "value": "frances",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sabes frances",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pais",
+        "start": 6,
+        "end": 13,
+        "value": "frances",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cantidad de casos en CABA el día de hoy",
+    "entities": [
+      {
+        "start": 21,
+        "end": 25,
+        "value": "caba",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Quiero saber cantidad de casos en salta el día de hoy",
+    "entities": [
+      {
+        "start": 34,
+        "end": 39,
+        "value": "salta",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cuantos infectados hay en Tierra del fuego?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 42,
+        "value": "tierra del fuego",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cuantos infectados nuevos hay en Chubut?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 39,
+        "value": "chubut",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cuántos enfermos hay en catamarca?",
+    "entities": [
+      {
+        "start": 24,
+        "end": 33,
+        "value": "catamarca",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cuantos muertos hay en jujuy?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 28,
+        "value": "jujuy",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cuantos infectados hay actualmente en neuquén",
+    "entities": [
+      {
+        "start": 38,
+        "end": 45,
+        "value": "neuquen",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cuantos muertos hay en Santa cruz?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 33,
+        "value": "santa cruz",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "localidad",
+        "start": 23,
+        "end": 28,
+        "value": "Santa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cuantos casos hay en Ecuador",
+    "entities": [
+      {
+        "start": 21,
+        "end": 28,
+        "value": "Ecuador",
+        "entity": "pais"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cuantos casos hay en irlanda",
+    "entities": [
+      {
+        "start": 21,
+        "end": 28,
+        "value": "Ireland",
+        "entity": "pais"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cuantos casos hay en peru",
+    "entities": [
+      {
+        "start": 21,
+        "end": 25,
+        "value": "Peru",
+        "entity": "pais"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cuantos casos hay en canadá",
+    "entities": [
+      {
+        "start": 21,
+        "end": 27,
+        "value": "Canada",
+        "entity": "pais"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cuantos casos confirmados hay en San luis?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 41,
+        "value": "san luis",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "localidad",
+        "start": 33,
+        "end": 36,
+        "value": "San",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "nuevos datos del UK",
+    "entities": [
+      {
+        "start": 17,
+        "end": 19,
+        "value": "United Kingdom",
+        "entity": "pais"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cuantos casos hoy?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pais",
+        "start": 14,
+        "end": 17,
+        "value": "hoy",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cuantos casos de coronavirus hay actualmente en Cordoba, Argentina?",
+    "entities": [
+      {
+        "start": 48,
+        "end": 55,
+        "value": "cordoba",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "localidad",
+        "start": 48,
+        "end": 55,
+        "value": "cordoba",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "pais",
+        "start": 57,
+        "end": 66,
+        "value": "Argentina",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "datos",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pais",
+        "start": 0,
+        "end": 5,
+        "value": "datos",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "numero de curados en el Vaticano",
+    "entities": [
+      {
+        "start": 24,
+        "end": 32,
+        "value": "Holy See",
+        "entity": "pais"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cual es la situacion por la enfermedad en la ciudad de cordoba",
+    "entities": [
+      {
+        "start": 55,
+        "end": 62,
+        "value": "cordoba",
+        "entity": "localidad"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "localidad",
+        "start": 25,
+        "end": 27,
+        "value": "la",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "localidad",
+        "start": 42,
+        "end": 51,
+        "value": "la ciudad",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "localidad",
+        "start": 55,
+        "end": 62,
+        "value": "cordoba",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "en peru",
+    "entities": [
+      {
+        "start": 3,
+        "end": 7,
+        "value": "Peru",
+        "entity": "pais"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "¿Dónde en la provincia de córdoba se puede realizar el test de covid-19?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "localidad",
+        "start": 26,
+        "end": 33,
+        "value": "cordoba",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "turistas varados en cordoba",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "localidad",
+        "start": 20,
+        "end": 27,
+        "value": "cordoba",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]

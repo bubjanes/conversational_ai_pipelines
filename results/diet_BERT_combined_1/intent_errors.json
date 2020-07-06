@@ -1,0 +1,2842 @@
+[
+  {
+    "text": "alli estare",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.192507803440094
+    }
+  },
+  {
+    "text": "sí",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "ask_bot_name",
+      "confidence": 0.2080046385526657
+    }
+  },
+  {
+    "text": "ok",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "affirm+ask_bot_challenge",
+      "confidence": 0.3051314651966095
+    }
+  },
+  {
+    "text": "yes",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "ask_bot_name",
+      "confidence": 0.19152577221393585
+    }
+  },
+  {
+    "text": "sos un chatbot?",
+    "intent": "ask_bot_challenge",
+    "intent_prediction": {
+      "name": "affirm+ask_bot_challenge",
+      "confidence": 0.2163696587085724
+    }
+  },
+  {
+    "text": "hola, quien es?",
+    "intent": "ask_bot_name",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6302791237831116
+    }
+  },
+  {
+    "text": "hola, quien sos?",
+    "intent": "ask_bot_name",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6882832050323486
+    }
+  },
+  {
+    "text": "quien eres?",
+    "intent": "ask_bot_name",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.46376678347587585
+    }
+  },
+  {
+    "text": "Sos un hombre?",
+    "intent": "ask_bot_name",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.36069393157958984
+    }
+  },
+  {
+    "text": "mis datos estan mal",
+    "intent": "ask_change",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2083183228969574
+    }
+  },
+  {
+    "text": "que es el nombre del doctor que me atiende.",
+    "intent": "ask_doctor",
+    "intent_prediction": {
+      "name": "ask_services",
+      "confidence": 0.23646056652069092
+    }
+  },
+  {
+    "text": "quiero turno con Dr. Forni",
+    "intent": "ask_doctor",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.7255775332450867
+    }
+  },
+  {
+    "text": "quiero turno con dra forni",
+    "intent": "ask_doctor",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.4996851086616516
+    }
+  },
+  {
+    "text": "quienes son los doctores que atienden",
+    "intent": "ask_doctor",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.33997541666030884
+    }
+  },
+  {
+    "text": "cuanto tiempo lleva",
+    "intent": "ask_duration",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.22602054476737976
+    }
+  },
+  {
+    "text": "estoy enojado",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.8105384111404419
+    }
+  },
+  {
+    "text": "responde, responde",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "affirm+ask_bot_challenge",
+      "confidence": 0.4912159740924835
+    }
+  },
+  {
+    "text": "enojado",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "human_agent",
+      "confidence": 0.1371178776025772
+    }
+  },
+  {
+    "text": "te odio",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.2782304286956787
+    }
+  },
+  {
+    "text": "¿Cuáles son tus horas de operación?",
+    "intent": "ask_hours",
+    "intent_prediction": {
+      "name": "ask_howold",
+      "confidence": 0.20663361251354218
+    }
+  },
+  {
+    "text": "como va?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_bot_name",
+      "confidence": 0.36380088329315186
+    }
+  },
+  {
+    "text": "estoy bien, vos?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.91949462890625
+    }
+  },
+  {
+    "text": "estas feliz?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.8390146493911743
+    }
+  },
+  {
+    "text": "ça va ?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.2325078397989273
+    }
+  },
+  {
+    "text": "MI que??",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.35321348905563354
+    }
+  },
+  {
+    "text": "how old are you?",
+    "intent": "ask_howold",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.9271989464759827
+    }
+  },
+  {
+    "text": "decime algo gracioso",
+    "intent": "ask_joke_request",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.42777445912361145
+    }
+  },
+  {
+    "text": "hacerme reir",
+    "intent": "ask_joke_request",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5190895795822144
+    }
+  },
+  {
+    "text": "bueno pero me puedes contar un buen chiste",
+    "intent": "ask_joke_request",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.38782310485839844
+    }
+  },
+  {
+    "text": "sos linda?",
+    "intent": "ask_made",
+    "intent_prediction": {
+      "name": "ask_weather",
+      "confidence": 0.15706300735473633
+    }
+  },
+  {
+    "text": "porque existes?",
+    "intent": "ask_made",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.3016659617424011
+    }
+  },
+  {
+    "text": "como llegaste de existir?",
+    "intent": "ask_made",
+    "intent_prediction": {
+      "name": "ask_joke_request",
+      "confidence": 0.18119986355304718
+    }
+  },
+  {
+    "text": "explicame los servicios",
+    "intent": "ask_services",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.6653906106948853
+    }
+  },
+  {
+    "text": "que es flebologia",
+    "intent": "ask_services",
+    "intent_prediction": {
+      "name": "inform_service",
+      "confidence": 0.41048747301101685
+    }
+  },
+  {
+    "text": "que es flebología",
+    "intent": "ask_services",
+    "intent_prediction": {
+      "name": "inform_service",
+      "confidence": 0.6802360415458679
+    }
+  },
+  {
+    "text": "que es dermatologia",
+    "intent": "ask_services",
+    "intent_prediction": {
+      "name": "inform_service",
+      "confidence": 0.4412279725074768
+    }
+  },
+  {
+    "text": "que es dermatología",
+    "intent": "ask_services",
+    "intent_prediction": {
+      "name": "inform_service",
+      "confidence": 0.6084064841270447
+    }
+  },
+  {
+    "text": "que es nutricion",
+    "intent": "ask_services",
+    "intent_prediction": {
+      "name": "inform_service",
+      "confidence": 0.2987014055252075
+    }
+  },
+  {
+    "text": "Hay cambios climiaticos?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "inform+inform_service",
+      "confidence": 0.34535419940948486
+    }
+  },
+  {
+    "text": "Hoy esta humido?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.38353902101516724
+    }
+  },
+  {
+    "text": "que es la temperatura de hoy?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "faq_kunan",
+      "confidence": 0.22875383496284485
+    }
+  },
+  {
+    "text": "what is the weather like today?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.734772801399231
+    }
+  },
+  {
+    "text": "de donde eres?",
+    "intent": "ask_wherefrom",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.5521107912063599
+    }
+  },
+  {
+    "text": "de donde sos?",
+    "intent": "ask_wherefrom",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.7021870613098145
+    }
+  },
+  {
+    "text": "de donde venis?",
+    "intent": "ask_wherefrom",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.3304829001426697
+    }
+  },
+  {
+    "text": "Me pasas la direccion?",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.5309491753578186
+    }
+  },
+  {
+    "text": "me mandas la ubicacion?",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.4513080418109894
+    }
+  },
+  {
+    "text": "donde es la clinica?",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.3745725750923157
+    }
+  },
+  {
+    "text": "me gustaria saber donde queda Adara",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "thanks+consulta_direccion",
+      "confidence": 0.37544959783554077
+    }
+  },
+  {
+    "text": "donde queda Adara",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "thanks+consulta_direccion",
+      "confidence": 0.3989759683609009
+    }
+  },
+  {
+    "text": "estas en el centro?",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.33685553073883057
+    }
+  },
+  {
+    "text": "donde esta la clinica",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.385033518075943
+    }
+  },
+  {
+    "text": "me pasas la direccion de la clinica por favor",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.4177197515964508
+    }
+  },
+  {
+    "text": "direccion?",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.5782668590545654
+    }
+  },
+  {
+    "text": "me pasas la direccion",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.4973613917827606
+    }
+  },
+  {
+    "text": "donde es la clinia",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.5151459574699402
+    }
+  },
+  {
+    "text": "esta en el centro la clinica",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.45862987637519836
+    }
+  },
+  {
+    "text": "Quisiera un turno para el 1 de enero del 2017",
+    "intent": "consulta_services_type",
+    "intent_prediction": {
+      "name": "inform_service",
+      "confidence": 0.42225250601768494
+    }
+  },
+  {
+    "text": "info",
+    "intent": "consulta_services_type",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.21467144787311554
+    }
+  },
+  {
+    "text": "informacion",
+    "intent": "consulta_services_type",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.27719786763191223
+    }
+  },
+  {
+    "text": "information",
+    "intent": "consulta_services_type",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.3783511221408844
+    }
+  },
+  {
+    "text": "que servicios hay en el centro de estetica",
+    "intent": "consulta_services_type",
+    "intent_prediction": {
+      "name": "inform_service",
+      "confidence": 0.5748392343521118
+    }
+  },
+  {
+    "text": "can i make an appointment",
+    "intent": "consulta_services_type",
+    "intent_prediction": {
+      "name": "ask_weather",
+      "confidence": 0.1734122335910797
+    }
+  },
+  {
+    "text": "estoy comunicando porque vi la propaganda de consulta gratis",
+    "intent": "consulta_services_type",
+    "intent_prediction": {
+      "name": "inform_service",
+      "confidence": 0.23709560930728912
+    }
+  },
+  {
+    "text": "que tipos de servicios brindan?",
+    "intent": "consulta_services_type",
+    "intent_prediction": {
+      "name": "ask_bot_name",
+      "confidence": 0.26345571875572205
+    }
+  },
+  {
+    "text": "cita",
+    "intent": "consulta_services_type",
+    "intent_prediction": {
+      "name": "thanks+consulta_direccion",
+      "confidence": 0.2029118835926056
+    }
+  },
+  {
+    "text": "quiero ver las atenciones que tienen para el mes de enero",
+    "intent": "consulta_services_type",
+    "intent_prediction": {
+      "name": "otra_fecha",
+      "confidence": 0.5294017791748047
+    }
+  },
+  {
+    "text": "bueno me das uno?",
+    "intent": "consulta_services_type",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5082781314849854
+    }
+  },
+  {
+    "text": "no puedo ninguno",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.5265508890151978
+    }
+  },
+  {
+    "text": "nah",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "laugh+thanks",
+      "confidence": 0.1885424554347992
+    }
+  },
+  {
+    "text": "no ninguno",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.4236540198326111
+    }
+  },
+  {
+    "text": "NO",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "human_agent",
+      "confidence": 0.2143319994211197
+    }
+  },
+  {
+    "text": "kunan es una empresa de technologia",
+    "intent": "faq_kunan",
+    "intent_prediction": {
+      "name": "inform_service",
+      "confidence": 0.22842735052108765
+    }
+  },
+  {
+    "text": "kunan es una empresa de software",
+    "intent": "faq_kunan",
+    "intent_prediction": {
+      "name": "human_agent",
+      "confidence": 0.2401939481496811
+    }
+  },
+  {
+    "text": "chau",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "laugh+thanks",
+      "confidence": 0.23658649623394012
+    }
+  },
+  {
+    "text": "hasta luego",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.20988456904888153
+    }
+  },
+  {
+    "text": "besos",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.3336373567581177
+    }
+  },
+  {
+    "text": "saludos",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.18792489171028137
+    }
+  },
+  {
+    "text": "ho",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.4630602300167084
+    }
+  },
+  {
+    "text": "HOLA!",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "greet+inform",
+      "confidence": 0.22304287552833557
+    }
+  },
+  {
+    "text": "holis",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.4449082911014557
+    }
+  },
+  {
+    "text": "Alo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.3033474385738373
+    }
+  },
+  {
+    "text": "¿Cómo está usted?",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.17933067679405212
+    }
+  },
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.28989923000335693
+    }
+  },
+  {
+    "text": "holis!",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.4449082911014557
+    }
+  },
+  {
+    "text": "estimados!",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_services",
+      "confidence": 0.17710155248641968
+    }
+  },
+  {
+    "text": "Hola! tengo arañitas. soy Romina mi DNI: 13.434.234, mi email romina.suare@gmail.com",
+    "intent": "greet+inform",
+    "intent_prediction": {
+      "name": "inform+inform_service",
+      "confidence": 0.6359847187995911
+    }
+  },
+  {
+    "text": "es posible hablar con un humano",
+    "intent": "human_agent",
+    "intent_prediction": {
+      "name": "affirm+ask_bot_challenge",
+      "confidence": 0.35095420479774475
+    }
+  },
+  {
+    "text": "quisiera hablar con un humano por favor",
+    "intent": "human_agent",
+    "intent_prediction": {
+      "name": "affirm+ask_bot_challenge",
+      "confidence": 0.479444295167923
+    }
+  },
+  {
+    "text": "quiero hablar con tu jefe",
+    "intent": "human_agent",
+    "intent_prediction": {
+      "name": "ask_bot_name",
+      "confidence": 0.2814813554286957
+    }
+  },
+  {
+    "text": "jefe",
+    "intent": "human_agent",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.19943591952323914
+    }
+  },
+  {
+    "text": "puedo hablar con un operador humano por favor",
+    "intent": "human_agent",
+    "intent_prediction": {
+      "name": "consulta_direccion",
+      "confidence": 0.2038460522890091
+    }
+  },
+  {
+    "text": "Gabriela Alejandra Marek",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet+inform",
+      "confidence": 0.9600081443786621
+    }
+  },
+  {
+    "text": "mi nombre es Clemira Ortega",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet+inform",
+      "confidence": 0.4798644185066223
+    }
+  },
+  {
+    "text": "Nelida Paredes Quiero",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.503206193447113
+    }
+  },
+  {
+    "text": "alfredo ruiz",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet+inform",
+      "confidence": 0.27182909846305847
+    }
+  },
+  {
+    "text": "Oscar Alemán",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet+inform",
+      "confidence": 0.4050810933113098
+    }
+  },
+  {
+    "text": "Elizabeth Eichhorn",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet+inform",
+      "confidence": 0.3057435154914856
+    }
+  },
+  {
+    "text": "mi nombre es daniel y quiero un turno",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.4684832692146301
+    }
+  },
+  {
+    "text": "Laura Alemany",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet+inform",
+      "confidence": 0.3968006670475006
+    }
+  },
+  {
+    "text": "flebologia",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "inform+inform_service",
+      "confidence": 0.8900428414344788
+    }
+  },
+  {
+    "text": "nutricion",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "inform+inform_service",
+      "confidence": 0.8383119106292725
+    }
+  },
+  {
+    "text": "Flebologia",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "inform+inform_service",
+      "confidence": 0.8255723714828491
+    }
+  },
+  {
+    "text": "Dermatologia",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "inform+inform_service",
+      "confidence": 0.8296533823013306
+    }
+  },
+  {
+    "text": "Dermatología",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "inform+inform_service",
+      "confidence": 0.8415877819061279
+    }
+  },
+  {
+    "text": "Nutrición",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "inform+inform_service",
+      "confidence": 0.7559834122657776
+    }
+  },
+  {
+    "text": "estetica",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "inform+inform_service",
+      "confidence": 0.4908725619316101
+    }
+  },
+  {
+    "text": "Gabriela Farias",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet+inform",
+      "confidence": 0.4574947655200958
+    }
+  },
+  {
+    "text": "mi nombre es Pepe",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.23299340903759003
+    }
+  },
+  {
+    "text": "alberto pastor",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet+inform",
+      "confidence": 0.2903028726577759
+    }
+  },
+  {
+    "text": "hola quiero un turno para dentista",
+    "intent": "inform+inform_service",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.6014440059661865
+    }
+  },
+  {
+    "text": "soy Coti y me gustaria reservar una cita de flebologoa",
+    "intent": "inform+inform_service",
+    "intent_prediction": {
+      "name": "inform_service",
+      "confidence": 0.7514989972114563
+    }
+  },
+  {
+    "text": "que dias tienen disponible para flebologia",
+    "intent": "inform_service",
+    "intent_prediction": {
+      "name": "inform+inform_service",
+      "confidence": 0.44877707958221436
+    }
+  },
+  {
+    "text": "Dame un turno para la dermatologa",
+    "intent": "inform_service",
+    "intent_prediction": {
+      "name": "inform+inform_service",
+      "confidence": 0.5159178972244263
+    }
+  },
+  {
+    "text": "Hola nesesito para flebologia cuando podría darme un turno si es un viernes sería fantástico",
+    "intent": "inform_service",
+    "intent_prediction": {
+      "name": "inform+inform_service",
+      "confidence": 0.6396516561508179
+    }
+  },
+  {
+    "text": "NUTRICION por favor",
+    "intent": "inform_service",
+    "intent_prediction": {
+      "name": "consulta_direccion",
+      "confidence": 0.20347855985164642
+    }
+  },
+  {
+    "text": "quiero un turno de ESTETICA",
+    "intent": "inform_service",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.8912460803985596
+    }
+  },
+  {
+    "text": "mi nombre es brandon janes. quiero un turno",
+    "intent": "inform_service",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.644541323184967
+    }
+  },
+  {
+    "text": "jajajajaj",
+    "intent": "laugh",
+    "intent_prediction": {
+      "name": "laugh+thanks",
+      "confidence": 0.5024005174636841
+    }
+  },
+  {
+    "text": "no quiero darte ese informacion",
+    "intent": "no_brindar_datos",
+    "intent_prediction": {
+      "name": "ask_bot_name",
+      "confidence": 0.1910923272371292
+    }
+  },
+  {
+    "text": "no quiero compartir informacion personal",
+    "intent": "no_brindar_datos",
+    "intent_prediction": {
+      "name": "human_agent",
+      "confidence": 0.4874306321144104
+    }
+  },
+  {
+    "text": "tenes algo para la otra semana. la semana que viene",
+    "intent": "otra_fecha",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.7140174508094788
+    }
+  },
+  {
+    "text": "no puedo ir ese dia",
+    "intent": "otra_fecha",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.3334192931652069
+    }
+  },
+  {
+    "text": "no me queda bien ese dia",
+    "intent": "otra_fecha",
+    "intent_prediction": {
+      "name": "ask_languagesbot",
+      "confidence": 0.150259867310524
+    }
+  },
+  {
+    "text": "18 hs",
+    "intent": "otra_fecha",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2942638099193573
+    }
+  },
+  {
+    "text": "quiero turno 18 hrs",
+    "intent": "otra_fecha",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.8531594276428223
+    }
+  },
+  {
+    "text": "otro turno",
+    "intent": "otra_fecha",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.5845149755477905
+    }
+  },
+  {
+    "text": "otros turnos",
+    "intent": "otra_fecha",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.5406907796859741
+    }
+  },
+  {
+    "text": "mas horarios",
+    "intent": "otra_fecha",
+    "intent_prediction": {
+      "name": "ask_hours",
+      "confidence": 0.42384812235832214
+    }
+  },
+  {
+    "text": "te amo",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_bot_name",
+      "confidence": 0.21020077168941498
+    }
+  },
+  {
+    "text": "quien es el presidente de argentina",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_bot_name",
+      "confidence": 0.15977416932582855
+    }
+  },
+  {
+    "text": "quien es el presidente de estados unidos",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "inform_service",
+      "confidence": 0.18975043296813965
+    }
+  },
+  {
+    "text": "Balanceado",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet+inform",
+      "confidence": 0.2852131426334381
+    }
+  },
+  {
+    "text": "puedo pagar mi cuenta",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_made",
+      "confidence": 0.1636720895767212
+    }
+  },
+  {
+    "text": "4 + 2 = ?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9099516868591309
+    }
+  },
+  {
+    "text": "despues de inscribirme veo que tengo 0.00000000 en mi cuenta. Que representa?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "inform+inform_service",
+      "confidence": 0.5456621646881104
+    }
+  },
+  {
+    "text": "estas lista?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.441334068775177
+    }
+  },
+  {
+    "text": "estas listo?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.5761232972145081
+    }
+  },
+  {
+    "text": "you're an english site :(",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.43693217635154724
+    }
+  },
+  {
+    "text": "me podes volver la llamada",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "laugh+thanks",
+      "confidence": 0.3219658136367798
+    }
+  },
+  {
+    "text": "podes hacer asado",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.2229996919631958
+    }
+  },
+  {
+    "text": "cuanto tiempo lleva armar un bot",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_hours",
+      "confidence": 0.19429847598075867
+    }
+  },
+  {
+    "text": "caso no veo nada en la pantalla",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "thanks+consulta_direccion",
+      "confidence": 0.3808632493019104
+    }
+  },
+  {
+    "text": "hay que cliquear las pastañas",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_howold",
+      "confidence": 0.19954684376716614
+    }
+  },
+  {
+    "text": "ya le instalé",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.6724426746368408
+    }
+  },
+  {
+    "text": "necesito GP 12343",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.30676814913749695
+    }
+  },
+  {
+    "text": "quiero un notebook",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.405689537525177
+    }
+  },
+  {
+    "text": "peudo reservar un hotel",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.7337532639503479
+    }
+  },
+  {
+    "text": "puedo reservar una habitacion",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.7349750399589539
+    }
+  },
+  {
+    "text": "mandame la guia por mail",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.18259268999099731
+    }
+  },
+  {
+    "text": "NLW",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.19763432443141937
+    }
+  },
+  {
+    "text": "esta roto",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_services",
+      "confidence": 0.15297217667102814
+    }
+  },
+  {
+    "text": "que dia es hoy?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_weather",
+      "confidence": 0.2946622967720032
+    }
+  },
+  {
+    "text": "que fecha es hoy",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "otra_fecha",
+      "confidence": 0.400925874710083
+    }
+  },
+  {
+    "text": "que te hace mejor que un humano",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "faq_kunan",
+      "confidence": 0.21189288794994354
+    }
+  },
+  {
+    "text": "que es 1 + 1?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "otra_fecha",
+      "confidence": 0.3023863732814789
+    }
+  },
+  {
+    "text": "que tenes en backend",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.3484903573989868
+    }
+  },
+  {
+    "text": "estas soltera?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.38455110788345337
+    }
+  },
+  {
+    "text": "otra vez",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "otra_fecha",
+      "confidence": 0.5516016483306885
+    }
+  },
+  {
+    "text": "podes hacer ruidos de animales",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_languagesbot",
+      "confidence": 0.3178004026412964
+    }
+  },
+  {
+    "text": "are you using Rasa Core and NLU ?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.50876784324646
+    }
+  },
+  {
+    "text": "sos vegan",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_enojo",
+      "confidence": 0.44424083828926086
+    }
+  },
+  {
+    "text": "estas al favor del aborto?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.3124052584171295
+    }
+  },
+  {
+    "text": "hacer un vuelo",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.7282479405403137
+    }
+  },
+  {
+    "text": "podes reservar mesa para cenar",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.36109691858291626
+    }
+  },
+  {
+    "text": "podes aprender de las conversaiones",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "laugh+thanks",
+      "confidence": 0.24086624383926392
+    }
+  },
+  {
+    "text": "te amo mucho",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_weather",
+      "confidence": 0.4677240550518036
+    }
+  },
+  {
+    "text": "puede ser. pero ahora no",
+    "intent": "postpone",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5673810243606567
+    }
+  },
+  {
+    "text": "ahora no puedo",
+    "intent": "postpone",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.742854118347168
+    }
+  },
+  {
+    "text": "no tengo esa informacion ahora",
+    "intent": "postpone",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.32280415296554565
+    }
+  },
+  {
+    "text": "De nada",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.48918211460113525
+    }
+  },
+  {
+    "text": "gracias a ustedes",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.4999349117279053
+    }
+  },
+  {
+    "text": ":)",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.159488245844841
+    }
+  },
+  {
+    "text": "gracias! adios!",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4873066842556
+    }
+  },
+  {
+    "text": "graciaaas!!",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.37537968158721924
+    }
+  },
+  {
+    "text": "perfecto!",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.514458954334259
+    }
+  },
+  {
+    "text": "mil gracias!!!",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.4997035562992096
+    }
+  },
+  {
+    "text": "OK.",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5250904560089111
+    }
+  },
+  {
+    "text": "gracis",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.4787004888057709
+    }
+  },
+  {
+    "text": "ok! thanks!",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.46721288561820984
+    }
+  },
+  {
+    "text": "mil gracias!",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.4997035562992096
+    }
+  },
+  {
+    "text": "gracias!!!",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.5331211090087891
+    }
+  },
+  {
+    "text": "graciass!",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.47826364636421204
+    }
+  },
+  {
+    "text": "grcaise",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.4274979531764984
+    }
+  },
+  {
+    "text": "vamoo! perfecto!",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.48532915115356445
+    }
+  },
+  {
+    "text": "genial. muchisimas gracias!",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.537022590637207
+    }
+  },
+  {
+    "text": "muy amable",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "ask_bot_name",
+      "confidence": 0.2993735074996948
+    }
+  },
+  {
+    "text": "muchisimas gracias. que tengas buen dia!",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "laugh+thanks",
+      "confidence": 0.3363010585308075
+    }
+  },
+  {
+    "text": "gracias!!",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.5331211090087891
+    }
+  },
+  {
+    "text": "great! En dónde estamos?",
+    "intent": "thanks+consulta_direccion",
+    "intent_prediction": {
+      "name": "consulta_direccion",
+      "confidence": 0.5872291922569275
+    }
+  },
+  {
+    "text": "nada mas saludos",
+    "intent": "thanks+consulta_direccion",
+    "intent_prediction": {
+      "name": "laugh+thanks",
+      "confidence": 0.41989898681640625
+    }
+  },
+  {
+    "text": "Capaz",
+    "intent": "unsure",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.2582957446575165
+    }
+  },
+  {
+    "text": "quizas",
+    "intent": "unsure",
+    "intent_prediction": {
+      "name": "ask_bot_name",
+      "confidence": 0.21056890487670898
+    }
+  },
+  {
+    "text": "Sí",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.19534654915332794
+    }
+  },
+  {
+    "text": "OK!",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.27478936314582825
+    }
+  },
+  {
+    "text": "si. me podes decir que si estoy hablando con un humano o un chat bot?",
+    "intent": "affirm+ask_bot_challenge",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.3202272057533264
+    }
+  },
+  {
+    "text": "sos un humano?",
+    "intent": "ask_bot_challenge",
+    "intent_prediction": {
+      "name": "human_agent",
+      "confidence": 0.7101955413818359
+    }
+  },
+  {
+    "text": "estoy hablando con un bot?",
+    "intent": "ask_bot_challenge",
+    "intent_prediction": {
+      "name": "ask_languagesbot",
+      "confidence": 0.375278115272522
+    }
+  },
+  {
+    "text": "estoy hablando con un humano?",
+    "intent": "ask_bot_challenge",
+    "intent_prediction": {
+      "name": "human_agent",
+      "confidence": 0.5977215766906738
+    }
+  },
+  {
+    "text": "como te llamas?",
+    "intent": "ask_bot_name",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.18667925894260406
+    }
+  },
+  {
+    "text": "como te llamas",
+    "intent": "ask_bot_name",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.18667925894260406
+    }
+  },
+  {
+    "text": "decime algo de vos",
+    "intent": "ask_bot_name",
+    "intent_prediction": {
+      "name": "ask_joke_request",
+      "confidence": 0.8300817012786865
+    }
+  },
+  {
+    "text": "wer bist Du?",
+    "intent": "ask_bot_name",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.17534686625003815
+    }
+  },
+  {
+    "text": "Me equivoqué y quiero cambiar algo.",
+    "intent": "ask_change",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.41624078154563904
+    }
+  },
+  {
+    "text": "dar turnos para el doctor",
+    "intent": "ask_doctor",
+    "intent_prediction": {
+      "name": "inform_service",
+      "confidence": 0.5169363617897034
+    }
+  },
+  {
+    "text": "que medico?",
+    "intent": "ask_doctor",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.16602899134159088
+    }
+  },
+  {
+    "text": "que profesionales tienen?",
+    "intent": "ask_doctor",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5076799392700195
+    }
+  },
+  {
+    "text": "quiero turno con dra morales",
+    "intent": "ask_doctor",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.4684024155139923
+    }
+  },
+  {
+    "text": "a q hora termina la cita?",
+    "intent": "ask_duration",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.45993998646736145
+    }
+  },
+  {
+    "text": "quisiera saber a q hora termina la cita?",
+    "intent": "ask_duration",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.7707343697547913
+    }
+  },
+  {
+    "text": "la cita es muy larga",
+    "intent": "ask_duration",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.44675812125205994
+    }
+  },
+  {
+    "text": "repondeme!!",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "thanks+consulta_direccion",
+      "confidence": 0.19519661366939545
+    }
+  },
+  {
+    "text": "sos una idiota",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "faq_kunan",
+      "confidence": 0.2389746457338333
+    }
+  },
+  {
+    "text": "callate hijo de puta",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "postpone",
+      "confidence": 0.2783299386501312
+    }
+  },
+  {
+    "text": "😠",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "affirm+ask_bot_challenge",
+      "confidence": 0.18529367446899414
+    }
+  },
+  {
+    "text": "sos una verga",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.20182020962238312
+    }
+  },
+  {
+    "text": "brandon sucks",
+    "intent": "ask_enojo",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.935578465461731
+    }
+  },
+  {
+    "text": "Que horarios funciona este bot?",
+    "intent": "ask_hours",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9697884917259216
+    }
+  },
+  {
+    "text": "En que horarios puedo hablar con el bot?",
+    "intent": "ask_hours",
+    "intent_prediction": {
+      "name": "human_agent",
+      "confidence": 0.29035574197769165
+    }
+  },
+  {
+    "text": "horarios?",
+    "intent": "ask_hours",
+    "intent_prediction": {
+      "name": "otra_fecha",
+      "confidence": 0.6693149209022522
+    }
+  },
+  {
+    "text": "holis como estas?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.5171158313751221
+    }
+  },
+  {
+    "text": "Hola Maria Luisa, como estas?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.41800543665885925
+    }
+  },
+  {
+    "text": "como estas hoy?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.2932116985321045
+    }
+  },
+  {
+    "text": "come stai?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "ask_joke_request",
+      "confidence": 0.17140492796897888
+    }
+  },
+  {
+    "text": "h r u ?",
+    "intent": "ask_howdoing",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.24972184002399445
+    }
+  },
+  {
+    "text": "cuantos anos tenes?",
+    "intent": "ask_howold",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.3582724928855896
+    }
+  },
+  {
+    "text": "que es tu edad?",
+    "intent": "ask_howold",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.4210195541381836
+    }
+  },
+  {
+    "text": "decime tu edad",
+    "intent": "ask_howold",
+    "intent_prediction": {
+      "name": "inform_service",
+      "confidence": 0.3312736749649048
+    }
+  },
+  {
+    "text": "en que fecha naciste?",
+    "intent": "ask_howold",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5029025673866272
+    }
+  },
+  {
+    "text": "podes decir algo gracioso",
+    "intent": "ask_joke_request",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.3616601228713989
+    }
+  },
+  {
+    "text": "quien te hizo?",
+    "intent": "ask_made",
+    "intent_prediction": {
+      "name": "ask_bot_name",
+      "confidence": 0.542813777923584
+    }
+  },
+  {
+    "text": "quién es tu padre?",
+    "intent": "ask_made",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6869914531707764
+    }
+  },
+  {
+    "text": "quien te hizo",
+    "intent": "ask_made",
+    "intent_prediction": {
+      "name": "ask_bot_name",
+      "confidence": 0.542813777923584
+    }
+  },
+  {
+    "text": "con que metodos te hicieron?",
+    "intent": "ask_made",
+    "intent_prediction": {
+      "name": "faq_kunan",
+      "confidence": 0.16145223379135132
+    }
+  },
+  {
+    "text": "Como te formaron?",
+    "intent": "ask_made",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.3697836995124817
+    }
+  },
+  {
+    "text": "hoy esta pesado?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.2985363006591797
+    }
+  },
+  {
+    "text": "te puedo preguntar algo del tiempo?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.571995198726654
+    }
+  },
+  {
+    "text": "va a llover mañana?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.41919660568237305
+    }
+  },
+  {
+    "text": "hay mucho viento hoy?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6323660612106323
+    }
+  },
+  {
+    "text": "donde naciste?",
+    "intent": "ask_wherefrom",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.2786754071712494
+    }
+  },
+  {
+    "text": "Sabes donde te hicieron?",
+    "intent": "ask_wherefrom",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.3703433573246002
+    }
+  },
+  {
+    "text": "y ahora donde estas maria luisa",
+    "intent": "ask_wherefrom",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.5794265866279602
+    }
+  },
+  {
+    "text": "necesito la direccion",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.46839481592178345
+    }
+  },
+  {
+    "text": "En dónde estamos?",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "thanks+consulta_direccion",
+      "confidence": 0.4593920409679413
+    }
+  },
+  {
+    "text": "donde esta la clinica?",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.4583081305027008
+    }
+  },
+  {
+    "text": "y como llego a la cita?",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.4626982808113098
+    }
+  },
+  {
+    "text": "donde esta ubicado la clinica?",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.5606380105018616
+    }
+  },
+  {
+    "text": "la ubicacion me pasas?",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.4698217511177063
+    }
+  },
+  {
+    "text": "me podes pasar la direccion de la clinica",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.4855543076992035
+    }
+  },
+  {
+    "text": "estan ubicados en centro?",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.4899061322212219
+    }
+  },
+  {
+    "text": "Donde",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.1476481854915619
+    }
+  },
+  {
+    "text": "me pasas la direccion por favor",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.3736160397529602
+    }
+  },
+  {
+    "text": "donde encuentro la clinica",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.5669263601303101
+    }
+  },
+  {
+    "text": "quiero saber la direccion de la clinica?",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.45292359590530396
+    }
+  },
+  {
+    "text": "pasame la dire",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.6516500115394592
+    }
+  },
+  {
+    "text": "¿donde queda?",
+    "intent": "consulta_direccion",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.45453983545303345
+    }
+  },
+  {
+    "text": "hola mi nombre es brandon janes y quiero reservar un turno",
+    "intent": "consulta_services_type",
+    "intent_prediction": {
+      "name": "inform_service",
+      "confidence": 0.3713781535625458
+    }
+  },
+  {
+    "text": "holis se puede sacar turno para esta semana o si no la otra",
+    "intent": "consulta_services_type",
+    "intent_prediction": {
+      "name": "otra_fecha",
+      "confidence": 0.32526057958602905
+    }
+  },
+  {
+    "text": "Tirno",
+    "intent": "consulta_services_type",
+    "intent_prediction": {
+      "name": "inform+inform_service",
+      "confidence": 0.4377284049987793
+    }
+  },
+  {
+    "text": "estoy interesado en operarme",
+    "intent": "consulta_services_type",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6846219897270203
+    }
+  },
+  {
+    "text": "Me pueden decir si puedo conseguir turno",
+    "intent": "consulta_services_type",
+    "intent_prediction": {
+      "name": "inform_service",
+      "confidence": 0.4144332706928253
+    }
+  },
+  {
+    "text": "tirno",
+    "intent": "consulta_services_type",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.14315149188041687
+    }
+  },
+  {
+    "text": "no",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.198197141289711
+    }
+  },
+  {
+    "text": "ni en pedo",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "postpone",
+      "confidence": 0.12428948283195496
+    }
+  },
+  {
+    "text": "no tengo",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "ask_bot_name",
+      "confidence": 0.1707301139831543
+    }
+  },
+  {
+    "text": "goodbye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "inform_service",
+      "confidence": 0.4393520951271057
+    }
+  },
+  {
+    "text": "te mando un beso",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "inform_service",
+      "confidence": 0.2619214951992035
+    }
+  },
+  {
+    "text": "ciao",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "inform_service",
+      "confidence": 0.29734212160110474
+    }
+  },
+  {
+    "text": "abrazo!",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.591962456703186
+    }
+  },
+  {
+    "text": "abrazos!",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.34990620613098145
+    }
+  },
+  {
+    "text": "hello man",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.18687668442726135
+    }
+  },
+  {
+    "text": "BUenas",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "greet+inform",
+      "confidence": 0.2519336938858032
+    }
+  },
+  {
+    "text": "hola como estas?",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.5321840643882751
+    }
+  },
+  {
+    "text": "hola Kunan!",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_made",
+      "confidence": 0.25073111057281494
+    }
+  },
+  {
+    "text": "bueans",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "greet+inform",
+      "confidence": 0.234409898519516
+    }
+  },
+  {
+    "text": "Buen dia😊 Mí nombre Gabriela Alejandra Marek",
+    "intent": "greet+inform",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8906568884849548
+    }
+  },
+  {
+    "text": "quiero que me atiende una persona",
+    "intent": "human_agent",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.32384973764419556
+    }
+  },
+  {
+    "text": "quiero hablar con el desarrollador de este software",
+    "intent": "human_agent",
+    "intent_prediction": {
+      "name": "ask_joke_request",
+      "confidence": 0.32813316583633423
+    }
+  },
+  {
+    "text": "quiero conocer el responsable de este technologia",
+    "intent": "human_agent",
+    "intent_prediction": {
+      "name": "inform_service",
+      "confidence": 0.16848327219486237
+    }
+  },
+  {
+    "text": "Gáston Fortuny",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "inform+inform_service",
+      "confidence": 0.7443795800209045
+    }
+  },
+  {
+    "text": "Si. María Cristina Aråoz",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet+inform",
+      "confidence": 0.248671755194664
+    }
+  },
+  {
+    "text": "mi nombre es Imanuel Kant",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet+inform",
+      "confidence": 0.5181768536567688
+    }
+  },
+  {
+    "text": "lionel messi",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.23303881287574768
+    }
+  },
+  {
+    "text": "diana rodriguez",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet+inform",
+      "confidence": 0.4811863601207733
+    }
+  },
+  {
+    "text": "hola mi nombre es maria",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet+inform",
+      "confidence": 0.6985830664634705
+    }
+  },
+  {
+    "text": "dermatologia",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "inform+inform_service",
+      "confidence": 0.7124131321907043
+    }
+  },
+  {
+    "text": "Estefanía Acuña",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.3524519205093384
+    }
+  },
+  {
+    "text": "bob johgnon",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "laugh",
+      "confidence": 0.19842316210269928
+    }
+  },
+  {
+    "text": "Constanza Montenegro",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "greet+inform",
+      "confidence": 0.3925563097000122
+    }
+  },
+  {
+    "text": "holis! mi nombre es Nicole Brown Simpson y quiero un turno para flebologia. seria posible este viernes?",
+    "intent": "inform+inform_service",
+    "intent_prediction": {
+      "name": "inform_service",
+      "confidence": 0.5424416065216064
+    }
+  },
+  {
+    "text": "quiero un turno de flebologia para Pablo",
+    "intent": "inform+inform_service",
+    "intent_prediction": {
+      "name": "inform_service",
+      "confidence": 0.7420045733451843
+    }
+  },
+  {
+    "text": "hola , quiero sacar un turno con alguna dematologa en enero",
+    "intent": "inform_service",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.7839543223381042
+    }
+  },
+  {
+    "text": "dermatología",
+    "intent": "inform_service",
+    "intent_prediction": {
+      "name": "inform+inform_service",
+      "confidence": 0.5111721754074097
+    }
+  },
+  {
+    "text": "quiero flebologia",
+    "intent": "inform_service",
+    "intent_prediction": {
+      "name": "inform+inform_service",
+      "confidence": 0.6850934028625488
+    }
+  },
+  {
+    "text": "quisiera flebología",
+    "intent": "inform_service",
+    "intent_prediction": {
+      "name": "ask_services",
+      "confidence": 0.36280715465545654
+    }
+  },
+  {
+    "text": "gracias por responder. necesito un turno de nutrición",
+    "intent": "inform_service",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.5770515203475952
+    }
+  },
+  {
+    "text": "jajaja",
+    "intent": "laugh",
+    "intent_prediction": {
+      "name": "laugh+thanks",
+      "confidence": 0.40372225642204285
+    }
+  },
+  {
+    "text": "ja ja ja",
+    "intent": "laugh",
+    "intent_prediction": {
+      "name": "laugh+thanks",
+      "confidence": 0.36994072794914246
+    }
+  },
+  {
+    "text": "hahaha",
+    "intent": "laugh",
+    "intent_prediction": {
+      "name": "laugh+thanks",
+      "confidence": 0.38839665055274963
+    }
+  },
+  {
+    "text": "no quiero",
+    "intent": "no_brindar_datos",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.1972235143184662
+    }
+  },
+  {
+    "text": "prefiero no dar mi nombre",
+    "intent": "no_brindar_datos",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.1699967235326767
+    }
+  },
+  {
+    "text": "no tengo correo electronico",
+    "intent": "no_brindar_datos",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.18154866993427277
+    }
+  },
+  {
+    "text": "otra fecha quiero",
+    "intent": "otra_fecha",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7142512798309326
+    }
+  },
+  {
+    "text": "quiero el 05.02.2020",
+    "intent": "otra_fecha",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6847972273826599
+    }
+  },
+  {
+    "text": "01-09-1990 por favor",
+    "intent": "otra_fecha",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.29298338294029236
+    }
+  },
+  {
+    "text": "05.02.2020",
+    "intent": "otra_fecha",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9216871857643127
+    }
+  },
+  {
+    "text": "09/08/20 18 hrs",
+    "intent": "otra_fecha",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6357609629631042
+    }
+  },
+  {
+    "text": "turno para enero",
+    "intent": "otra_fecha",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.7873746752738953
+    }
+  },
+  {
+    "text": "turno para agosto",
+    "intent": "otra_fecha",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.5385658740997314
+    }
+  },
+  {
+    "text": "para enero",
+    "intent": "otra_fecha",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.39963555335998535
+    }
+  },
+  {
+    "text": "quiero un trabajo",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.6338241696357727
+    }
+  },
+  {
+    "text": "puedo morir",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.23165461421012878
+    }
+  },
+  {
+    "text": "puedo comer una hamburguesa?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.1679949015378952
+    }
+  },
+  {
+    "text": "me podes pedir un uber",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.2834412753582001
+    }
+  },
+  {
+    "text": "tengo que aceptar",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.7797794938087463
+    }
+  },
+  {
+    "text": "conoces Kevi Pelton",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.35696589946746826
+    }
+  },
+  {
+    "text": "hemos conocido",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.21833348274230957
+    }
+  },
+  {
+    "text": "HomeBase is advertised as a community. Is there a way to interact with other members of the community?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.23742663860321045
+    }
+  },
+  {
+    "text": "soy un addicto",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.2229224443435669
+    }
+  },
+  {
+    "text": "tengo hambre",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.4510382413864136
+    }
+  },
+  {
+    "text": "quiro comer torta",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.39022818207740784
+    }
+  },
+  {
+    "text": "quiero casarme contigo",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "human_agent",
+      "confidence": 0.23796559870243073
+    }
+  },
+  {
+    "text": "quiero comida francés",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_languagesbot",
+      "confidence": 0.514366865158081
+    }
+  },
+  {
+    "text": "quiero morir me",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.5954521894454956
+    }
+  },
+  {
+    "text": "quiero fumar",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.30076444149017334
+    }
+  },
+  {
+    "text": "sos intelegente?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "faq_kunan",
+      "confidence": 0.20611777901649475
+    }
+  },
+  {
+    "text": "sos un bot de tareas?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_bot_challenge",
+      "confidence": 0.4318869411945343
+    }
+  },
+  {
+    "text": "que technologia usas",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "faq_kunan",
+      "confidence": 0.21522656083106995
+    }
+  },
+  {
+    "text": "haceme un sandwich",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.23148970305919647
+    }
+  },
+  {
+    "text": "buen nombre",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_bot_name",
+      "confidence": 0.6475301384925842
+    }
+  },
+  {
+    "text": "el tiempo es bueno.",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.20874547958374023
+    }
+  },
+  {
+    "text": "quien",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_bot_name",
+      "confidence": 0.6467554569244385
+    }
+  },
+  {
+    "text": "quienes son tus clientes",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.35325416922569275
+    }
+  },
+  {
+    "text": "estas inferma",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_howdoing",
+      "confidence": 0.4881613850593567
+    }
+  },
+  {
+    "text": "te acabo de contar eso",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "no_brindar_datos",
+      "confidence": 0.1311039924621582
+    }
+  },
+  {
+    "text": "haceme feliz",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_joke_request",
+      "confidence": 0.6829760670661926
+    }
+  },
+  {
+    "text": "ayudame con los docs",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.17258816957473755
+    }
+  },
+  {
+    "text": "knowing knowing",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_languagesbot",
+      "confidence": 0.19958935678005219
+    }
+  },
+  {
+    "text": "is there a God?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "laugh+thanks",
+      "confidence": 0.25323358178138733
+    }
+  },
+  {
+    "text": "Algún día voy a poder tocar tan bueno como los pibes de este colegio en Barcelona... https://youtu.be/Uj5Q7w_",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet+inform",
+      "confidence": 0.4727890193462372
+    }
+  },
+  {
+    "text": "te escribo en un rato",
+    "intent": "postpone",
+    "intent_prediction": {
+      "name": "faq_kunan",
+      "confidence": 0.24786481261253357
+    }
+  },
+  {
+    "text": "dame un rato",
+    "intent": "postpone",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.36804765462875366
+    }
+  },
+  {
+    "text": "dame un ratito",
+    "intent": "postpone",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.6909359097480774
+    }
+  },
+  {
+    "text": "necesito un tiempo",
+    "intent": "postpone",
+    "intent_prediction": {
+      "name": "consulta_services_type",
+      "confidence": 0.6630693078041077
+    }
+  },
+  {
+    "text": "tabla raza",
+    "intent": "restart",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.24913693964481354
+    }
+  },
+  {
+    "text": "te agradezco",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.22697880864143372
+    }
+  },
+  {
+    "text": "ok! genial!",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.3370165228843689
+    }
+  },
+  {
+    "text": "excelente",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.2927820384502411
+    }
+  },
+  {
+    "text": "buenisimo!",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.641620934009552
+    }
+  },
+  {
+    "text": "thank you!",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "human_agent",
+      "confidence": 0.24171341955661774
+    }
+  },
+  {
+    "text": "de nada!",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.3511296212673187
+    }
+  },
+  {
+    "text": "gracias me pasas la ubicacion?",
+    "intent": "thanks+consulta_direccion",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.47235092520713806
+    }
+  },
+  {
+    "text": "gracias. donde es la clinica?",
+    "intent": "thanks+consulta_direccion",
+    "intent_prediction": {
+      "name": "greet+consulta_direccion",
+      "confidence": 0.5041688680648804
+    }
+  },
+  {
+    "text": "no se",
+    "intent": "unsure",
+    "intent_prediction": {
+      "name": "deny+thanks",
+      "confidence": 0.23528754711151123
+    }
+  },
+  {
+    "text": "hmmm",
+    "intent": "unsure",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.21035990118980408
+    }
+  }
+]

@@ -1,1441 +1,27 @@
 [
   {
-    "text": "sabes frances",
+    "text": "quiero turno con dra morales",
     "entities": [],
     "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 6,
-        "end": 13,
-        "extractor": "DIETClassifier",
-        "value": "frances"
-      }
-    ]
-  },
-  {
-    "text": "¿Qué hace un centro de estética?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "service",
-        "start": 23,
-        "end": 31,
-        "extractor": "DIETClassifier",
-        "value": "estética",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "que es flebologia",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "service",
-        "start": 7,
-        "end": 17,
-        "extractor": "DIETClassifier",
-        "value": "flebología",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "que es flebología",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "service",
-        "start": 7,
-        "end": 17,
-        "extractor": "DIETClassifier",
-        "value": "flebología",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "que es dermatologia",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "service",
-        "start": 7,
-        "end": 10,
-        "extractor": "DIETClassifier",
-        "value": "der"
-      },
-      {
-        "entity": "service",
-        "start": 13,
-        "end": 19,
-        "extractor": "DIETClassifier",
-        "value": "ologia"
-      }
-    ]
-  },
-  {
-    "text": "que es dermatología",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "service",
-        "start": 7,
-        "end": 19,
-        "extractor": "DIETClassifier",
-        "value": "dermatología",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "que es nutrición",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "service",
-        "start": 9,
-        "end": 14,
-        "extractor": "DIETClassifier",
-        "value": "trici"
-      }
-    ]
-  },
-  {
-    "text": "que es nutricion",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "service",
-        "start": 9,
-        "end": 16,
-        "extractor": "DIETClassifier",
-        "value": "tricion"
-      }
-    ]
-  },
-  {
-    "text": "en que consiste dermatologia",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "service",
-        "start": 22,
-        "end": 28,
-        "extractor": "DIETClassifier",
-        "value": "ologia"
-      }
-    ]
-  },
-  {
-    "text": "en que consiste nutricion",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "service",
-        "start": 23,
-        "end": 25,
-        "extractor": "DIETClassifier",
-        "value": "on"
-      }
-    ]
-  },
-  {
-    "text": "que hace el nutricionalista?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "service",
-        "start": 12,
-        "end": 24,
-        "extractor": "DIETClassifier",
-        "value": "nutricionali"
-      }
-    ]
-  },
-  {
-    "text": "me gustaria saber donde queda Adara",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 30,
-        "end": 35,
-        "extractor": "DIETClassifier",
-        "value": "Adara"
-      }
-    ]
-  },
-  {
-    "text": "hola mi nombre es mariano quesada y quiero un turno",
-    "entities": [
-      {
-        "start": 18,
-        "end": 33,
-        "value": "mariano quesada",
-        "entity": "name"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 18,
-        "end": 22,
-        "extractor": "DIETClassifier",
-        "value": "mari"
-      }
-    ]
-  },
-  {
-    "text": "hola soy Miguel Ángel Costa quiero reservar un turno",
-    "entities": [
-      {
-        "start": 9,
-        "end": 27,
-        "value": "Miguel Ángel Costa",
-        "entity": "name"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 9,
-        "end": 21,
-        "extractor": "DIETClassifier",
-        "value": "Miguel Ángel"
-      }
-    ]
-  },
-  {
-    "text": "hola soy Julia Díaz quiero reservar un turno",
-    "entities": [
-      {
-        "start": 9,
-        "end": 19,
-        "value": "Julia Díaz",
-        "entity": "name"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 9,
-        "end": 14,
-        "extractor": "DIETClassifier",
-        "value": "Julia"
-      }
-    ]
-  },
-  {
-    "text": "hola me gustaria saber donde queda Adara",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 35,
-        "end": 40,
-        "extractor": "DIETClassifier",
-        "value": "Adara"
-      }
-    ]
-  },
-  {
-    "text": "hola donde es Adara?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 17,
-        "end": 19,
-        "extractor": "DIETClassifier",
-        "value": "ra"
-      }
-    ]
-  },
-  {
-    "text": "hola soy lucas olivetto",
-    "entities": [
-      {
-        "start": 9,
-        "end": 23,
-        "value": "lucas olivetto",
-        "entity": "name"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 3,
-        "end": 4,
-        "extractor": "DIETClassifier",
-        "value": "a"
-      },
-      {
-        "entity": "name",
-        "start": 9,
-        "end": 23,
-        "extractor": "DIETClassifier",
-        "value": "lucas olivetto"
-      }
-    ]
-  },
-  {
-    "text": "hola mi nombre es lucas loto",
-    "entities": [
-      {
-        "start": 18,
-        "end": 28,
-        "value": "lucas loto",
-        "entity": "name"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Hola! tengo arañitas. soy Romina mi DNI: 13.434.234, mi email romina.suare@gmail.com",
-    "entities": [
-      {
-        "start": 26,
-        "end": 32,
-        "value": "Romina",
-        "entity": "name"
-      },
-      {
-        "start": 41,
-        "end": 51,
-        "value": "13.434.234",
-        "entity": "dni"
-      },
-      {
-        "start": 62,
-        "end": 84,
-        "value": "romina.suare@gmail.com",
-        "entity": "email"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 26,
-        "end": 29,
-        "extractor": "DIETClassifier",
-        "value": "Rom"
-      },
-      {
-        "entity": "email",
-        "start": 29,
-        "end": 32,
-        "extractor": "DIETClassifier",
-        "value": "ina"
-      },
-      {
-        "entity": "dni",
-        "start": 41,
-        "end": 51,
-        "extractor": "DIETClassifier",
-        "value": "13.434.234"
-      },
-      {
-        "entity": "email",
-        "start": 62,
-        "end": 84,
-        "extractor": "DIETClassifier",
-        "value": "romina.suare@gmail.com"
-      }
-    ]
-  },
-  {
-    "text": "hola María Luisa soy Daniel Robins",
-    "entities": [
-      {
-        "start": 21,
-        "end": 34,
-        "value": "daniel robins",
-        "entity": "name"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 5,
-        "end": 10,
-        "extractor": "DIETClassifier",
-        "value": "María"
-      },
       {
         "entity": "name",
         "start": 21,
-        "end": 34,
-        "extractor": "DIETClassifier",
-        "value": "daniel robins",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
+        "end": 28,
+        "value": "morales",
+        "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "Nelida Paredes Quiero",
-    "entities": [
-      {
-        "start": 0,
-        "end": 21,
-        "value": "Nelida Paredes Quiero",
-        "entity": "name"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 0,
-        "end": 14,
-        "extractor": "DIETClassifier",
-        "value": "Nelida Paredes"
-      },
-      {
-        "entity": "name",
-        "start": 18,
-        "end": 21,
-        "extractor": "DIETClassifier",
-        "value": "ero"
-      }
-    ]
-  },
-  {
-    "text": "maria sanchez, 11222333, marias@hotmail.com",
-    "entities": [
-      {
-        "start": 0,
-        "end": 13,
-        "value": "maria sanchez",
-        "entity": "name"
-      },
-      {
-        "start": 15,
-        "end": 23,
-        "value": "11222333",
-        "entity": "dni"
-      },
-      {
-        "start": 25,
-        "end": 43,
-        "value": "marias@hotmail.com",
-        "entity": "email"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "email",
-        "start": 0,
-        "end": 5,
-        "extractor": "DIETClassifier",
-        "value": "maria"
-      },
-      {
-        "entity": "name",
-        "start": 6,
-        "end": 13,
-        "extractor": "DIETClassifier",
-        "value": "sanchez"
-      },
-      {
-        "entity": "dni",
-        "start": 15,
-        "end": 23,
-        "extractor": "DIETClassifier",
-        "value": "11222333"
-      },
-      {
-        "entity": "email",
-        "start": 25,
-        "end": 43,
-        "extractor": "DIETClassifier",
-        "value": "marias@hotmail.com"
-      }
-    ]
-  },
-  {
-    "text": "maria soler, 56798534, mum@gmail.com",
-    "entities": [
-      {
-        "start": 0,
-        "end": 11,
-        "value": "maria soler",
-        "entity": "name"
-      },
-      {
-        "start": 13,
-        "end": 21,
-        "value": "56798534",
-        "entity": "dni"
-      },
-      {
-        "start": 23,
-        "end": 36,
-        "value": "mum@gmail.com",
-        "entity": "email"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "email",
-        "start": 0,
-        "end": 11,
-        "extractor": "DIETClassifier",
-        "value": "maria soler"
-      },
-      {
-        "entity": "dni",
-        "start": 13,
-        "end": 21,
-        "extractor": "DIETClassifier",
-        "value": "56798534"
-      },
-      {
-        "entity": "email",
-        "start": 23,
-        "end": 36,
-        "extractor": "DIETClassifier",
-        "value": "mum@gmail.com"
-      }
-    ]
-  },
-  {
-    "text": "marlene ditretch, 67455367, marlenes@gmail.com",
-    "entities": [
-      {
-        "start": 0,
-        "end": 16,
-        "value": "marlene ditretch",
-        "entity": "name"
-      },
-      {
-        "start": 18,
-        "end": 26,
-        "value": "67455367",
-        "entity": "dni"
-      },
-      {
-        "start": 28,
-        "end": 46,
-        "value": "marlenes@gmail.com",
-        "entity": "email"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "email",
-        "start": 0,
-        "end": 14,
-        "extractor": "DIETClassifier",
-        "value": "marlene ditret"
-      },
-      {
-        "entity": "dni",
-        "start": 18,
-        "end": 26,
-        "extractor": "DIETClassifier",
-        "value": "67455367"
-      },
-      {
-        "entity": "email",
-        "start": 28,
-        "end": 46,
-        "extractor": "DIETClassifier",
-        "value": "marlenes@gmail.com"
-      }
-    ]
-  },
-  {
-    "text": "veronica garza, 67558994, bubba@gmail.com",
-    "entities": [
-      {
-        "start": 0,
-        "end": 14,
-        "value": "veronica garza",
-        "entity": "name"
-      },
-      {
-        "start": 16,
-        "end": 24,
-        "value": "67558994",
-        "entity": "dni"
-      },
-      {
-        "start": 26,
-        "end": 41,
-        "value": "bubba@gmail.com",
-        "entity": "email"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "email",
-        "start": 0,
-        "end": 14,
-        "extractor": "DIETClassifier",
-        "value": "veronica garza"
-      },
-      {
-        "entity": "dni",
-        "start": 16,
-        "end": 24,
-        "extractor": "DIETClassifier",
-        "value": "67558994"
-      },
-      {
-        "entity": "email",
-        "start": 26,
-        "end": 41,
-        "extractor": "DIETClassifier",
-        "value": "bubba@gmail.com"
-      }
-    ]
-  },
-  {
-    "text": "Migue Cervantes",
-    "entities": [
-      {
-        "start": 0,
-        "end": 15,
-        "value": "Migue Cervantes",
-        "entity": "name"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 2,
-        "end": 15,
-        "extractor": "DIETClassifier",
-        "value": "gue Cervantes"
-      }
-    ]
-  },
-  {
-    "text": "Correo electrónico, nelidap31@hotmail.com",
-    "entities": [
-      {
-        "start": 20,
-        "end": 41,
-        "value": "nelidap31@hotmail.com",
-        "entity": "email"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "email",
-        "start": 0,
-        "end": 6,
-        "extractor": "DIETClassifier",
-        "value": "Correo"
-      },
-      {
-        "entity": "email",
-        "start": 12,
-        "end": 41,
-        "extractor": "DIETClassifier",
-        "value": "rónico, nelidap31@hotmail.com"
-      }
-    ]
-  },
-  {
-    "text": "correo electronico: Aliciadifranco70@hotmail.com",
-    "entities": [
-      {
-        "start": 20,
-        "end": 48,
-        "value": "Aliciadifranco70@hotmail.com",
-        "entity": "email"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "email",
-        "start": 5,
-        "end": 48,
-        "extractor": "DIETClassifier",
-        "value": "o electronico: Aliciadifranco70@hotmail.com"
-      }
-    ]
-  },
-  {
-    "text": ".14.476.560",
-    "entities": [
-      {
-        "start": 1,
-        "end": 11,
-        "value": "14.476.560",
-        "entity": "dni"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "dni",
-        "start": 0,
-        "end": 11,
-        "extractor": "DIETClassifier",
-        "value": ".14.476.560"
-      }
-    ]
-  },
-  {
-    "text": "pepe pérez",
-    "entities": [
-      {
-        "start": 0,
-        "end": 10,
-        "value": "pepe pérez",
-        "entity": "name"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 2,
-        "end": 10,
-        "extractor": "DIETClassifier",
-        "value": "pe pérez"
-      }
-    ]
-  },
-  {
-    "text": "alfredo ruiz",
-    "entities": [
-      {
-        "start": 0,
-        "end": 12,
-        "value": "alfredo ruiz",
-        "entity": "name"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 10,
-        "end": 12,
-        "extractor": "DIETClassifier",
-        "value": "iz"
-      }
-    ]
-  },
-  {
-    "text": "Elizabeth Eichhorn",
-    "entities": [
-      {
-        "start": 0,
-        "end": 18,
-        "value": "elizabeth eichhorn",
-        "entity": "name"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 0,
-        "end": 14,
-        "extractor": "DIETClassifier",
-        "value": "Elizabeth Eich"
-      }
-    ]
-  },
-  {
-    "text": "Estética",
-    "entities": [
-      {
-        "start": 0,
-        "end": 8,
-        "value": "estética",
-        "entity": "service"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "email",
-        "start": 0,
-        "end": 3,
-        "extractor": "DIETClassifier",
-        "value": "Est"
-      },
-      {
-        "entity": "service",
-        "start": 3,
-        "end": 8,
-        "extractor": "DIETClassifier",
-        "value": "ética"
-      }
-    ]
-  },
-  {
-    "text": "cons78123@gmail.com",
-    "entities": [
-      {
-        "start": 0,
-        "end": 19,
-        "value": "cons78123@gmail.com",
-        "entity": "email"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "email",
-        "start": 0,
-        "end": 5,
-        "extractor": "DIETClassifier",
-        "value": "cons7"
-      },
-      {
-        "entity": "dni",
-        "start": 5,
-        "end": 8,
-        "extractor": "DIETClassifier",
-        "value": "812"
-      },
-      {
-        "entity": "email",
-        "start": 8,
-        "end": 19,
-        "extractor": "DIETClassifier",
-        "value": "3@gmail.com"
-      }
-    ]
-  },
-  {
-    "text": "Neptuno Maidana",
-    "entities": [
-      {
-        "start": 0,
-        "end": 15,
-        "value": "neptuno maidana",
-        "entity": "name"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 0,
-        "end": 4,
-        "extractor": "DIETClassifier",
-        "value": "Nept"
-      },
-      {
-        "entity": "name",
-        "start": 8,
-        "end": 15,
-        "extractor": "DIETClassifier",
-        "value": "Maidana"
-      }
-    ]
-  },
-  {
-    "text": "Dario Quiroga",
-    "entities": [
-      {
-        "start": 0,
-        "end": 13,
-        "value": "Dario Quiroga",
-        "entity": "name"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 0,
-        "end": 5,
-        "extractor": "DIETClassifier",
-        "value": "Dario"
-      },
-      {
-        "entity": "name",
-        "start": 9,
-        "end": 13,
-        "extractor": "DIETClassifier",
-        "value": "roga"
-      }
-    ]
-  },
-  {
-    "text": "mi nombre es Pepe",
-    "entities": [
-      {
-        "start": 13,
-        "end": 17,
-        "value": "pepe",
-        "entity": "name"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Brnadon jNaes",
-    "entities": [
-      {
-        "start": 0,
-        "end": 13,
-        "value": "brnadon jnaes",
-        "entity": "name"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 0,
-        "end": 7,
-        "extractor": "DIETClassifier",
-        "value": "Brnadon"
-      },
-      {
-        "entity": "name",
-        "start": 9,
-        "end": 13,
-        "extractor": "DIETClassifier",
-        "value": "Naes"
-      }
-    ]
-  },
-  {
-    "text": "alberto pastor",
-    "entities": [
-      {
-        "start": 0,
-        "end": 14,
-        "value": "alberto pastor",
-        "entity": "name"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "hola quiero un turno para dentista",
-    "entities": [
-      {
-        "start": 26,
-        "end": 34,
-        "value": "dentista",
-        "entity": "service"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "service",
-        "start": 26,
-        "end": 29,
-        "extractor": "DIETClassifier",
-        "value": "den"
-      }
-    ]
-  },
-  {
-    "text": "hola quiero un turno para estetica, me llamo Elizabeth Soto",
-    "entities": [
-      {
-        "start": 26,
-        "end": 34,
-        "value": "estetica",
-        "entity": "service"
-      },
-      {
-        "start": 45,
-        "end": 59,
-        "value": "Elizabeth Soto",
-        "entity": "name"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 45,
-        "end": 59,
-        "extractor": "DIETClassifier",
-        "value": "Elizabeth Soto"
-      }
-    ]
-  },
-  {
-    "text": "Hola necesito un turno para dermatologia dni 35477194 mail gastonfortuny@hotmail.com",
-    "entities": [
-      {
-        "start": 28,
-        "end": 40,
-        "value": "dermatología",
-        "entity": "service"
-      },
-      {
-        "start": 45,
-        "end": 53,
-        "value": "35477194",
-        "entity": "dni"
-      },
-      {
-        "start": 59,
-        "end": 84,
-        "value": "gastonfortuny@hotmail.com",
-        "entity": "email"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "service",
-        "start": 28,
-        "end": 40,
-        "extractor": "DIETClassifier",
-        "value": "dermatología",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      },
-      {
-        "entity": "dni",
-        "start": 45,
-        "end": 53,
-        "extractor": "DIETClassifier",
-        "value": "35477194"
-      },
-      {
-        "entity": "email",
-        "start": 54,
-        "end": 84,
-        "extractor": "DIETClassifier",
-        "value": "mail gastonfortuny@hotmail.com"
-      }
-    ]
-  },
-  {
-    "text": "mi nombre es Andrés Sosa y quiero un turno para flebologia",
-    "entities": [
-      {
-        "start": 13,
-        "end": 24,
-        "value": "Andrés Sosa",
-        "entity": "name"
-      },
-      {
-        "start": 48,
-        "end": 58,
-        "value": "flebología",
-        "entity": "service"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 13,
-        "end": 19,
-        "extractor": "DIETClassifier",
-        "value": "Andrés"
-      },
-      {
-        "entity": "service",
-        "start": 48,
-        "end": 58,
-        "extractor": "DIETClassifier",
-        "value": "flebología",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "hola mi nombre es mariano quesada y quiero un turno para flebologia",
-    "entities": [
-      {
-        "start": 18,
-        "end": 33,
-        "value": "mariano quesada",
-        "entity": "name"
-      },
-      {
-        "start": 57,
-        "end": 67,
-        "value": "flebologia",
-        "entity": "service"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 18,
-        "end": 22,
-        "extractor": "DIETClassifier",
-        "value": "mari"
-      },
-      {
-        "entity": "service",
-        "start": 57,
-        "end": 67,
-        "extractor": "DIETClassifier",
-        "value": "flebología",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "mi nombre es Laura Alemany, mi dni es 54.345.345 y quiero un turno para dermatologia",
-    "entities": [
-      {
-        "start": 13,
-        "end": 26,
-        "value": "laura alemany",
-        "entity": "name"
-      },
-      {
-        "start": 38,
-        "end": 48,
-        "value": "54.345.345",
-        "entity": "dni"
-      },
-      {
-        "start": 72,
-        "end": 84,
-        "value": "dermatología",
-        "entity": "service"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 13,
-        "end": 22,
-        "extractor": "DIETClassifier",
-        "value": "Laura Ale"
-      },
-      {
-        "entity": "dni",
-        "start": 38,
-        "end": 48,
-        "extractor": "DIETClassifier",
-        "value": "54.345.345"
-      },
-      {
-        "entity": "service",
-        "start": 72,
-        "end": 84,
-        "extractor": "DIETClassifier",
-        "value": "dermatología",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "Hola soy Camila Torres y quiero un turno para flebologia",
-    "entities": [
-      {
-        "start": 9,
-        "end": 22,
-        "value": "Camila Torres",
-        "entity": "name"
-      },
-      {
-        "start": 46,
-        "end": 56,
-        "value": "flebología",
-        "entity": "service"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 9,
-        "end": 12,
-        "extractor": "DIETClassifier",
-        "value": "Cam"
-      },
-      {
-        "entity": "name",
-        "start": 16,
-        "end": 22,
-        "extractor": "DIETClassifier",
-        "value": "Torres"
-      },
-      {
-        "entity": "service",
-        "start": 46,
-        "end": 56,
-        "extractor": "DIETClassifier",
-        "value": "flebología",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "hola mi nombre es Cynthia Moyano y me gustaria reservar un turno para flebologia",
-    "entities": [
-      {
-        "start": 18,
-        "end": 32,
-        "value": "cynthia moyano",
-        "entity": "name"
-      },
-      {
-        "start": 70,
-        "end": 80,
-        "value": "flebología",
-        "entity": "service"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 26,
-        "end": 32,
-        "extractor": "DIETClassifier",
-        "value": "Moyano"
-      },
-      {
-        "entity": "service",
-        "start": 70,
-        "end": 80,
-        "extractor": "DIETClassifier",
-        "value": "flebología",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "hola mi nombre es Ester Kovacicek y quiero un turno para flebologia",
-    "entities": [
-      {
-        "start": 18,
-        "end": 33,
-        "value": "Ester Kovacicek",
-        "entity": "name"
-      },
-      {
-        "start": 57,
-        "end": 67,
-        "value": "flebología",
-        "entity": "service"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 18,
-        "end": 32,
-        "extractor": "DIETClassifier",
-        "value": "Ester Kovacice"
-      },
-      {
-        "entity": "service",
-        "start": 57,
-        "end": 67,
-        "extractor": "DIETClassifier",
-        "value": "flebología",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "soy Coti y me gustaria reservar una cita de flebologoa",
-    "entities": [
-      {
-        "start": 4,
-        "end": 8,
-        "value": "Coti",
-        "entity": "name"
-      },
-      {
-        "start": 44,
-        "end": 54,
-        "value": "flebología",
-        "entity": "service"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "service",
-        "start": 44,
-        "end": 53,
-        "extractor": "DIETClassifier",
-        "value": "flebología",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "Dame un turno para la dermatologa",
-    "entities": [
-      {
-        "start": 22,
-        "end": 33,
-        "value": "dermatologa",
-        "entity": "service"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "service",
-        "start": 22,
-        "end": 32,
-        "extractor": "DIETClassifier",
-        "value": "dermatología",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "NUTRICION por favor",
-    "entities": [
-      {
-        "start": 0,
-        "end": 9,
-        "value": "NUTRICION",
-        "entity": "service"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "necesito un turno para estetica",
-    "entities": [
-      {
-        "start": 23,
-        "end": 31,
-        "value": "estetica",
-        "entity": "service"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "quiero un turno de ESTETICA",
-    "entities": [
-      {
-        "start": 19,
-        "end": 27,
-        "value": "ESTETICA",
-        "entity": "service"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "18 hs",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "dni",
-        "start": 0,
-        "end": 2,
-        "extractor": "DIETClassifier",
-        "value": "18"
-      }
-    ]
-  },
-  {
-    "text": "4 + 2 = ?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "dni",
-        "start": 0,
-        "end": 5,
-        "extractor": "DIETClassifier",
-        "value": "4 + 2"
-      }
-    ]
-  },
-  {
-    "text": "necesito GP 12343",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "dni",
-        "start": 12,
-        "end": 17,
-        "extractor": "DIETClassifier",
-        "value": "12343"
-      }
-    ]
-  },
-  {
-    "text": "Capaz",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 0,
-        "end": 5,
-        "extractor": "DIETClassifier",
-        "value": "Capaz"
-      }
-    ]
-  },
-  {
-    "text": "who is Maria Luisa?",
+    "text": "doctor morales",
     "entities": [],
     "predicted_entities": [
       {
         "entity": "name",
         "start": 7,
-        "end": 12,
-        "extractor": "DIETClassifier",
-        "value": "Maria"
-      }
-    ]
-  },
-  {
-    "text": "con doctora sanchez puede ser",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 12,
-        "end": 19,
-        "extractor": "DIETClassifier",
-        "value": "sanchez"
-      }
-    ]
-  },
-  {
-    "text": "cuanto tiempo dura el tratamiento de flebologia",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "service",
-        "start": 37,
-        "end": 47,
-        "extractor": "DIETClassifier",
-        "value": "flebología",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "callate hijo de puta",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 0,
-        "end": 4,
-        "extractor": "DIETClassifier",
-        "value": "call"
+        "end": 14,
+        "value": "morales",
+        "extractor": "DIETClassifier"
       }
     ]
   },
@@ -1446,9 +32,16 @@
       {
         "entity": "name",
         "start": 0,
+        "end": 7,
+        "value": "brandon",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name",
+        "start": 8,
         "end": 13,
-        "extractor": "DIETClassifier",
-        "value": "brandon sucks"
+        "value": "sucks",
+        "extractor": "DIETClassifier"
       }
     ]
   },
@@ -1460,8 +53,21 @@
         "entity": "name",
         "start": 5,
         "end": 10,
-        "extractor": "DIETClassifier",
-        "value": "Maria"
+        "value": "Maria",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sabes frances",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 6,
+        "end": 13,
+        "value": "frances",
+        "extractor": "DIETClassifier"
       }
     ]
   },
@@ -1471,23 +77,10 @@
     "predicted_entities": [
       {
         "entity": "service",
-        "start": 20,
+        "start": 16,
         "end": 26,
+        "value": "flebología",
         "extractor": "DIETClassifier",
-        "value": "ologia"
-      }
-    ]
-  },
-  {
-    "text": "que hace el dermatologo?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "service",
-        "start": 12,
-        "end": 23,
-        "extractor": "DIETClassifier",
-        "value": "dermatología",
         "processors": [
           "EntitySynonymMapper"
         ]
@@ -1495,139 +88,108 @@
     ]
   },
   {
-    "text": "que hace el flebologo?",
+    "text": "en que consiste dermatología",
     "entities": [],
     "predicted_entities": [
       {
         "entity": "service",
-        "start": 14,
-        "end": 21,
+        "start": 16,
+        "end": 28,
+        "value": "dermatología",
         "extractor": "DIETClassifier",
-        "value": "ebologo"
+        "processors": [
+          "EntitySynonymMapper"
+        ]
       }
     ]
   },
   {
-    "text": "que hace el estetista?",
+    "text": "en que consiste nutrición",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 16,
+        "end": 25,
+        "value": "nutrición",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "en que consiste nutricion",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 16,
+        "end": 25,
+        "value": "nutrición",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "que hace el nutricionalista?",
     "entities": [],
     "predicted_entities": [
       {
         "entity": "service",
         "start": 12,
-        "end": 21,
-        "extractor": "DIETClassifier",
-        "value": "estetista"
+        "end": 27,
+        "value": "nutricionalista",
+        "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "y ahora donde estas maria luisa",
+    "text": "me gustaria saber donde queda Adara",
     "entities": [],
     "predicted_entities": [
       {
         "entity": "name",
-        "start": 20,
-        "end": 24,
-        "extractor": "DIETClassifier",
-        "value": "mari"
-      },
-      {
-        "entity": "name",
-        "start": 29,
-        "end": 31,
-        "extractor": "DIETClassifier",
-        "value": "sa"
+        "start": 30,
+        "end": 35,
+        "value": "Adara",
+        "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "Donde",
+    "text": "quiero un turno para estetica?",
     "entities": [],
     "predicted_entities": [
       {
-        "entity": "name",
-        "start": 0,
-        "end": 3,
+        "entity": "service",
+        "start": 21,
+        "end": 29,
+        "value": "estética",
         "extractor": "DIETClassifier",
-        "value": "Don"
+        "processors": [
+          "EntitySynonymMapper"
+        ]
       }
     ]
   },
   {
-    "text": "Tirno",
+    "text": "buen dia donde es el centro de estetica",
     "entities": [],
     "predicted_entities": [
       {
-        "entity": "name",
-        "start": 0,
-        "end": 5,
+        "entity": "service",
+        "start": 31,
+        "end": 39,
+        "value": "estética",
         "extractor": "DIETClassifier",
-        "value": "Tirno"
-      }
-    ]
-  },
-  {
-    "text": "quiero tunro",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 10,
-        "end": 12,
-        "extractor": "DIETClassifier",
-        "value": "ro"
-      }
-    ]
-  },
-  {
-    "text": "ni en pedo",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 6,
-        "end": 8,
-        "extractor": "DIETClassifier",
-        "value": "pe"
-      }
-    ]
-  },
-  {
-    "text": "BUenas noches!",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 0,
-        "end": 1,
-        "extractor": "DIETClassifier",
-        "value": "B"
-      }
-    ]
-  },
-  {
-    "text": "BUenas",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 0,
-        "end": 6,
-        "extractor": "DIETClassifier",
-        "value": "BUenas"
-      }
-    ]
-  },
-  {
-    "text": "hola Donde",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 5,
-        "end": 10,
-        "extractor": "DIETClassifier",
-        "value": "Donde"
+        "processors": [
+          "EntitySynonymMapper"
+        ]
       }
     ]
   },
@@ -1658,51 +220,61 @@
         "entity": "name",
         "start": 0,
         "end": 4,
-        "extractor": "DIETClassifier",
-        "value": "Buen"
-      },
-      {
-        "entity": "name",
-        "start": 11,
-        "end": 12,
-        "extractor": "DIETClassifier",
-        "value": "í"
+        "value": "Buen",
+        "extractor": "DIETClassifier"
       },
       {
         "entity": "name",
         "start": 20,
         "end": 44,
-        "extractor": "DIETClassifier",
-        "value": "Gabriela Alejandra Marek"
+        "value": "Gabriela Alejandra Marek",
+        "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "jacinto perez",
+    "text": "hola mi nombre es rocio suarez",
     "entities": [
       {
-        "start": 0,
-        "end": 13,
-        "value": "jacinto perez",
+        "start": 18,
+        "end": 30,
+        "value": "rocio suarez",
         "entity": "name"
       }
     ],
     "predicted_entities": [
       {
         "entity": "name",
-        "start": 2,
-        "end": 5,
-        "extractor": "DIETClassifier",
-        "value": "cin"
-      },
-      {
-        "entity": "name",
-        "start": 8,
-        "end": 13,
-        "extractor": "DIETClassifier",
-        "value": "perez"
+        "start": 24,
+        "end": 30,
+        "value": "suarez",
+        "extractor": "DIETClassifier"
       }
     ]
+  },
+  {
+    "text": "hola mi nombre es lucas loto",
+    "entities": [
+      {
+        "start": 18,
+        "end": 28,
+        "value": "lucas loto",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "buen dia. me llamo Veronica",
+    "entities": [
+      {
+        "start": 19,
+        "end": 27,
+        "value": "Veronica",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
   },
   {
     "text": "Mí nombre es Paola garcia",
@@ -1719,8 +291,871 @@
         "entity": "name",
         "start": 19,
         "end": 25,
+        "value": "garcia",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "brandon.janes@kunan.com.ar",
+    "entities": [
+      {
+        "start": 0,
+        "end": 26,
+        "value": "brandon.janes@kunan.com.ar",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 0,
+        "end": 26,
+        "value": "brandon.janes@kunan.com.ar",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "juan pablo garza",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "value": "juan pablo garza",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 11,
+        "end": 16,
+        "value": "garza",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "lionel messi",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "lionel messi",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 0,
+        "end": 6,
+        "value": "lionel",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Toledo.olivero234@hotmail.com",
+    "entities": [
+      {
+        "start": 0,
+        "end": 29,
+        "value": "toledo.olivero234@hotmail.com",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "12.123.213, maria___234@gmail.com",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "12.123.213",
+        "entity": "dni"
+      },
+      {
+        "start": 12,
+        "end": 33,
+        "value": "maria___234@gmail.com",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dni",
+        "start": 0,
+        "end": 10,
+        "value": "12.123.213",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name",
+        "start": 12,
+        "end": 33,
+        "value": "maria___234@gmail.com",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "esteban garcia",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "esteban garcia",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 8,
+        "end": 14,
+        "value": "garcia",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "brandon.janes@gmail.com",
+    "entities": [
+      {
+        "start": 0,
+        "end": 23,
+        "value": "brandon.janes@gmail.com",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 0,
+        "end": 23,
+        "value": "brandon.janes@gmail.com",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "12.123.123",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "12.123.123",
+        "entity": "dni"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "mi nombre es Pepe",
+    "entities": [
+      {
+        "start": 13,
+        "end": 17,
+        "value": "pepe",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "de_leon_delfina@gmail.com",
+    "entities": [
+      {
+        "start": 0,
+        "end": 25,
+        "value": "de_leon_delfina@gmail.com",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "diego maradona",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "diego maradona",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 6,
+        "end": 14,
+        "value": "maradona",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hola necesito un turno para dermatologia dni 35477194 mail gastonfortuny@hotmail.com",
+    "entities": [
+      {
+        "start": 28,
+        "end": 40,
+        "value": "dermatología",
+        "entity": "service"
+      },
+      {
+        "start": 45,
+        "end": 53,
+        "value": "35477194",
+        "entity": "dni"
+      },
+      {
+        "start": 59,
+        "end": 84,
+        "value": "gastonfortuny@hotmail.com",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 28,
+        "end": 40,
+        "value": "dermatología",
         "extractor": "DIETClassifier",
-        "value": "garcia"
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "dni",
+        "start": 41,
+        "end": 53,
+        "value": "dni 35477194",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "email",
+        "start": 54,
+        "end": 84,
+        "value": "mail gastonfortuny@hotmail.com",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "mi nombre es Andrés Sosa y quiero un turno para flebologia",
+    "entities": [
+      {
+        "start": 13,
+        "end": 24,
+        "value": "Andrés Sosa",
+        "entity": "name"
+      },
+      {
+        "start": 48,
+        "end": 58,
+        "value": "flebología",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 48,
+        "end": 58,
+        "value": "flebología",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "hola mi nombre es Lionel Bio y quiero un turno para flebologia",
+    "entities": [
+      {
+        "start": 18,
+        "end": 28,
+        "value": "Lionel Bio",
+        "entity": "name"
+      },
+      {
+        "start": 52,
+        "end": 62,
+        "value": "flebologia",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 18,
+        "end": 24,
+        "value": "Lionel",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 52,
+        "end": 62,
+        "value": "flebología",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "hola mi nombre es Horacio Silva y quisiera un turno para flebologia. mis datos: 95344579",
+    "entities": [
+      {
+        "start": 18,
+        "end": 31,
+        "value": "Horacio Silva",
+        "entity": "name"
+      },
+      {
+        "start": 57,
+        "end": 67,
+        "value": "flebología",
+        "entity": "service"
+      },
+      {
+        "start": 80,
+        "end": 88,
+        "value": "95344579",
+        "entity": "dni"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 57,
+        "end": 67,
+        "value": "flebología",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "dni",
+        "start": 80,
+        "end": 88,
+        "value": "95344579",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "holis! mi nombre es Nicole Brown Simpson y quiero un turno para flebologia. seria posible este viernes?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 40,
+        "value": "Nicole Brown Simpson",
+        "entity": "name"
+      },
+      {
+        "start": 64,
+        "end": 74,
+        "value": "flebología",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 20,
+        "end": 32,
+        "value": "Nicole Brown",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "service",
+        "start": 64,
+        "end": 74,
+        "value": "flebología",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "hola , quiero sacar un turno con alguna dematologa en enero",
+    "entities": [
+      {
+        "start": 40,
+        "end": 50,
+        "value": "dermatología",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "buen dias. Quiero un turno para traumatologia",
+    "entities": [
+      {
+        "start": 32,
+        "end": 45,
+        "value": "traumatologia",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "quiero un turno para estética",
+    "entities": [
+      {
+        "start": 21,
+        "end": 29,
+        "value": "estética",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "quiero reservar un turno para dermatologia en el centro de estetica",
+    "entities": [
+      {
+        "start": 30,
+        "end": 42,
+        "value": "dermatología",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 30,
+        "end": 42,
+        "value": "dermatología",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "service",
+        "start": 59,
+        "end": 67,
+        "value": "estética",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "09/08/20 18 hrs",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "start_time",
+        "start": 0,
+        "end": 15,
+        "value": "09/08/20 18 hrs",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "conoces Kevi Pelton",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 0,
+        "end": 7,
+        "value": "conoces",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name",
+        "start": 8,
+        "end": 19,
+        "value": "Kevi Pelton",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "necesito GP 12343",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "dni",
+        "start": 12,
+        "end": 17,
+        "value": "12343",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "gracias! y como puedo llegar al centro de estetica?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 42,
+        "end": 50,
+        "value": "estética",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Capaz",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 0,
+        "end": 5,
+        "value": "Capaz",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "con doctora sanchez puede ser",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 12,
+        "end": 19,
+        "value": "sanchez",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cuanto tiempo dura el tratamiento de flebologia",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 37,
+        "end": 47,
+        "value": "flebología",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Cuantos años ténes?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 13,
+        "end": 18,
+        "value": "ténes",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "que es flebologia",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 7,
+        "end": 17,
+        "value": "flebología",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "que es flebología",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 7,
+        "end": 17,
+        "value": "flebología",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "que es dermatología",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 7,
+        "end": 19,
+        "value": "dermatología",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "en que consiste dermatologia",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 16,
+        "end": 28,
+        "value": "dermatología",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "que hace el dermatologo?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 12,
+        "end": 23,
+        "value": "dermatología",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "naciste en cordoba?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 0,
+        "end": 7,
+        "value": "naciste",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name",
+        "start": 11,
+        "end": 18,
+        "value": "cordoba",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "are you from cordoba?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 13,
+        "end": 20,
+        "value": "cordoba",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "y ahora donde estas maria luisa",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 20,
+        "end": 25,
+        "value": "maria",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name",
+        "start": 26,
+        "end": 31,
+        "value": "luisa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tirno",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 0,
+        "end": 5,
+        "value": "Tirno",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "que servicios hay en el centro de estetica",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 34,
+        "end": 42,
+        "value": "estética",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "hola soy Luna Reyes quiero reservar un turno",
+    "entities": [
+      {
+        "start": 9,
+        "end": 19,
+        "value": "Luna Reyes",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hola soy Miguel Ángel Costa quiero reservar un turno",
+    "entities": [
+      {
+        "start": 9,
+        "end": 27,
+        "value": "Miguel Ángel Costa",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 9,
+        "end": 15,
+        "value": "Miguel",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hola soy Julia Díaz quiero reservar un turno",
+    "entities": [
+      {
+        "start": 9,
+        "end": 19,
+        "value": "Julia Díaz",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 9,
+        "end": 14,
+        "value": "Julia",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "BUenas",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 0,
+        "end": 6,
+        "value": "BUenas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hello, i'm Nicolas",
+    "entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "value": "Nicolas",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 0,
+        "end": 5,
+        "value": "Hello",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name",
+        "start": 11,
+        "end": 18,
+        "value": "Nicolas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hola María Luisa soy Daniel Robins",
+    "entities": [
+      {
+        "start": 21,
+        "end": 34,
+        "value": "daniel robins",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 5,
+        "end": 16,
+        "value": "María Luisa",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name",
+        "start": 21,
+        "end": 34,
+        "value": "daniel robins",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
       }
     ]
   },
@@ -1739,35 +1174,152 @@
         "entity": "name",
         "start": 0,
         "end": 24,
-        "extractor": "DIETClassifier",
-        "value": "Si. María Cristina Aråoz"
+        "value": "Si. María Cristina Aråoz",
+        "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "brandon.janes@kunan.com.ar",
+    "text": "bub janes",
     "entities": [
       {
         "start": 0,
-        "end": 26,
-        "value": "brandon.janes@kunan.com.ar",
-        "entity": "email"
+        "end": 9,
+        "value": "bub janes",
+        "entity": "name"
       }
     ],
     "predicted_entities": [
       {
         "entity": "name",
+        "start": 4,
+        "end": 9,
+        "value": "janes",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "maria sanchez, 11222333, marias@hotmail.com",
+    "entities": [
+      {
         "start": 0,
-        "end": 5,
-        "extractor": "DIETClassifier",
-        "value": "brand"
+        "end": 13,
+        "value": "maria sanchez",
+        "entity": "name"
+      },
+      {
+        "start": 15,
+        "end": 23,
+        "value": "11222333",
+        "entity": "dni"
+      },
+      {
+        "start": 25,
+        "end": 43,
+        "value": "marias@hotmail.com",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "email",
+        "start": 0,
+        "end": 13,
+        "value": "maria sanchez",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "dni",
+        "start": 15,
+        "end": 23,
+        "value": "11222333",
+        "extractor": "DIETClassifier"
       },
       {
         "entity": "email",
-        "start": 5,
+        "start": 25,
+        "end": 43,
+        "value": "marias@hotmail.com",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "maria soler, 56798534, mum@gmail.com",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "maria soler",
+        "entity": "name"
+      },
+      {
+        "start": 13,
+        "end": 21,
+        "value": "56798534",
+        "entity": "dni"
+      },
+      {
+        "start": 23,
+        "end": 36,
+        "value": "mum@gmail.com",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "email",
+        "start": 0,
+        "end": 36,
+        "value": "maria soler, 56798534, mum@gmail.com",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "marlene ditretch, 67455367, marlenes@gmail.com",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "value": "marlene ditretch",
+        "entity": "name"
+      },
+      {
+        "start": 18,
         "end": 26,
-        "extractor": "DIETClassifier",
-        "value": "on.janes@kunan.com.ar"
+        "value": "67455367",
+        "entity": "dni"
+      },
+      {
+        "start": 28,
+        "end": 46,
+        "value": "marlenes@gmail.com",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "email",
+        "start": 0,
+        "end": 16,
+        "value": "marlene ditretch",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "dni",
+        "start": 18,
+        "end": 26,
+        "value": "67455367",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "email",
+        "start": 28,
+        "end": 46,
+        "value": "marlenes@gmail.com",
+        "extractor": "DIETClassifier"
       }
     ]
   },
@@ -1797,44 +1349,72 @@
       {
         "entity": "email",
         "start": 0,
-        "end": 5,
-        "extractor": "DIETClassifier",
-        "value": "bubba"
-      },
-      {
-        "entity": "name",
-        "start": 6,
         "end": 11,
+        "value": "bubba janes",
         "extractor": "DIETClassifier",
-        "value": "janes"
+        "processors": [
+          "EntitySynonymMapper"
+        ]
       },
       {
         "entity": "dni",
         "start": 13,
         "end": 21,
-        "extractor": "DIETClassifier",
-        "value": "56455789"
+        "value": "56455789",
+        "extractor": "DIETClassifier"
       },
       {
         "entity": "email",
         "start": 23,
-        "end": 26,
-        "extractor": "DIETClassifier",
-        "value": "mar"
+        "end": 42,
+        "value": "marylewis@gmail.com",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "veronica garza, 67558994, bubba@gmail.com",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "veronica garza",
+        "entity": "name"
       },
       {
-        "entity": "name",
+        "start": 16,
+        "end": 24,
+        "value": "67558994",
+        "entity": "dni"
+      },
+      {
         "start": 26,
-        "end": 29,
-        "extractor": "DIETClassifier",
-        "value": "yle"
+        "end": 41,
+        "value": "bubba@gmail.com",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "email",
+        "start": 0,
+        "end": 14,
+        "value": "veronica garza",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "dni",
+        "start": 16,
+        "end": 24,
+        "value": "67558994",
+        "extractor": "DIETClassifier"
       },
       {
         "entity": "email",
-        "start": 29,
-        "end": 42,
-        "extractor": "DIETClassifier",
-        "value": "wis@gmail.com"
+        "start": 26,
+        "end": 41,
+        "value": "bubba@gmail.com",
+        "extractor": "DIETClassifier"
       }
     ]
   },
@@ -1862,69 +1442,31 @@
     ],
     "predicted_entities": [
       {
-        "entity": "name",
-        "start": 0,
-        "end": 5,
-        "extractor": "DIETClassifier",
-        "value": "brand"
-      },
-      {
         "entity": "email",
-        "start": 5,
+        "start": 0,
         "end": 13,
+        "value": "brandon janes",
         "extractor": "DIETClassifier",
-        "value": "on janes"
+        "processors": [
+          "EntitySynonymMapper"
+        ]
       },
       {
         "entity": "dni",
         "start": 15,
         "end": 23,
-        "extractor": "DIETClassifier",
-        "value": "95344579"
+        "value": "95344579",
+        "extractor": "DIETClassifier"
       },
       {
         "entity": "email",
         "start": 25,
         "end": 43,
-        "extractor": "DIETClassifier",
         "value": "bubjanes@gmail.com",
+        "extractor": "DIETClassifier",
         "processors": [
           "EntitySynonymMapper"
         ]
-      }
-    ]
-  },
-  {
-    "text": "maria_sanchez@hotmail.com",
-    "entities": [
-      {
-        "start": 0,
-        "end": 25,
-        "value": "maria_sanchez@hotmail.com",
-        "entity": "email"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "email",
-        "start": 0,
-        "end": 6,
-        "extractor": "DIETClassifier",
-        "value": "maria_"
-      },
-      {
-        "entity": "name",
-        "start": 6,
-        "end": 9,
-        "extractor": "DIETClassifier",
-        "value": "san"
-      },
-      {
-        "entity": "email",
-        "start": 9,
-        "end": 25,
-        "extractor": "DIETClassifier",
-        "value": "chez@hotmail.com"
       }
     ]
   },
@@ -1938,13 +1480,25 @@
         "entity": "name"
       }
     ],
+    "predicted_entities": []
+  },
+  {
+    "text": "karen palacios",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "karen palacios",
+        "entity": "name"
+      }
+    ],
     "predicted_entities": [
       {
         "entity": "name",
-        "start": 16,
-        "end": 20,
-        "extractor": "DIETClassifier",
-        "value": "nuel"
+        "start": 6,
+        "end": 14,
+        "value": "palacios",
+        "extractor": "DIETClassifier"
       }
     ]
   },
@@ -1961,122 +1515,40 @@
     "predicted_entities": [
       {
         "entity": "name",
-        "start": 2,
+        "start": 0,
         "end": 9,
-        "extractor": "DIETClassifier",
-        "value": "bastian"
+        "value": "sebastian",
+        "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "fernando.palacios@kunan.com.ar",
+    "text": "mi nombre es karen palacios",
     "entities": [
       {
-        "start": 0,
-        "end": 30,
-        "value": "fernando.palacios@kunan.com.ar",
-        "entity": "email"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "email",
-        "start": 0,
-        "end": 9,
-        "extractor": "DIETClassifier",
-        "value": "fernando."
-      },
-      {
-        "entity": "name",
-        "start": 9,
-        "end": 16,
-        "extractor": "DIETClassifier",
-        "value": "palacio"
-      },
-      {
-        "entity": "email",
-        "start": 16,
-        "end": 30,
-        "extractor": "DIETClassifier",
-        "value": "s@kunan.com.ar"
-      }
-    ]
-  },
-  {
-    "text": "mario.sanchez@calambre.com.ar",
-    "entities": [
-      {
-        "start": 0,
-        "end": 29,
-        "value": "mario.sanchez@calambre.com.ar",
-        "entity": "email"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "email",
-        "start": 0,
-        "end": 6,
-        "extractor": "DIETClassifier",
-        "value": "mario."
-      },
-      {
-        "entity": "name",
-        "start": 6,
-        "end": 13,
-        "extractor": "DIETClassifier",
-        "value": "sanchez"
-      },
-      {
-        "entity": "email",
         "start": 13,
-        "end": 29,
-        "extractor": "DIETClassifier",
-        "value": "@calambre.com.ar"
-      }
-    ]
-  },
-  {
-    "text": "mario.sanchez@hotmail.com.ar",
-    "entities": [
-      {
-        "start": 0,
-        "end": 28,
-        "value": "mario.sanchez@hotmail.com.ar",
-        "entity": "email"
+        "end": 27,
+        "value": "karen palacios",
+        "entity": "name"
       }
     ],
     "predicted_entities": [
       {
-        "entity": "email",
-        "start": 0,
-        "end": 6,
-        "extractor": "DIETClassifier",
-        "value": "mario."
-      },
-      {
         "entity": "name",
-        "start": 6,
-        "end": 9,
-        "extractor": "DIETClassifier",
-        "value": "san"
-      },
-      {
-        "entity": "email",
-        "start": 9,
-        "end": 28,
-        "extractor": "DIETClassifier",
-        "value": "chez@hotmail.com.ar"
+        "start": 19,
+        "end": 27,
+        "value": "palacios",
+        "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "julian becerra",
+    "text": "brandon jaens",
     "entities": [
       {
         "start": 0,
-        "end": 14,
-        "value": "julian becerra",
+        "end": 13,
+        "value": "brandon jaens",
         "entity": "name"
       }
     ],
@@ -2084,19 +1556,133 @@
       {
         "entity": "name",
         "start": 0,
-        "end": 6,
-        "extractor": "DIETClassifier",
-        "value": "julian"
+        "end": 7,
+        "value": "brandon",
+        "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "lionel messi",
+    "text": "Correo electrónico, nelidap31@hotmail.com",
+    "entities": [
+      {
+        "start": 20,
+        "end": 41,
+        "value": "nelidap31@hotmail.com",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "email",
+        "start": 0,
+        "end": 6,
+        "value": "Correo",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "email",
+        "start": 20,
+        "end": 41,
+        "value": "nelidap31@hotmail.com",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "correo electronico: Aliciadifranco70@hotmail.com",
+    "entities": [
+      {
+        "start": 20,
+        "end": 48,
+        "value": "Aliciadifranco70@hotmail.com",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "email",
+        "start": 0,
+        "end": 48,
+        "value": "correo electronico: Aliciadifranco70@hotmail.com",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "dni:23456476",
+    "entities": [
+      {
+        "start": 4,
+        "end": 12,
+        "value": "23456476",
+        "entity": "dni"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dni",
+        "start": 0,
+        "end": 12,
+        "value": "dni:23456476",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": ".14.476.560",
+    "entities": [
+      {
+        "start": 1,
+        "end": 11,
+        "value": "14.476.560",
+        "entity": "dni"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dni",
+        "start": 0,
+        "end": 11,
+        "value": ".14.476.560",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hola...DNI 17385948 Los otros datos te los doy personalmente. .puede ser?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "17385948",
+        "entity": "dni"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dni",
+        "start": 0,
+        "end": 10,
+        "value": "Hola...DNI",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "dni",
+        "start": 11,
+        "end": 19,
+        "value": "17385948",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "alfredo ruiz",
     "entities": [
       {
         "start": 0,
         "end": 12,
-        "value": "lionel messi",
+        "value": "alfredo ruiz",
         "entity": "name"
       }
     ],
@@ -2104,139 +1690,43 @@
       {
         "entity": "name",
         "start": 0,
-        "end": 4,
-        "extractor": "DIETClassifier",
-        "value": "lion"
+        "end": 7,
+        "value": "alfredo",
+        "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "edgar ramírez",
+    "text": "DNI:12309871",
     "entities": [
       {
+        "start": 4,
+        "end": 12,
+        "value": "12309871",
+        "entity": "dni"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dni",
         "start": 0,
-        "end": 13,
-        "value": "edgar ramírez",
+        "end": 12,
+        "value": "DNI:12309871",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "mi nombre es daniel y quiero un turno",
+    "entities": [
+      {
+        "start": 13,
+        "end": 19,
+        "value": "daniel",
         "entity": "name"
       }
     ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 2,
-        "end": 13,
-        "extractor": "DIETClassifier",
-        "value": "gar ramírez"
-      }
-    ]
-  },
-  {
-    "text": "diana rodriguez",
-    "entities": [
-      {
-        "start": 0,
-        "end": 15,
-        "value": "diana rodriguez",
-        "entity": "name"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 3,
-        "end": 15,
-        "extractor": "DIETClassifier",
-        "value": "na rodriguez"
-      }
-    ]
-  },
-  {
-    "text": "abigail.garcia@kunan.com.ar",
-    "entities": [
-      {
-        "start": 0,
-        "end": 27,
-        "value": "abigail.garcia@kunan.com.ar",
-        "entity": "email"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "email",
-        "start": 0,
-        "end": 8,
-        "extractor": "DIETClassifier",
-        "value": "abigail."
-      },
-      {
-        "entity": "name",
-        "start": 8,
-        "end": 11,
-        "extractor": "DIETClassifier",
-        "value": "gar"
-      },
-      {
-        "entity": "email",
-        "start": 11,
-        "end": 27,
-        "extractor": "DIETClassifier",
-        "value": "cia@kunan.com.ar"
-      }
-    ]
-  },
-  {
-    "text": "hola mi nombre es maria",
-    "entities": [
-      {
-        "start": 18,
-        "end": 23,
-        "value": "maria",
-        "entity": "name"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 18,
-        "end": 22,
-        "extractor": "DIETClassifier",
-        "value": "mari"
-      }
-    ]
-  },
-  {
-    "text": "maria.soler@gmail.com.ar",
-    "entities": [
-      {
-        "start": 0,
-        "end": 24,
-        "value": "maria.soler@gmail.com.ar",
-        "entity": "email"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "email",
-        "start": 0,
-        "end": 6,
-        "extractor": "DIETClassifier",
-        "value": "maria."
-      },
-      {
-        "entity": "name",
-        "start": 6,
-        "end": 10,
-        "extractor": "DIETClassifier",
-        "value": "sole"
-      },
-      {
-        "entity": "email",
-        "start": 10,
-        "end": 24,
-        "extractor": "DIETClassifier",
-        "value": "r@gmail.com.ar"
-      }
-    ]
+    "predicted_entities": []
   },
   {
     "text": "bob johgnon",
@@ -2251,12 +1741,12 @@
     "predicted_entities": []
   },
   {
-    "text": "Constanza Montenegro",
+    "text": "alberto pastor",
     "entities": [
       {
         "start": 0,
-        "end": 20,
-        "value": "constanza montenegro",
+        "end": 14,
+        "value": "alberto pastor",
         "entity": "name"
       }
     ],
@@ -2264,134 +1754,109 @@
       {
         "entity": "name",
         "start": 0,
-        "end": 9,
-        "extractor": "DIETClassifier",
-        "value": "Constanza"
+        "end": 7,
+        "value": "alberto",
+        "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "mi nombre es Débora Olivera Toledo, 95.344.579, y quiero un turno para nutricion",
+    "text": "hola quiero un turno para nutricion, mi nombre es daniel",
+    "entities": [
+      {
+        "start": 26,
+        "end": 35,
+        "value": "nutricion",
+        "entity": "service"
+      },
+      {
+        "start": 50,
+        "end": 56,
+        "value": "daniel",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "service",
+        "start": 26,
+        "end": 35,
+        "value": "nutrición",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "hola quiero un turno para dentista",
+    "entities": [
+      {
+        "start": 26,
+        "end": 34,
+        "value": "dentista",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hola quiero un turno para estetica, me llamo Elizabeth Soto",
+    "entities": [
+      {
+        "start": 26,
+        "end": 34,
+        "value": "estetica",
+        "entity": "service"
+      },
+      {
+        "start": 45,
+        "end": 59,
+        "value": "Elizabeth Soto",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 45,
+        "end": 59,
+        "value": "Elizabeth Soto",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "mi nombre es Amparo Valdez Bravo y quiero un turno para dermatologia",
     "entities": [
       {
         "start": 13,
-        "end": 34,
-        "value": "Débora Olivera Toledo",
-        "entity": "name"
-      },
-      {
-        "start": 36,
-        "end": 46,
-        "value": "95.344.579",
-        "entity": "dni"
-      },
-      {
-        "start": 71,
-        "end": 80,
-        "value": "nutrición",
-        "entity": "service"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 14,
-        "end": 34,
-        "extractor": "DIETClassifier",
-        "value": "ébora Olivera Toledo"
-      },
-      {
-        "entity": "dni",
-        "start": 36,
-        "end": 46,
-        "extractor": "DIETClassifier",
-        "value": "95.344.579"
-      },
-      {
-        "entity": "service",
-        "start": 71,
-        "end": 80,
-        "extractor": "DIETClassifier",
-        "value": "nutrición",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "holis! mi nombre es Nicole Brown Simpson y quiero un turno para flebologia. seria posible este viernes?",
-    "entities": [
-      {
-        "start": 20,
-        "end": 40,
-        "value": "Nicole Brown Simpson",
-        "entity": "name"
-      },
-      {
-        "start": 64,
-        "end": 74,
-        "value": "flebología",
-        "entity": "service"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 20,
         "end": 32,
-        "extractor": "DIETClassifier",
-        "value": "Nicole Brown"
+        "value": "amparo valdez bravo",
+        "entity": "name"
       },
       {
-        "entity": "service",
-        "start": 64,
-        "end": 74,
-        "extractor": "DIETClassifier",
-        "value": "flebología",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
-  },
-  {
-    "text": "hola , quiero sacar un turno con alguna dematologa en enero",
-    "entities": [
-      {
-        "start": 40,
-        "end": 50,
+        "start": 56,
+        "end": 68,
         "value": "dermatología",
         "entity": "service"
       }
     ],
     "predicted_entities": [
       {
-        "entity": "service",
-        "start": 46,
-        "end": 50,
-        "extractor": "DIETClassifier",
-        "value": "loga"
-      }
-    ]
-  },
-  {
-    "text": "Hola buen día. me gustaria sacar un turno para la nutricionista",
-    "entities": [
-      {
-        "start": 50,
-        "end": 63,
-        "value": "nutrición",
-        "entity": "service"
-      }
-    ],
-    "predicted_entities": [
+        "entity": "name",
+        "start": 13,
+        "end": 26,
+        "value": "Amparo Valdez",
+        "extractor": "DIETClassifier"
+      },
       {
         "entity": "service",
-        "start": 50,
-        "end": 57,
+        "start": 56,
+        "end": 68,
+        "value": "dermatología",
         "extractor": "DIETClassifier",
-        "value": "nutrición",
         "processors": [
           "EntitySynonymMapper"
         ]
@@ -2399,134 +1864,105 @@
     ]
   },
   {
-    "text": "buen dias. Quiero un turno para traumatologia",
+    "text": "soy Coti y me gustaria reservar una cita de flebologoa",
     "entities": [
       {
-        "start": 32,
-        "end": 45,
-        "value": "traumatologia",
+        "start": 4,
+        "end": 8,
+        "value": "Coti",
+        "entity": "name"
+      },
+      {
+        "start": 44,
+        "end": 54,
+        "value": "flebología",
         "entity": "service"
       }
     ],
     "predicted_entities": [
       {
         "entity": "service",
-        "start": 41,
-        "end": 45,
+        "start": 44,
+        "end": 54,
+        "value": "flebología",
         "extractor": "DIETClassifier",
-        "value": "ogia"
+        "processors": [
+          "EntitySynonymMapper"
+        ]
       }
     ]
   },
   {
-    "text": "quiero un turno para estética",
+    "text": "NUTRICION por favor",
     "entities": [
       {
-        "start": 21,
-        "end": 29,
-        "value": "estética",
+        "start": 0,
+        "end": 9,
+        "value": "NUTRICION",
         "entity": "service"
       }
     ],
     "predicted_entities": []
   },
   {
-    "text": "gracias por responder. necesito un turno de nutrición",
-    "entities": [
-      {
-        "start": 44,
-        "end": 53,
-        "value": "nutrición",
-        "entity": "service"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "quiero un turno de nutricion",
+    "text": "quiero un turno de ESTETICA",
     "entities": [
       {
         "start": 19,
-        "end": 28,
-        "value": "nutricion",
+        "end": 27,
+        "value": "ESTETICA",
         "entity": "service"
       }
     ],
-    "predicted_entities": [
-      {
-        "entity": "service",
-        "start": 21,
-        "end": 28,
-        "extractor": "DIETClassifier",
-        "value": "tricion"
-      }
-    ]
+    "predicted_entities": []
   },
   {
-    "text": "quiero reservar un turno para dermatologia en el centro de estetica",
+    "text": "nutri",
     "entities": [
       {
-        "start": 30,
-        "end": 42,
+        "start": 0,
+        "end": 5,
+        "value": "nutrición",
+        "entity": "service"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "derma",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
         "value": "dermatología",
         "entity": "service"
       }
     ],
-    "predicted_entities": [
-      {
-        "entity": "service",
-        "start": 30,
-        "end": 42,
-        "extractor": "DIETClassifier",
-        "value": "dermatología",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      },
-      {
-        "entity": "service",
-        "start": 59,
-        "end": 67,
-        "extractor": "DIETClassifier",
-        "value": "estética",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      }
-    ]
+    "predicted_entities": []
   },
   {
-    "text": "quiero el 05.02.2020",
-    "entities": [],
-    "predicted_entities": [
+    "text": "nutricionista",
+    "entities": [
       {
-        "entity": "dni",
-        "start": 15,
-        "end": 16,
-        "extractor": "DIETClassifier",
-        "value": "."
+        "start": 0,
+        "end": 13,
+        "value": "nutrición",
+        "entity": "service"
       }
-    ]
+    ],
+    "predicted_entities": []
   },
   {
-    "text": "01-09-1990 por favor",
-    "entities": [],
-    "predicted_entities": [
+    "text": "hola quiero un turno de estetica",
+    "entities": [
       {
-        "entity": "start_time",
-        "start": 2,
-        "end": 6,
-        "extractor": "DIETClassifier",
-        "value": "-09-"
-      },
-      {
-        "entity": "dni",
-        "start": 6,
-        "end": 10,
-        "extractor": "DIETClassifier",
-        "value": "1990"
+        "start": 24,
+        "end": 32,
+        "value": "estetica",
+        "entity": "service"
       }
-    ]
+    ],
+    "predicted_entities": []
   },
   {
     "text": "05.02.2020",
@@ -2535,61 +1971,35 @@
       {
         "entity": "dni",
         "start": 0,
-        "end": 6,
-        "extractor": "DIETClassifier",
-        "value": "05.02."
+        "end": 10,
+        "value": "05.02.2020",
+        "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "09/08/20 18 hrs",
+    "text": "4 + 2 = ?",
     "entities": [],
     "predicted_entities": [
       {
-        "entity": "start_time",
+        "entity": "dni",
         "start": 0,
-        "end": 15,
-        "extractor": "DIETClassifier",
-        "value": "09/08/20 18 hrs"
+        "end": 5,
+        "value": "4 + 2",
+        "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "conoces Kevi Pelton",
+    "text": "HomeBase is advertised as a community. Is there a way to interact with other members of the community?",
     "entities": [],
     "predicted_entities": [
       {
-        "entity": "name",
-        "start": 0,
-        "end": 19,
-        "extractor": "DIETClassifier",
-        "value": "conoces Kevi Pelton"
-      }
-    ]
-  },
-  {
-    "text": "quiro comer torta",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 14,
-        "end": 17,
-        "extractor": "DIETClassifier",
-        "value": "rta"
-      }
-    ]
-  },
-  {
-    "text": "aleman?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "name",
-        "start": 0,
-        "end": 6,
-        "extractor": "DIETClassifier",
-        "value": "aleman"
+        "entity": "email",
+        "start": 12,
+        "end": 22,
+        "value": "advertised",
+        "extractor": "DIETClassifier"
       }
     ]
   },
@@ -2601,29 +2011,8 @@
         "entity": "name",
         "start": 72,
         "end": 81,
-        "extractor": "DIETClassifier",
-        "value": "Barcelona"
-      },
-      {
-        "entity": "email",
-        "start": 85,
-        "end": 99,
-        "extractor": "DIETClassifier",
-        "value": "https://youtu."
-      },
-      {
-        "entity": "email",
-        "start": 101,
-        "end": 102,
-        "extractor": "DIETClassifier",
-        "value": "/"
-      },
-      {
-        "entity": "email",
-        "start": 103,
-        "end": 109,
-        "extractor": "DIETClassifier",
-        "value": "j5Q7w_"
+        "value": "Barcelona",
+        "extractor": "DIETClassifier"
       }
     ]
   }
