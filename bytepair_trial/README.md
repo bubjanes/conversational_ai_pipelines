@@ -1,6 +1,13 @@
 ## readme 
 
-Models were evaluated using the following code; 
+Experiment:
+
+**OS**: MacOS Catalina 10.15.5
+
+```rasa --version```
+Rasa 1.10.0
+
+Models were evaluated using the following; 
 
 ```
 rasa test nlu --config configs/diet_simple.yml \              
