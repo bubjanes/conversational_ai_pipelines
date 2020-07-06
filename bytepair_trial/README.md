@@ -1,6 +1,4 @@
-## readme 
-
-Experiment:
+# Testing Rasa Custom Component [BytePair](https://rasahq.github.io/rasa-nlu-examples/benchmarking/)
 
 **OS**: MacOS Catalina 10.15.5
 
