@@ -10,6 +10,8 @@
 
 ### professors: **[Laura Alonso Alemany](https://cs.famaf.unc.edu.ar/~laura/)** and  **[Cristian Cardellino](https://crscardellino.github.io/)**
 
+Here's a link to the related article, "[Conversational AI with BERT Made Easy](https://towardsdatascience.com/conversational-ai-with-bert-made-easy-1608ce23e58b)", Towards Data Science (Medium)
+
 OUTLINE:<br/>
 **Section 1 - Introduction**<br/>
 **Section 2 - Word representations**<br/>
